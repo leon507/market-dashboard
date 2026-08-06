@@ -78,8 +78,28 @@ def compute_dates(kline_dates):
 
 
 def load_json(filename):
-    with open(os.path.join(DATA_DIR, filename), "r", encoding="utf-8") as f:
-        return json.load(f)
+    path = os.path.join(DATA_DIR, filename)
+    if not os.path.exists(path):
+        print(f"  WARNING: {filename} not found, using empty data")
+        if filename == "quotes.json":
+            return {"data": []}
+        elif filename == "sector_ranking.json":
+            return {"sections": [[], [], []]}
+        elif filename == "news.json":
+            return []
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  WARNING: Failed to parse {filename}: {e}")
+        if filename == "quotes.json":
+            return {"data": []}
+        elif filename == "sector_ranking.json":
+            return {"sections": [[], [], []]}
+        elif filename == "news.json":
+            return []
+        return []
 
 
 def get_kline_close_map(kline_data):
@@ -122,26 +142,33 @@ def process_indices():
     """Process index data and return list of index info dicts."""
     quotes = load_json("quotes.json")
     quote_map = {}
-    for item in quotes["data"]:
-        code = item["symbol"]
-        quote_map[code] = item["data"]
+    for item in quotes.get("data", []):
+        code = item.get("symbol", "")
+        quote_map[code] = item.get("data", {})
 
     # Load first index's kline to compute dynamic dates
     first_kline = load_json(f"kline_{INDICES[0][0]}.json")
-    first_close_map = get_kline_close_map(first_kline)
-    CURRENT_DATE, YESTERDAY, LAST_WEEK, LAST_MONTH = compute_dates(first_close_map.keys())
+    first_close_map = get_kline_close_map(first_kline) if first_kline else {}
+    
+    if first_close_map:
+        CURRENT_DATE, YESTERDAY, LAST_WEEK, LAST_MONTH = compute_dates(first_close_map.keys())
+    else:
+        # Fallback if no K-line data at all
+        now = datetime.now()
+        CURRENT_DATE = now.strftime("%Y-%m-%d")
+        YESTERDAY = LAST_WEEK = LAST_MONTH = CURRENT_DATE
 
     print(f"  Date context: current={CURRENT_DATE}, yesterday={YESTERDAY}, last_week={LAST_WEEK}, last_month={LAST_MONTH}")
 
     results = []
     for code, name in INDICES:
         kline = load_json(f"kline_{code}.json")
-        close_map = get_kline_close_map(kline)
+        close_map = get_kline_close_map(kline) if kline else {}
 
-        current_val = close_map.get(CURRENT_DATE)
-        yesterday_val = close_map.get(YESTERDAY)
-        last_week_val = close_map.get(LAST_WEEK)
-        last_month_val = close_map.get(LAST_MONTH)
+        current_val = close_map.get(CURRENT_DATE, 0)
+        yesterday_val = close_map.get(YESTERDAY, 0)
+        last_week_val = close_map.get(LAST_WEEK, 0)
+        last_month_val = close_map.get(LAST_MONTH, 0)
 
         # For trend chart: all available days
         chart_dates = sorted(close_map.keys())
@@ -999,13 +1026,25 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
 
 def main():
     print("Processing index data...")
-    indices, CURRENT_DATE = process_indices()
+    try:
+        indices, CURRENT_DATE = process_indices()
+    except Exception as e:
+        print(f"  ERROR processing indices: {e}")
+        indices, CURRENT_DATE = [], datetime.now().strftime("%Y-%m-%d")
 
     print("Processing sector data...")
-    sectors = process_sectors()
+    try:
+        sectors = process_sectors()
+    except Exception as e:
+        print(f"  ERROR processing sectors: {e}")
+        sectors = {"industry_gainers": [], "concept_gainers": [], "capital_inflow": []}
 
     print("Processing news data...")
-    news = process_news()
+    try:
+        news = process_news()
+    except Exception as e:
+        print(f"  ERROR processing news: {e}")
+        news = []
 
     print("Generating HTML...")
     html = generate_html(indices, sectors, news, CURRENT_DATE)
