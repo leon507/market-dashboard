@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A股市场全景看板</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            padding: 30px 40px;
+            border-radius: 16px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .header .data-note {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+
+        /* Section */
+        .section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-left: 12px;
+            border-left: 4px solid #0f3460;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .section-title .section-badge {
+            font-size: 12px;
+            font-weight: 400;
+            color: #999;
+            background: #f5f5f5;
+            padding: 2px 10px;
+            border-radius: 12px;
+        }
+
+        /* Index Cards Grid */
+        .index-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .index-card {
+            background: #fff;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .index-card:hover {
+            border-color: #0f3460;
+            box-shadow: 0 4px 16px rgba(15, 52, 96, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .index-card.active {
+            border-color: #0f3460;
+            background: #f8fafe;
+            box-shadow: 0 4px 16px rgba(15, 52, 96, 0.15);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .index-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .index-code {
+            font-size: 12px;
+            color: #999;
+            font-family: monospace;
+        }
+
+        .card-value {
+            font-size: 28px;
+            font-weight: 700;
+            font-family: "SF Mono", "Roboto Mono", monospace;
+            margin-bottom: 4px;
+        }
+
+        .card-rt {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .rt-pct {
+            font-weight: 600;
+        }
+
+        .card-comparisons {
+            border-top: 1px solid #f0f0f0;
+            padding-top: 12px;
+        }
+
+        .comp-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+        }
+
+        .comp-label {
+            font-size: 13px;
+            color: #888;
+        }
+
+        .comp-value {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: monospace;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            padding-top: 8px;
+            border-top: 1px solid #f0f0f0;
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Colors - Chinese stock market convention: red=up, green=down */
+        .up { color: #e74c3c; }
+        .down { color: #27ae60; }
+        .neutral { color: #999; }
+
+        .sector-bar-fill.up { background: #e74c3c; }
+        .sector-bar-fill.down { background: #27ae60; }
+        .cf-bar.up { background: linear-gradient(90deg, #e74c3c, #c0392b); }
+        .cf-bar.down { background: linear-gradient(90deg, #27ae60, #229954); }
+
+        /* Chart Container */
+        .chart-container {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 16px;
+            border: 1px solid #eee;
+        }
+
+        .chart-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #333;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+        }
+
+        /* Sector Section */
+        .sector-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .sector-subsection {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .sector-subsection h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        .sector-bar-item {
+            margin-bottom: 14px;
+        }
+
+        .sector-bar-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+
+        .sector-name {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .sector-pct {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: monospace;
+        }
+
+        .sector-bar-track {
+            height: 8px;
+            background: #e8e8e8;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .sector-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .sector-bar-extra {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #999;
+            margin-top: 4px;
+        }
+
+        /* Capital Flow */
+        .capital-flow-item {
+            display: grid;
+            grid-template-columns: 100px 1fr auto;
+            gap: 12px;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .capital-flow-item:last-child {
+            border-bottom: none;
+        }
+
+        .cf-name {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .cf-bar-container {
+            height: 24px;
+            background: #f5f5f5;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cf-bar {
+            height: 100%;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            min-width: 60px;
+            transition: width 0.5s ease;
+        }
+
+        .cf-amount {
+            font-size: 12px;
+            color: #fff;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .cf-5d {
+            font-size: 12px;
+            color: #999;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .cf-ratio {
+            font-size: 11px;
+            color: #aaa;
+            text-align: right;
+        }
+
+        /* Concept Tags */
+        .concept-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .concept-tag {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            padding: 6px 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+        }
+
+        .concept-name {
+            color: #555;
+        }
+
+        .concept-pct {
+            font-weight: 600;
+            font-family: monospace;
+            font-size: 13px;
+        }
+
+        /* News */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .news-item {
+            display: flex;
+            gap: 16px;
+            padding: 14px 0;
+            border-bottom: 1px solid #f0f0f0;
+            align-items: flex-start;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-rank {
+            min-width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: #f0f2f5;
+            color: #666;
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .news-rank:nth-child(-n+3) {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: #fff;
+        }
+
+        .news-content {
+            flex: 1;
+        }
+
+        .news-title {
+            font-size: 15px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 4px;
+            line-height: 1.5;
+        }
+
+        .news-meta {
+            display: flex;
+            gap: 12px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .news-source {
+            color: #0f3460;
+        }
+
+        /* Nanhua note */
+        .nanhua-note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 10px 16px;
+            font-size: 13px;
+            color: #856404;
+            margin-top: 12px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 12px;
+        }
+
+        .footer p {
+            margin: 4px 0;
+        }
+
+        @media (max-width: 768px) {
+            .sector-grid {
+                grid-template-columns: 1fr;
+            }
+            .index-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>A股市场全景看板</h1>
+            <div class="subtitle">主要指数 / 行业资金流向 / 热点资讯</div>
+            <div class="data-note">当前时间 2026-08-06 14:32（盘中），展示最新收盘日 2026-08-05 数据</div>
+        </div>
+
+        <!-- Section 1: Indices -->
+        <div class="section">
+            <div class="section-title">
+                <span>一、主要指数概览</span>
+                <span class="section-badge">数据日期 2026-08-05</span>
+            </div>
+
+            <div class="index-grid">
+                
+        <div class="index-card" onclick="switchChart('sh000001')" id="card-sh000001">
+            <div class="card-header">
+                <span class="index-name">上证指数</span>
+                <span class="index-code">sh000001</span>
+            </div>
+            <div class="card-value up">3,878.43</div>
+            <div class="card-rt">盘中 3,894.88 <span class="rt-pct up">+0.42%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+1.47%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+1.30%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-4.03%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 17.9</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sz399001')" id="card-sz399001">
+            <div class="card-header">
+                <span class="index-name">深证成指</span>
+                <span class="index-code">sz399001</span>
+            </div>
+            <div class="card-value up">14,144.20</div>
+            <div class="card-rt">盘中 14,072.98 <span class="rt-pct down">-0.50%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+1.86%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+3.56%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-8.25%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 46.0</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sh000300')" id="card-sh000300">
+            <div class="card-header">
+                <span class="index-name">沪深300</span>
+                <span class="index-code">sh000300</span>
+            </div>
+            <div class="card-value up">4,658.15</div>
+            <div class="card-rt">盘中 4,643.74 <span class="rt-pct down">-0.31%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+1.24%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+1.26%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-3.80%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 14.3</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sh000905')" id="card-sh000905">
+            <div class="card-header">
+                <span class="index-name">中证500</span>
+                <span class="index-code">sh000905</span>
+            </div>
+            <div class="card-value up">7,809.21</div>
+            <div class="card-rt">盘中 7,807.28 <span class="rt-pct down">-0.02%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+2.65%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+3.78%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-9.73%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 36.5</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sh000852')" id="card-sh000852">
+            <div class="card-header">
+                <span class="index-name">中证1000</span>
+                <span class="index-code">sh000852</span>
+            </div>
+            <div class="card-value up">7,493.05</div>
+            <div class="card-rt">盘中 7,515.45 <span class="rt-pct up">+0.30%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+2.94%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+5.61%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-11.56%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 44.7</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sz399006')" id="card-sz399006">
+            <div class="card-header">
+                <span class="index-name">创业板指</span>
+                <span class="index-code">sz399006</span>
+            </div>
+            <div class="card-value up">3,535.14</div>
+            <div class="card-rt">盘中 3,506.36 <span class="rt-pct down">-0.81%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+1.32%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+4.63%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-10.48%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 61.4</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+        <div class="index-card" onclick="switchChart('sh000688')" id="card-sh000688">
+            <div class="card-header">
+                <span class="index-name">科创50</span>
+                <span class="index-code">sh000688</span>
+            </div>
+            <div class="card-value up">1,693.67</div>
+            <div class="card-rt">盘中 1,695.99 <span class="rt-pct up">+0.14%</span></div>
+            <div class="card-comparisons">
+                <div class="comp-row">
+                    <span class="comp-label">较昨日</span>
+                    <span class="comp-value up">+4.78%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上周</span>
+                    <span class="comp-value up">+0.89%</span>
+                </div>
+                <div class="comp-row">
+                    <span class="comp-label">较上月</span>
+                    <span class="comp-value down">-15.15%</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>PE 0.0</span>
+                <span>YTD +0.00%</span>
+            </div>
+        </div>
+            </div>
+
+            <div class="nanhua-note">
+                注：南华商品指数暂不在数据源覆盖范围内，已展示其余7大核心指数。当前为盘中时段，指数数值以最新收盘日为准，对比基准为前一交易日、上周同期及上月同期收盘价。
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-title" id="chartTitle">近1月走势 - 上证指数</div>
+                <div class="chart-wrapper">
+                    <canvas id="trendChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Sectors -->
+        <div class="section">
+            <div class="section-title">
+                <span>二、行业板块资金流向</span>
+                <span class="section-badge">实时数据</span>
+            </div>
+
+            <div class="sector-grid">
+                <div class="sector-subsection">
+                    <h3>行业涨幅榜 TOP6</h3>
+                    
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">种子</span>
+                    <span class="sector-pct up">+6.28%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 50.24%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">焦煤</span>
+                    <span class="sector-pct up">+5.90%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 47.2%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">煤炭开采</span>
+                    <span class="sector-pct up">+5.51%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 44.08%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">动力煤</span>
+                    <span class="sector-pct up">+5.27%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 42.16%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">钨</span>
+                    <span class="sector-pct up">+4.87%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 38.96%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+            <div class="sector-bar-item">
+                <div class="sector-bar-label">
+                    <span class="sector-name">煤炭</span>
+                    <span class="sector-pct up">+4.85%</span>
+                </div>
+                <div class="sector-bar-track">
+                    <div class="sector-bar-fill up" style="width: 38.8%"></div>
+                </div>
+                <div class="sector-bar-extra">
+                    <span>领涨: --</span>
+                    <span>5日 +0.00%</span>
+                </div>
+            </div>
+                </div>
+
+                <div class="sector-subsection">
+                    <h3>主力资金净流入 TOP3</h3>
+                    
+            <div class="capital-flow-item">
+                <div class="cf-name">印制电路板</div>
+                <div class="cf-bar-container">
+                    <div class="cf-bar up" style="width: 100%">
+                        <span class="cf-amount">279,149万</span>
+                    </div>
+                </div>
+                <div class="cf-5d">5日累计 <span class="up">0万</span></div>
+                <div class="cf-ratio">涨跌 --</div>
+            </div>
+            <div class="capital-flow-item">
+                <div class="cf-name">集成电路封测</div>
+                <div class="cf-bar-container">
+                    <div class="cf-bar up" style="width: 100%">
+                        <span class="cf-amount">237,913万</span>
+                    </div>
+                </div>
+                <div class="cf-5d">5日累计 <span class="up">0万</span></div>
+                <div class="cf-ratio">涨跌 --</div>
+            </div>
+            <div class="capital-flow-item">
+                <div class="cf-name">通信网络设备及器件</div>
+                <div class="cf-bar-container">
+                    <div class="cf-bar up" style="width: 100%">
+                        <span class="cf-amount">166,473万</span>
+                    </div>
+                </div>
+                <div class="cf-5d">5日累计 <span class="up">0万</span></div>
+                <div class="cf-ratio">涨跌 --</div>
+            </div>
+                </div>
+            </div>
+
+            <div class="sector-subsection" style="margin-top: 24px;">
+                <h3>概念板块涨幅榜 TOP6</h3>
+                <div class="concept-tags">
+                    
+            <div class="concept-tag">
+                <span class="concept-name">昨日连板_含一字</span>
+                <span class="concept-pct up">+5.43%</span>
+            </div>
+            <div class="concept-tag">
+                <span class="concept-name">昨日连板</span>
+                <span class="concept-pct up">+5.04%</span>
+            </div>
+            <div class="concept-tag">
+                <span class="concept-name">昨日打二板以上表现</span>
+                <span class="concept-pct up">+4.64%</span>
+            </div>
+            <div class="concept-tag">
+                <span class="concept-name">氦气概念</span>
+                <span class="concept-pct up">+4.23%</span>
+            </div>
+            <div class="concept-tag">
+                <span class="concept-name">工业气体</span>
+                <span class="concept-pct up">+3.63%</span>
+            </div>
+            <div class="concept-tag">
+                <span class="concept-name">昨日涨停_含一字</span>
+                <span class="concept-pct up">+3.30%</span>
+            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: News -->
+        <div class="section">
+            <div class="section-title">
+                <span>三、近3天行业热点新闻</span>
+                <span class="section-badge">TOP 30</span>
+            </div>
+            <div class="news-list">
+                
+            <div class="news-item">
+                <div class="news-rank">1</div>
+                <div class="news-content">
+                    <div class="news-title">不惧本土监管！韩国散户转投美国高倍杠杆ETF 分析师：更大风险酝酿中</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 13:32</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">2</div>
+                <div class="news-content">
+                    <div class="news-title">中国五箭齐发反制美国</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 13:26</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">3</div>
+                <div class="news-content">
+                    <div class="news-title">我国编制完成新版全月地质图</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 12:56</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">4</div>
+                <div class="news-content">
+                    <div class="news-title">DeepSeek预告将大幅涨价 V4正式版发布进入倒计时</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 12:53</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">5</div>
+                <div class="news-content">
+                    <div class="news-title">“卖出美国”情绪升温！外媒：贝森特“联手”沃什制造冲击</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 12:34</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">6</div>
+                <div class="news-content">
+                    <div class="news-title">A股三大指数震荡 煤炭开采、贵金属领涨 CPO概念活跃</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 11:30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">7</div>
+                <div class="news-content">
+                    <div class="news-title">第二批稳定币牌照国庆前后发放？香港金管局：不评论市场传闻 持开放而谨慎态度</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 11:18</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">8</div>
+                <div class="news-content">
+                    <div class="news-title">“华尔街一哥”警告：金融市场杠杆相当高 发生动荡概率也更大！</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 11:14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">9</div>
+                <div class="news-content">
+                    <div class="news-title">电子化学品板块持续走高 中巨芯触及20cm涨停</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:56</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">10</div>
+                <div class="news-content">
+                    <div class="news-title">创业板指涨1%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:52</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">11</div>
+                <div class="news-content">
+                    <div class="news-title">闪迪财报带崩存储股？马斯克投喂“定心丸”：存储需求增速十倍于供应</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:47</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">12</div>
+                <div class="news-content">
+                    <div class="news-title">创业板指翻红 此前一度跌超2.5%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:26</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">13</div>
+                <div class="news-content">
+                    <div class="news-title">住房消费跻身大宗消费首位 多个热点城市正研究出台住房消费提振举措</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:18</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">14</div>
+                <div class="news-content">
+                    <div class="news-title">码农摇身一变成FDE？美股龙头引领AI落地新模式 机构：计算机板块或迎来重估</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:07</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">15</div>
+                <div class="news-content">
+                    <div class="news-title">DeepSeek拟上调API服务定价</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 10:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">16</div>
+                <div class="news-content">
+                    <div class="news-title">爱丽家居今日复牌 晋级十连板</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 09:48</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">17</div>
+                <div class="news-content">
+                    <div class="news-title">PCB板块再度拉升 景旺电子涨停</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 09:45</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">18</div>
+                <div class="news-content">
+                    <div class="news-title">贵金属板块大幅高开 金一文化2连板</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 09:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">19</div>
+                <div class="news-content">
+                    <div class="news-title">韩国KOSPI指数跌幅扩大至5%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 09:24</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">20</div>
+                <div class="news-content">
+                    <div class="news-title">英伟达急寻中国AI基站供应商 明后年启动端侧算力组网</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 09:07</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">21</div>
+                <div class="news-content">
+                    <div class="news-title">现货黄金站上4300美元/盎司</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:56</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">22</div>
+                <div class="news-content">
+                    <div class="news-title">韩国KOSPI指数跌超4% 三星电子跌近5% SK海力士跌超8%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:55</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">23</div>
+                <div class="news-content">
+                    <div class="news-title">特朗普称或不得不再让油价上涨</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:48</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">24</div>
+                <div class="news-content">
+                    <div class="news-title">基金回撤榜：谁在山顶站岗？</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:40</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">25</div>
+                <div class="news-content">
+                    <div class="news-title">韩国KOSPI指数跌幅扩大至3%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:29</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">26</div>
+                <div class="news-content">
+                    <div class="news-title">三大上市猪企7月猪产品销售收入环比均增长同比均减少</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:24</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">27</div>
+                <div class="news-content">
+                    <div class="news-title">梁文锋“硬汉梗图”走红背后 中国大模型正成为全球AI界的“鲇鱼”</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:16</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">28</div>
+                <div class="news-content">
+                    <div class="news-title">韩国综指跌幅扩大至2% SK海力士跌超5%</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:03</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">29</div>
+                <div class="news-content">
+                    <div class="news-title">日韩股市低开</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 08:01</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-rank">30</div>
+                <div class="news-content">
+                    <div class="news-title">贝索斯年内首次减持亚马逊股票 套现近3.5亿美元</div>
+                    <div class="news-meta">
+                        <span class="news-source">东方财富</span>
+                        <span class="news-time">2026-08-06 07:30</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>数据来源：腾讯自选股 | 生成时间：2026-08-06 14:32</p>
+            <p>本看板仅供信息展示，不构成投资建议。投资有风险，决策需谨慎。</p>
+        </div>
+    </div>
+
+    <script>
+        // Chart data from Python
+        const chartData = [{"name": "上证指数", "code": "sh000001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4120.28, 4027.26, 4073.9, 4094.4, 4112.45, 4028.9, 4043.64, 4041.24, 3990.24, 3970.88, 4036.59, 3996.16, 3913.79, 3967.13, 3955.58, 3882.41, 3764.15, 3796.28, 3864.37, 3867.03, 3876.78, 3814.2, 3858.25, 3813.31, 3828.47, 3804.69, 3832.26, 3809.66, 3822.28, 3878.43, 3895.35]}, {"name": "深证成指", "code": "sz399001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [16344.08, 15782.22, 15812.87, 16205.56, 16119.17, 15498.81, 15597.51, 15416.8, 15225.11, 14939.73, 15398.73, 15046.67, 14522.85, 14924.87, 14779.4, 14488.65, 13706.88, 13610.23, 14264.29, 14061.44, 14123.31, 13774.68, 14148.73, 13509.68, 13658.44, 13285.8, 13578.93, 13448.29, 13885.71, 14144.2, 14072.98]}, {"name": "沪深300", "code": "sh000300", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [5020.1, 4868.22, 4926.92, 4979.43, 4958.98, 4812.3, 4842.17, 4842.0, 4792.26, 4755.53, 4876.31, 4780.79, 4695.38, 4796.5, 4786.78, 4698.43, 4529.1, 4598.32, 4739.23, 4717.24, 4728.0, 4649.19, 4702.43, 4569.52, 4600.26, 4549.72, 4588.2, 4543.18, 4600.93, 4658.15, 4644.03]}, {"name": "中证500", "code": "sh000905", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8938.01, 8703.57, 8821.09, 9031.38, 9028.93, 8694.18, 8745.26, 8651.13, 8508.79, 8390.02, 8652.79, 8503.97, 8138.14, 8275.94, 8147.58, 7955.66, 7513.76, 7411.31, 7800.61, 7751.66, 7734.31, 7532.7, 7720.6, 7443.43, 7524.51, 7309.58, 7493.99, 7414.52, 7607.49, 7809.21, 7807.28]}, {"name": "中证1000", "code": "sh000852", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8825.92, 8601.41, 8597.89, 8809.79, 8876.63, 8625.33, 8620.79, 8472.6, 8301.8, 8117.86, 8300.08, 8198.31, 7787.85, 7925.12, 7817.83, 7631.76, 7168.0, 6965.38, 7259.86, 7158.76, 7195.5, 6995.69, 7228.78, 7026.28, 7095.19, 6900.66, 7075.51, 7079.78, 7279.19, 7493.05, 7515.45]}, {"name": "创业板指", "code": "sz399006", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4371.99, 4194.21, 4216.7, 4342.71, 4260.72, 4017.27, 4019.93, 3948.86, 3911.91, 3845.35, 4018.17, 3842.73, 3723.52, 3851.14, 3804.7, 3692.46, 3428.63, 3443.1, 3685.97, 3566.73, 3575.52, 3480.87, 3590.79, 3327.03, 3378.7, 3244.62, 3343.96, 3302.55, 3488.97, 3535.14, 3506.33]}, {"name": "科创50", "code": "sh000688", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [2066.33, 2032.28, 2126.01, 2207.86, 2153.04, 1987.29, 1975.6, 1996.1, 2001.59, 2016.23, 2185.83, 2064.98, 1994.32, 2009.73, 1924.27, 1846.88, 1715.4, 1718.69, 1903.16, 1860.08, 1789.69, 1787.2, 1807.95, 1693.48, 1678.74, 1588.41, 1635.96, 1552.89, 1616.36, 1693.67, 1695.91]}];
+
+        // Initialize trend chart
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        let trendChart = null;
+
+        function renderChart(code) {
+            const data = chartData.find(d => d.code === code);
+            if (!data) return;
+
+            document.getElementById('chartTitle').textContent = `近1月走势 - ${data.name}`;
+
+            // Update active card
+            document.querySelectorAll('.index-card').forEach(c => c.classList.remove('active'));
+            const card = document.getElementById(`card-${code}`);
+            if (card) card.classList.add('active');
+
+            if (trendChart) {
+                trendChart.destroy();
+            }
+
+            // Split dates into those <= CURRENT_DATE and the latest intraday
+            const labels = data.dates;
+            const values = data.values;
+
+            // Mark current date index
+            const currentDate = '2026-08-05';
+            const currentIdx = labels.indexOf(currentDate);
+
+            // Point background colors: highlight current date
+            const pointBgColors = labels.map((d, i) => {
+                if (i === currentIdx) return '#0f3460';
+                if (i === labels.length - 1) return '#f39c12'; // today's intraday
+                return 'rgba(15, 52, 96, 0.3)';
+            });
+
+            const pointRadii = labels.map((d, i) => {
+                if (i === currentIdx) return 6;
+                if (i === labels.length - 1) return 5;
+                return 3;
+            });
+
+            trendChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: data.name,
+                        data: values,
+                        borderColor: '#0f3460',
+                        backgroundColor: 'rgba(15, 52, 96, 0.08)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.3,
+                        pointBackgroundColor: pointBgColors,
+                        pointBorderColor: pointBgColors.map(c => c === '#f39c12' ? '#f39c12' : '#fff'),
+                        pointBorderWidth: 2,
+                        pointRadius: pointRadii,
+                        pointHoverRadius: 7,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const idx = context.dataIndex;
+                                    const date = context.label;
+                                    const val = context.parsed.y;
+                                    let label = `${date}: ${val.toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                                    if (idx === currentIdx) label += ' [收盘基准]';
+                                    if (idx === labels.length - 1 && idx !== currentIdx) label += ' [盘中实时]';
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            },
+                            ticks: {
+                                font: { size: 11 },
+                                maxRotation: 45,
+                                color: '#888',
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#f0f0f0',
+                            },
+                            ticks: {
+                                font: { size: 11 },
+                                color: '#888',
+                                callback: function(value) {
+                                    return value.toLocaleString('zh-CN');
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function switchChart(code) {
+            renderChart(code);
+        }
+
+        // Default: render first index
+        renderChart('sh000001');
+    </script>
+</body>
+</html>

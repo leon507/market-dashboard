@@ -1,0 +1,169 @@
+{
+  "success": true,
+  "status": 200,
+  "data": [
+    {
+      "symbol": "sh000001",
+      "data": {
+        "code": "sh000001",
+        "name": "上证指数",
+        "symbol": "sh000001",
+        "market_type": 1,
+        "market_name": "上海",
+        "price": 3894.88,
+        "prev_close": 3878.43,
+        "open": 3864.27,
+        "high": 3896.46,
+        "low": 3864.27,
+        "volume": 528865041,
+        "change": 16.45,
+        "change_percent": 0.42,
+        "pe_ratio": 17.88,
+        "total_market_cap": 607763.14,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sz399001",
+      "data": {
+        "code": "sz399001",
+        "name": "深证成指",
+        "symbol": "sz399001",
+        "market_type": 51,
+        "market_name": "深圳",
+        "price": 14072.98,
+        "prev_close": 14144.2,
+        "open": 13981.44,
+        "high": 14252.14,
+        "low": 13922.41,
+        "volume": 640311345,
+        "change": -71.22,
+        "change_percent": -0.5,
+        "pe_ratio": 45.97,
+        "total_market_cap": 378141.68,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sh000300",
+      "data": {
+        "code": "sh000300",
+        "name": "沪深300",
+        "symbol": "sh000300",
+        "market_type": 1,
+        "market_name": "上海",
+        "price": 4643.74,
+        "prev_close": 4658.15,
+        "open": 4621.8,
+        "high": 4675.65,
+        "low": 4611.07,
+        "volume": 224481289,
+        "change": -14.41,
+        "change_percent": -0.31,
+        "pe_ratio": 14.31,
+        "total_market_cap": 522345.48,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sh000905",
+      "data": {
+        "code": "sh000905",
+        "name": "中证500",
+        "symbol": "sh000905",
+        "market_type": 1,
+        "market_name": "上海",
+        "price": 7807.28,
+        "prev_close": 7809.21,
+        "open": 7737.59,
+        "high": 7868.85,
+        "low": 7722.57,
+        "volume": 194104749,
+        "change": -1.93,
+        "change_percent": -0.02,
+        "pe_ratio": 36.5,
+        "total_market_cap": 157019.97,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sh000852",
+      "data": {
+        "code": "sh000852",
+        "name": "中证1000",
+        "symbol": "sh000852",
+        "market_type": 1,
+        "market_name": "上海",
+        "price": 7515.45,
+        "prev_close": 7493.05,
+        "open": 7440.01,
+        "high": 7564.69,
+        "low": 7434.49,
+        "volume": 251202031,
+        "change": 22.4,
+        "change_percent": 0.3,
+        "pe_ratio": 44.67,
+        "total_market_cap": 128571.46,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sz399006",
+      "data": {
+        "code": "sz399006",
+        "name": "创业板指",
+        "symbol": "sz399006",
+        "market_type": 51,
+        "market_name": "深圳",
+        "price": 3506.36,
+        "prev_close": 3535.14,
+        "open": 3472.15,
+        "high": 3574.41,
+        "low": 3444.36,
+        "volume": 194856216,
+        "change": -28.78,
+        "change_percent": -0.81,
+        "pe_ratio": 61.36,
+        "total_market_cap": 150172.67,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    },
+    {
+      "symbol": "sh000688",
+      "data": {
+        "code": "sh000688",
+        "name": "科创50",
+        "symbol": "sh000688",
+        "market_type": 1,
+        "market_name": "上海",
+        "price": 1695.99,
+        "prev_close": 1693.67,
+        "open": 1651.11,
+        "high": 1727.73,
+        "low": 1651.11,
+        "volume": 10822629,
+        "change": 2.32,
+        "change_percent": 0.14,
+        "pe_ratio": 0,
+        "total_market_cap": 0,
+        "chg_5d": 0,
+        "chg_20d": 0,
+        "chg_ytd": 0
+      }
+    }
+  ],
+  "errors": [],
+  "metadata": {}
+}
