@@ -5,6 +5,8 @@ on:
     # Run at 07:30 UTC = 15:30 Beijing time, every weekday
     - cron: "30 7 * * 1-5"
   workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [main] # Run on first push to deploy immediately
 
 permissions:
   contents: write
