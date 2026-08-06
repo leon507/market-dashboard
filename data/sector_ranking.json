@@ -2,8 +2,16 @@
   "sections": [
     [
       {
+        "name": "钨",
+        "changePct": "6.85",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
         "name": "种子",
-        "changePct": "6.28",
+        "changePct": "6.07",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -11,7 +19,7 @@
       },
       {
         "name": "焦煤",
-        "changePct": "5.9",
+        "changePct": "5.82",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -19,7 +27,7 @@
       },
       {
         "name": "煤炭开采",
-        "changePct": "5.51",
+        "changePct": "5.43",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -27,15 +35,7 @@
       },
       {
         "name": "动力煤",
-        "changePct": "5.27",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "钨",
-        "changePct": "4.87",
+        "changePct": "5.2",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -43,7 +43,7 @@
       },
       {
         "name": "煤炭",
-        "changePct": "4.85",
+        "changePct": "4.88",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -53,7 +53,7 @@
     [
       {
         "name": "昨日连板_含一字",
-        "changePct": "5.43",
+        "changePct": "5.93",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -61,15 +61,7 @@
       },
       {
         "name": "昨日连板",
-        "changePct": "5.04",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日打二板以上表现",
-        "changePct": "4.64",
+        "changePct": "5.6",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -77,7 +69,15 @@
       },
       {
         "name": "氦气概念",
-        "changePct": "4.23",
+        "changePct": "4.98",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日打二板以上表现",
+        "changePct": "4.73",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -85,7 +85,7 @@
       },
       {
         "name": "工业气体",
-        "changePct": "3.63",
+        "changePct": "4.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -93,47 +93,13 @@
       },
       {
         "name": "昨日涨停_含一字",
-        "changePct": "3.3",
+        "changePct": "3.76",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "印制电路板",
-        "changePct": "3.38",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "279148.77",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "集成电路封测",
-        "changePct": "3.27",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "237913.4",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "通信网络设备及器件",
-        "changePct": "3.01",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "166473.4",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    []
   ]
 }
