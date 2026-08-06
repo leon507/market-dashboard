@@ -174,6 +174,27 @@
             font-family: monospace;
         }
 
+        .card-volume {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            padding: 6px 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 13px;
+        }
+
+        .vol-label {
+            color: #888;
+        }
+
+        .vol-value {
+            font-weight: 600;
+            font-family: "SF Mono", "Roboto Mono", monospace;
+            color: #0f3460;
+        }
+
         .card-footer {
             display: flex;
             justify-content: space-between;
@@ -463,14 +484,14 @@
         <div class="header">
             <h1>A股市场全景看板</h1>
             <div class="subtitle">主要指数 / 行业资金流向 / 热点资讯</div>
-            <div class="data-note">当前时间 2026-08-06 07:06（盘中），展示最新收盘日 2026-08-05 数据</div>
+            <div class="data-note">当前时间 2026-08-06 15:21（收盘后），展示今日 2026-08-06 数据</div>
         </div>
 
         <!-- Section 1: Indices -->
         <div class="section">
             <div class="section-title">
                 <span>一、主要指数概览</span>
-                <span class="section-badge">数据日期 2026-08-05</span>
+                <span class="section-badge">数据日期 2026-08-06</span>
             </div>
 
             <div class="index-grid">
@@ -480,21 +501,25 @@
                 <span class="index-name">上证指数</span>
                 <span class="index-code">sh000001</span>
             </div>
-            <div class="card-value up">3,878.43</div>
+            <div class="card-value up">3,900.35</div>
             <div class="card-rt">盘中 3,900.35 <span class="rt-pct up">+0.57%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+1.47%</span>
+                    <span class="comp-value up">+0.57%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+1.30%</span>
+                    <span class="comp-value up">+2.51%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-4.03%</span>
+                    <span class="comp-value down">-2.25%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">5.89亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 17.9</span>
@@ -506,21 +531,25 @@
                 <span class="index-name">深证成指</span>
                 <span class="index-code">sz399001</span>
             </div>
-            <div class="card-value up">14,144.20</div>
+            <div class="card-value down">14,110.12</div>
             <div class="card-rt">盘中 14,110.12 <span class="rt-pct down">-0.24%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+1.86%</span>
+                    <span class="comp-value down">-0.24%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+3.56%</span>
+                    <span class="comp-value up">+6.20%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-8.25%</span>
+                    <span class="comp-value down">-7.32%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">7.16亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 46.1</span>
@@ -532,21 +561,25 @@
                 <span class="index-name">沪深300</span>
                 <span class="index-code">sh000300</span>
             </div>
-            <div class="card-value up">4,658.15</div>
+            <div class="card-value down">4,651.31</div>
             <div class="card-rt">盘中 4,651.31 <span class="rt-pct down">-0.15%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+1.24%</span>
+                    <span class="comp-value down">-0.15%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+1.26%</span>
+                    <span class="comp-value up">+2.23%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-3.80%</span>
+                    <span class="comp-value down">-2.94%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">2.48亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 14.3</span>
@@ -558,21 +591,25 @@
                 <span class="index-name">中证500</span>
                 <span class="index-code">sh000905</span>
             </div>
-            <div class="card-value up">7,809.21</div>
+            <div class="card-value up">7,829.36</div>
             <div class="card-rt">盘中 7,829.36 <span class="rt-pct up">+0.26%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+2.65%</span>
+                    <span class="comp-value up">+0.26%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+3.78%</span>
+                    <span class="comp-value up">+7.11%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-9.73%</span>
+                    <span class="comp-value down">-7.99%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">2.15亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 36.6</span>
@@ -584,21 +621,25 @@
                 <span class="index-name">中证1000</span>
                 <span class="index-code">sh000852</span>
             </div>
-            <div class="card-value up">7,493.05</div>
+            <div class="card-value up">7,530.43</div>
             <div class="card-rt">盘中 7,530.43 <span class="rt-pct up">+0.50%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+2.94%</span>
+                    <span class="comp-value up">+0.50%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+5.61%</span>
+                    <span class="comp-value up">+9.13%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-11.56%</span>
+                    <span class="comp-value down">-9.29%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">2.80亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 44.7</span>
@@ -610,21 +651,25 @@
                 <span class="index-name">创业板指</span>
                 <span class="index-code">sz399006</span>
             </div>
-            <div class="card-value up">3,535.14</div>
+            <div class="card-value down">3,515.56</div>
             <div class="card-rt">盘中 3,515.56 <span class="rt-pct down">-0.55%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+1.32%</span>
+                    <span class="comp-value down">-0.55%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+4.63%</span>
+                    <span class="comp-value up">+8.35%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-10.48%</span>
+                    <span class="comp-value down">-10.13%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">2.19亿</span>
             </div>
             <div class="card-footer">
                 <span>PE 61.5</span>
@@ -636,21 +681,25 @@
                 <span class="index-name">科创50</span>
                 <span class="index-code">sh000688</span>
             </div>
-            <div class="card-value up">1,693.67</div>
+            <div class="card-value up">1,701.29</div>
             <div class="card-rt">盘中 1,701.29 <span class="rt-pct up">+0.45%</span></div>
             <div class="card-comparisons">
                 <div class="comp-row">
                     <span class="comp-label">较昨日</span>
-                    <span class="comp-value up">+4.78%</span>
+                    <span class="comp-value up">+0.45%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上周</span>
-                    <span class="comp-value up">+0.89%</span>
+                    <span class="comp-value up">+7.11%</span>
                 </div>
                 <div class="comp-row">
                     <span class="comp-label">较上月</span>
-                    <span class="comp-value down">-15.15%</span>
+                    <span class="comp-value down">-15.00%</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">1201.7万</span>
             </div>
             <div class="card-footer">
                 <span>PE 0.0</span>
@@ -667,6 +716,10 @@
                 <div class="chart-title" id="chartTitle">近1月走势 - 上证指数</div>
                 <div class="chart-wrapper">
                     <canvas id="trendChart"></canvas>
+                </div>
+                <div class="chart-title" id="volumeTitle" style="margin-top: 20px; font-size: 14px; color: #666;">近1月成交量</div>
+                <div class="chart-wrapper" style="height: 160px;">
+                    <canvas id="volumeChart"></canvas>
                 </div>
             </div>
         </div>
@@ -814,7 +867,7 @@
                     <div class="news-title">A股三大指数涨跌不一 煤炭与电子化学品板块大涨</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 15:00</span>
+                        <span class="news-time">2026-08-06 23:00</span>
                     </div>
                 </div>
             </div>
@@ -824,7 +877,7 @@
                     <div class="news-title">氟化工板块走高 多氟多涨停</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 14:52</span>
+                        <span class="news-time">2026-08-06 22:52</span>
                     </div>
                 </div>
             </div>
@@ -834,7 +887,7 @@
                     <div class="news-title">软银集团旗下愿景基金第一季度利润54.3亿日元 同比暴跌99%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 14:50</span>
+                        <span class="news-time">2026-08-06 22:50</span>
                     </div>
                 </div>
             </div>
@@ -844,7 +897,7 @@
                     <div class="news-title">Artificial Analysis榜单：阿里Qwen3.8 Agentic能力得分全球第一</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 14:44</span>
+                        <span class="news-time">2026-08-06 22:44</span>
                     </div>
                 </div>
             </div>
@@ -854,7 +907,7 @@
                     <div class="news-title">不惧本土监管！韩国散户转投美国高倍杠杆ETF 分析师：更大风险酝酿中</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 13:32</span>
+                        <span class="news-time">2026-08-06 21:32</span>
                     </div>
                 </div>
             </div>
@@ -864,7 +917,7 @@
                     <div class="news-title">中国五箭齐发反制美国</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 13:26</span>
+                        <span class="news-time">2026-08-06 21:26</span>
                     </div>
                 </div>
             </div>
@@ -874,7 +927,7 @@
                     <div class="news-title">我国编制完成新版全月地质图</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 12:56</span>
+                        <span class="news-time">2026-08-06 20:56</span>
                     </div>
                 </div>
             </div>
@@ -884,7 +937,7 @@
                     <div class="news-title">DeepSeek预告将大幅涨价 V4正式版发布进入倒计时</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 12:53</span>
+                        <span class="news-time">2026-08-06 20:53</span>
                     </div>
                 </div>
             </div>
@@ -894,7 +947,7 @@
                     <div class="news-title">“卖出美国”情绪升温！外媒：贝森特“联手”沃什制造冲击</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 12:34</span>
+                        <span class="news-time">2026-08-06 20:34</span>
                     </div>
                 </div>
             </div>
@@ -904,7 +957,7 @@
                     <div class="news-title">A股三大指数震荡 煤炭开采、贵金属领涨 CPO概念活跃</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 11:30</span>
+                        <span class="news-time">2026-08-06 19:30</span>
                     </div>
                 </div>
             </div>
@@ -914,7 +967,7 @@
                     <div class="news-title">第二批稳定币牌照国庆前后发放？香港金管局：不评论市场传闻 持开放而谨慎态度</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 11:18</span>
+                        <span class="news-time">2026-08-06 19:18</span>
                     </div>
                 </div>
             </div>
@@ -924,7 +977,7 @@
                     <div class="news-title">“华尔街一哥”警告：金融市场杠杆相当高 发生动荡概率也更大！</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 11:14</span>
+                        <span class="news-time">2026-08-06 19:14</span>
                     </div>
                 </div>
             </div>
@@ -934,7 +987,7 @@
                     <div class="news-title">电子化学品板块持续走高 中巨芯触及20cm涨停</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:56</span>
+                        <span class="news-time">2026-08-06 18:56</span>
                     </div>
                 </div>
             </div>
@@ -944,7 +997,7 @@
                     <div class="news-title">创业板指涨1%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:52</span>
+                        <span class="news-time">2026-08-06 18:52</span>
                     </div>
                 </div>
             </div>
@@ -954,7 +1007,7 @@
                     <div class="news-title">闪迪财报带崩存储股？马斯克投喂“定心丸”：存储需求增速十倍于供应</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:47</span>
+                        <span class="news-time">2026-08-06 18:47</span>
                     </div>
                 </div>
             </div>
@@ -964,7 +1017,7 @@
                     <div class="news-title">创业板指翻红 此前一度跌超2.5%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:26</span>
+                        <span class="news-time">2026-08-06 18:26</span>
                     </div>
                 </div>
             </div>
@@ -974,7 +1027,7 @@
                     <div class="news-title">住房消费跻身大宗消费首位 多个热点城市正研究出台住房消费提振举措</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:18</span>
+                        <span class="news-time">2026-08-06 18:18</span>
                     </div>
                 </div>
             </div>
@@ -984,7 +1037,7 @@
                     <div class="news-title">码农摇身一变成FDE？美股龙头引领AI落地新模式 机构：计算机板块或迎来重估</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:07</span>
+                        <span class="news-time">2026-08-06 18:07</span>
                     </div>
                 </div>
             </div>
@@ -994,7 +1047,7 @@
                     <div class="news-title">DeepSeek宣布将大幅上调API服务定价</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 10:00</span>
+                        <span class="news-time">2026-08-06 18:00</span>
                     </div>
                 </div>
             </div>
@@ -1004,7 +1057,7 @@
                     <div class="news-title">爱丽家居今日复牌 晋级十连板</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 09:48</span>
+                        <span class="news-time">2026-08-06 17:48</span>
                     </div>
                 </div>
             </div>
@@ -1014,7 +1067,7 @@
                     <div class="news-title">PCB板块再度拉升 景旺电子涨停</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 09:45</span>
+                        <span class="news-time">2026-08-06 17:45</span>
                     </div>
                 </div>
             </div>
@@ -1024,7 +1077,7 @@
                     <div class="news-title">贵金属板块大幅高开 金一文化2连板</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 09:27</span>
+                        <span class="news-time">2026-08-06 17:27</span>
                     </div>
                 </div>
             </div>
@@ -1034,7 +1087,7 @@
                     <div class="news-title">韩国KOSPI指数跌幅扩大至5%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 09:24</span>
+                        <span class="news-time">2026-08-06 17:24</span>
                     </div>
                 </div>
             </div>
@@ -1044,7 +1097,7 @@
                     <div class="news-title">英伟达急寻中国AI基站供应商 明后年启动端侧算力组网</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 09:07</span>
+                        <span class="news-time">2026-08-06 17:07</span>
                     </div>
                 </div>
             </div>
@@ -1054,7 +1107,7 @@
                     <div class="news-title">现货黄金站上4300美元/盎司</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:56</span>
+                        <span class="news-time">2026-08-06 16:56</span>
                     </div>
                 </div>
             </div>
@@ -1064,7 +1117,7 @@
                     <div class="news-title">韩国KOSPI指数跌超4% 三星电子跌近5% SK海力士跌超8%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:55</span>
+                        <span class="news-time">2026-08-06 16:55</span>
                     </div>
                 </div>
             </div>
@@ -1074,7 +1127,7 @@
                     <div class="news-title">特朗普称或不得不再让油价上涨</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:48</span>
+                        <span class="news-time">2026-08-06 16:48</span>
                     </div>
                 </div>
             </div>
@@ -1084,7 +1137,7 @@
                     <div class="news-title">基金回撤榜：谁在山顶站岗？</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:40</span>
+                        <span class="news-time">2026-08-06 16:40</span>
                     </div>
                 </div>
             </div>
@@ -1094,7 +1147,7 @@
                     <div class="news-title">韩国KOSPI指数跌幅扩大至3%</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:29</span>
+                        <span class="news-time">2026-08-06 16:29</span>
                     </div>
                 </div>
             </div>
@@ -1104,7 +1157,7 @@
                     <div class="news-title">三大上市猪企7月猪产品销售收入环比均增长同比均减少</div>
                     <div class="news-meta">
                         <span class="news-source">东方财富</span>
-                        <span class="news-time">2026-08-06 08:24</span>
+                        <span class="news-time">2026-08-06 16:24</span>
                     </div>
                 </div>
             </div>
@@ -1113,18 +1166,20 @@
 
         <!-- Footer -->
         <div class="footer">
-            <p>数据来源：腾讯自选股 | 生成时间：2026-08-06 07:06</p>
+            <p>数据来源：腾讯自选股 | 生成时间：2026-08-06 15:21</p>
             <p>本看板仅供信息展示，不构成投资建议。投资有风险，决策需谨慎。</p>
         </div>
     </div>
 
     <script>
         // Chart data from Python
-        const chartData = [{"name": "上证指数", "code": "sh000001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4120.28, 4027.26, 4073.9, 4094.4, 4112.45, 4028.9, 4043.64, 4041.24, 3990.24, 3970.88, 4036.59, 3996.16, 3913.79, 3967.13, 3955.58, 3882.41, 3764.15, 3796.28, 3864.37, 3867.03, 3876.78, 3814.2, 3858.25, 3813.31, 3828.47, 3804.69, 3832.26, 3809.66, 3822.28, 3878.43, 3900.35]}, {"name": "深证成指", "code": "sz399001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [16344.08, 15782.22, 15812.87, 16205.56, 16119.17, 15498.81, 15597.51, 15416.8, 15225.11, 14939.73, 15398.73, 15046.67, 14522.85, 14924.87, 14779.4, 14488.65, 13706.88, 13610.23, 14264.29, 14061.44, 14123.31, 13774.68, 14148.73, 13509.68, 13658.44, 13285.8, 13578.93, 13448.29, 13885.71, 14144.2, 14110.12]}, {"name": "沪深300", "code": "sh000300", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [5020.1, 4868.22, 4926.92, 4979.43, 4958.98, 4812.3, 4842.17, 4842.0, 4792.26, 4755.53, 4876.31, 4780.79, 4695.38, 4796.5, 4786.78, 4698.43, 4529.1, 4598.32, 4739.23, 4717.24, 4728.0, 4649.19, 4702.43, 4569.52, 4600.26, 4549.72, 4588.2, 4543.18, 4600.93, 4658.15, 4651.31]}, {"name": "中证500", "code": "sh000905", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8938.01, 8703.57, 8821.09, 9031.38, 9028.93, 8694.18, 8745.26, 8651.13, 8508.79, 8390.02, 8652.79, 8503.97, 8138.14, 8275.94, 8147.58, 7955.66, 7513.76, 7411.31, 7800.61, 7751.66, 7734.31, 7532.7, 7720.6, 7443.43, 7524.51, 7309.58, 7493.99, 7414.52, 7607.49, 7809.21, 7829.36]}, {"name": "中证1000", "code": "sh000852", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8825.92, 8601.41, 8597.89, 8809.79, 8876.63, 8625.33, 8620.79, 8472.6, 8301.8, 8117.86, 8300.08, 8198.31, 7787.85, 7925.12, 7817.83, 7631.76, 7168.0, 6965.38, 7259.86, 7158.76, 7195.5, 6995.69, 7228.78, 7026.28, 7095.19, 6900.66, 7075.51, 7079.78, 7279.19, 7493.05, 7530.43]}, {"name": "创业板指", "code": "sz399006", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4371.99, 4194.21, 4216.7, 4342.71, 4260.72, 4017.27, 4019.93, 3948.86, 3911.91, 3845.35, 4018.17, 3842.73, 3723.52, 3851.14, 3804.7, 3692.46, 3428.63, 3443.1, 3685.97, 3566.73, 3575.52, 3480.87, 3590.79, 3327.03, 3378.7, 3244.62, 3343.96, 3302.55, 3488.97, 3535.14, 3515.56]}, {"name": "科创50", "code": "sh000688", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [2066.33, 2032.28, 2126.01, 2207.86, 2153.04, 1987.29, 1975.6, 1996.1, 2001.59, 2016.23, 2185.83, 2064.98, 1994.32, 2009.73, 1924.27, 1846.88, 1715.4, 1718.69, 1903.16, 1860.08, 1789.69, 1787.2, 1807.95, 1693.48, 1678.74, 1588.41, 1635.96, 1552.89, 1616.36, 1693.67, 1701.29]}];
+        const chartData = [{"name": "上证指数", "code": "sh000001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4120.28, 4027.26, 4073.9, 4094.4, 4112.45, 4028.9, 4043.64, 4041.24, 3990.24, 3970.88, 4036.59, 3996.16, 3913.79, 3967.13, 3955.58, 3882.41, 3764.15, 3796.28, 3864.37, 3867.03, 3876.78, 3814.2, 3858.25, 3813.31, 3828.47, 3804.69, 3832.26, 3809.66, 3822.28, 3878.43, 3900.35], "volumes": [670459917.0, 660108666.0, 659199936.0, 598412203.0, 672331791.0, 656233612.0, 602009738.0, 590364903.0, 514453091.0, 496229374.0, 553063980.0, 627450065.0, 590907356.0, 579982052.0, 576209492.0, 535281873.0, 650450984.0, 709234069.0, 735021925.0, 614255215.0, 562122601.0, 508203905.0, 504879454.0, 494829126.0, 571226391.0, 592298923.0, 597529427.0, 524516960.0, 540324922.0, 592155124.0, 588555280.0]}, {"name": "深证成指", "code": "sz399001", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [16344.08, 15782.22, 15812.87, 16205.56, 16119.17, 15498.81, 15597.51, 15416.8, 15225.11, 14939.73, 15398.73, 15046.67, 14522.85, 14924.87, 14779.4, 14488.65, 13706.88, 13610.23, 14264.29, 14061.44, 14123.31, 13774.68, 14148.73, 13509.68, 13658.44, 13285.8, 13578.93, 13448.29, 13885.71, 14144.2, 14110.12], "volumes": [830961769.0, 837034655.0, 808457859.0, 745149838.0, 873614867.0, 857269760.0, 785895029.0, 768142319.0, 678476454.0, 654790391.0, 716541158.0, 828811174.0, 733844798.0, 674840592.0, 688984096.0, 665968453.0, 763770395.0, 772878368.0, 835911335.0, 681366334.0, 625578724.0, 568710893.0, 571360929.0, 573579930.0, 675056731.0, 686984750.0, 719395944.0, 618828696.0, 664836577.0, 732409197.0, 716171979.0]}, {"name": "沪深300", "code": "sh000300", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [5020.1, 4868.22, 4926.92, 4979.43, 4958.98, 4812.3, 4842.17, 4842.0, 4792.26, 4755.53, 4876.31, 4780.79, 4695.38, 4796.5, 4786.78, 4698.43, 4529.1, 4598.32, 4739.23, 4717.24, 4728.0, 4649.19, 4702.43, 4569.52, 4600.26, 4549.72, 4588.2, 4543.18, 4600.93, 4658.15, 4651.31], "volumes": [346664289.0, 341179238.0, 323216134.0, 306150226.0, 342934747.0, 343243758.0, 301067568.0, 294050543.0, 246305999.0, 243928749.0, 281627705.0, 304130286.0, 278634853.0, 283250986.0, 278692669.0, 251560977.0, 302629886.0, 333116058.0, 345403590.0, 285556357.0, 247331675.0, 221261212.0, 204786941.0, 215705045.0, 248082357.0, 274651130.0, 279243698.0, 232042584.0, 242073611.0, 276921919.0, 247510730.0]}, {"name": "中证500", "code": "sh000905", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8938.01, 8703.57, 8821.09, 9031.38, 9028.93, 8694.18, 8745.26, 8651.13, 8508.79, 8390.02, 8652.79, 8503.97, 8138.14, 8275.94, 8147.58, 7955.66, 7513.76, 7411.31, 7800.61, 7751.66, 7734.31, 7532.7, 7720.6, 7443.43, 7524.51, 7309.58, 7493.99, 7414.52, 7607.49, 7809.21, 7829.36], "volumes": [260102086.0, 258558296.0, 251461066.0, 224330809.0, 263104578.0, 261281407.0, 230148424.0, 230152910.0, 199639190.0, 197220165.0, 215080488.0, 251414388.0, 224037631.0, 215841090.0, 209115524.0, 193110603.0, 236745743.0, 253763302.0, 268381453.0, 230747285.0, 204974420.0, 186624835.0, 174192553.0, 161832458.0, 206604121.0, 208735757.0, 216635960.0, 198312346.0, 203534896.0, 222031817.0, 215468108.0]}, {"name": "中证1000", "code": "sh000852", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [8825.92, 8601.41, 8597.89, 8809.79, 8876.63, 8625.33, 8620.79, 8472.6, 8301.8, 8117.86, 8300.08, 8198.31, 7787.85, 7925.12, 7817.83, 7631.76, 7168.0, 6965.38, 7259.86, 7158.76, 7195.5, 6995.69, 7228.78, 7026.28, 7095.19, 6900.66, 7075.51, 7079.78, 7279.19, 7493.05, 7530.43], "volumes": [305442638.0, 321227656.0, 309871021.0, 279117364.0, 325765871.0, 310858902.0, 290244508.0, 281224208.0, 244575082.0, 238283926.0, 254579344.0, 308503609.0, 285286344.0, 255892015.0, 258433271.0, 248226871.0, 296242245.0, 308186914.0, 334989399.0, 291582470.0, 250502727.0, 229026635.0, 225960825.0, 225776735.0, 271374083.0, 259507814.0, 283219421.0, 233392381.0, 250083613.0, 272396847.0, 280402295.0]}, {"name": "创业板指", "code": "sz399006", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [4371.99, 4194.21, 4216.7, 4342.71, 4260.72, 4017.27, 4019.93, 3948.86, 3911.91, 3845.35, 4018.17, 3842.73, 3723.52, 3851.14, 3804.7, 3692.46, 3428.63, 3443.1, 3685.97, 3566.73, 3575.52, 3480.87, 3590.79, 3327.03, 3378.7, 3244.62, 3343.96, 3302.55, 3488.97, 3535.14, 3515.56], "volumes": [246522881.0, 240931473.0, 243571409.0, 223185932.0, 264901000.0, 249554568.0, 228453195.0, 216576771.0, 185806984.0, 192572049.0, 208378136.0, 248254176.0, 219895176.0, 196146517.0, 197252763.0, 198456563.0, 230221243.0, 237174099.0, 258922406.0, 205833919.0, 181766334.0, 168793607.0, 175227394.0, 174708042.0, 201044720.0, 203836418.0, 236170945.0, 187720972.0, 211106623.0, 226495353.0, 218807247.0]}, {"name": "科创50", "code": "sh000688", "dates": ["2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06"], "values": [2066.33, 2032.28, 2126.01, 2207.86, 2153.04, 1987.29, 1975.6, 1996.1, 2001.59, 2016.23, 2185.83, 2064.98, 1994.32, 2009.73, 1924.27, 1846.88, 1715.4, 1718.69, 1903.16, 1860.08, 1789.69, 1787.2, 1807.95, 1693.48, 1678.74, 1588.41, 1635.96, 1552.89, 1616.36, 1693.67, 1701.29], "volumes": [18510032.0, 19695170.0, 20661484.0, 19617861.0, 22580954.0, 20913363.0, 17583808.0, 16511997.0, 13973250.0, 15720588.0, 18580605.0, 23073429.0, 18337937.0, 16013950.0, 14281933.0, 14226782.0, 16629024.0, 17984793.0, 19512745.0, 16238611.0, 11924269.0, 10177526.0, 10347297.0, 10883944.0, 14218535.0, 14695675.0, 14507410.0, 12334986.0, 11344343.0, 12956469.0, 12017178.0]}];
 
         // Initialize trend chart
         const ctx = document.getElementById('trendChart').getContext('2d');
+        const volCtx = document.getElementById('volumeChart').getContext('2d');
         let trendChart = null;
+        let volumeChart = null;
 
         function renderChart(code) {
             const data = chartData.find(d => d.code === code);
@@ -1146,7 +1201,7 @@
             const values = data.values;
 
             // Mark current date index
-            const currentDate = '2026-08-05';
+            const currentDate = '2026-08-06';
             const currentIdx = labels.indexOf(currentDate);
 
             // Point background colors: highlight current date
@@ -1232,6 +1287,84 @@
                     }
                 }
             });
+
+            // === Volume bar chart ===
+            if (volumeChart) {
+                volumeChart.destroy();
+            }
+
+            const volumes = data.volumes || [];
+            // Color bars: red if close >= open (up day), green if down day
+            const volColors = labels.map((d, i) => {
+                if (i === 0) return 'rgba(231, 76, 60, 0.6)';
+                const prevVal = values[i - 1];
+                const currVal = values[i];
+                return currVal >= prevVal ? 'rgba(231, 76, 60, 0.6)' : 'rgba(39, 174, 96, 0.6)';
+            });
+
+            // Format volume for display
+            function fmtVol(v) {
+                if (!v || v === 0) return '--';
+                if (v >= 1e8) return (v / 1e8).toFixed(2) + '亿';
+                if (v >= 1e4) return (v / 1e4).toFixed(1) + '万';
+                return v.toFixed(0);
+            }
+
+            volumeChart = new Chart(volCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: '成交量',
+                        data: volumes,
+                        backgroundColor: volColors,
+                        borderColor: volColors.map(c => c.replace('0.6', '0.9')),
+                        borderWidth: 1,
+                        borderRadius: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const v = context.parsed.y;
+                                    return '成交量: ' + fmtVol(v);
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { display: false },
+                            ticks: {
+                                font: { size: 11 },
+                                maxRotation: 45,
+                                color: '#888',
+                            }
+                        },
+                        y: {
+                            grid: { color: '#f0f0f0' },
+                            ticks: {
+                                font: { size: 11 },
+                                color: '#888',
+                                callback: function(value) {
+                                    return fmtVol(value);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('volumeTitle').textContent = `近1月成交量 - ${data.name}`;
         }
 
         function switchChart(code) {

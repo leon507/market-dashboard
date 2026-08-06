@@ -110,6 +110,14 @@ def get_kline_close_map(kline_data):
     return result
 
 
+def get_kline_volume_map(kline_data):
+    """Return {date: volume} from kline data."""
+    result = {}
+    for item in kline_data:
+        result[item["date"]] = item.get("volume", 0)
+    return result
+
+
 def calc_change_pct(current, base):
     if base == 0 or base is None:
         return 0.0
@@ -129,6 +137,18 @@ def fmt_pct(pct):
         return "--"
     sign = "+" if pct >= 0 else ""
     return f"{sign}{pct:.2f}%"
+
+
+def fmt_volume(vol):
+    """Format volume in human-readable units (亿/万)."""
+    if not vol or vol == 0:
+        return "--"
+    if vol >= 1e8:
+        return f"{vol / 1e8:.2f}亿"
+    elif vol >= 1e4:
+        return f"{vol / 1e4:.1f}万"
+    else:
+        return f"{vol:.0f}"
 
 
 def get_color_class(pct):
@@ -164,6 +184,7 @@ def process_indices():
     for code, name in INDICES:
         kline = load_json(f"kline_{code}.json")
         close_map = get_kline_close_map(kline) if kline else {}
+        volume_map = get_kline_volume_map(kline) if kline else {}
 
         current_val = close_map.get(CURRENT_DATE, 0)
         yesterday_val = close_map.get(YESTERDAY, 0)
@@ -173,11 +194,16 @@ def process_indices():
         # For trend chart: all available days
         chart_dates = sorted(close_map.keys())
         chart_values = [close_map[d] for d in chart_dates]
+        chart_volumes = [volume_map.get(d, 0) for d in chart_dates]
+
+        # Current day volume
+        current_volume = volume_map.get(CURRENT_DATE, 0)
 
         # Real-time data from quote
         rt = quote_map.get(code, {})
         rt_price = rt.get("price", 0)
         rt_change_pct = rt.get("change_percent", 0)
+        rt_volume = rt.get("volume", 0)
 
         results.append({
             "code": code,
@@ -191,8 +217,11 @@ def process_indices():
             "chg_vs_last_month": calc_change_pct(current_val, last_month_val),
             "chart_dates": chart_dates,
             "chart_values": chart_values,
+            "chart_volumes": chart_volumes,
+            "current_volume": current_volume,
             "rt_price": rt_price,
             "rt_change_pct": rt_change_pct,
+            "rt_volume": rt_volume,
             "pe_ratio": rt.get("pe_ratio", 0),
             "total_market_cap": rt.get("total_market_cap", 0),
             "chg_5d": rt.get("chg_5d", 0),
@@ -247,6 +276,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
         "code": idx["code"],
         "dates": idx["chart_dates"],
         "values": idx["chart_values"],
+        "volumes": idx["chart_volumes"],
     } for idx in indices], ensure_ascii=False)
 
     # Index cards HTML
@@ -277,6 +307,10 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                     <span class="comp-label">较上月</span>
                     <span class="comp-value {cls_m}">{fmt_pct(idx['chg_vs_last_month'])}</span>
                 </div>
+            </div>
+            <div class="card-volume">
+                <span class="vol-label">成交量</span>
+                <span class="vol-value">{fmt_volume(idx['current_volume'])}</span>
             </div>
             <div class="card-footer">
                 <span>PE {idx['pe_ratio']:.1f}</span>
@@ -533,6 +567,27 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
             font-size: 14px;
             font-weight: 600;
             font-family: monospace;
+        }}
+
+        .card-volume {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            padding: 6px 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 13px;
+        }}
+
+        .vol-label {{
+            color: #888;
+        }}
+
+        .vol-value {{
+            font-weight: 600;
+            font-family: "SF Mono", "Roboto Mono", monospace;
+            color: #0f3460;
         }}
 
         .card-footer {{
@@ -847,6 +902,10 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 <div class="chart-wrapper">
                     <canvas id="trendChart"></canvas>
                 </div>
+                <div class="chart-title" id="volumeTitle" style="margin-top: 20px; font-size: 14px; color: #666;">近1月成交量</div>
+                <div class="chart-wrapper" style="height: 160px;">
+                    <canvas id="volumeChart"></canvas>
+                </div>
             </div>
         </div>
 
@@ -901,7 +960,9 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
 
         // Initialize trend chart
         const ctx = document.getElementById('trendChart').getContext('2d');
+        const volCtx = document.getElementById('volumeChart').getContext('2d');
         let trendChart = null;
+        let volumeChart = null;
 
         function renderChart(code) {{
             const data = chartData.find(d => d.code === code);
@@ -1009,6 +1070,84 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                     }}
                 }}
             }});
+
+            // === Volume bar chart ===
+            if (volumeChart) {{
+                volumeChart.destroy();
+            }}
+
+            const volumes = data.volumes || [];
+            // Color bars: red if close >= open (up day), green if down day
+            const volColors = labels.map((d, i) => {{
+                if (i === 0) return 'rgba(231, 76, 60, 0.6)';
+                const prevVal = values[i - 1];
+                const currVal = values[i];
+                return currVal >= prevVal ? 'rgba(231, 76, 60, 0.6)' : 'rgba(39, 174, 96, 0.6)';
+            }});
+
+            // Format volume for display
+            function fmtVol(v) {{
+                if (!v || v === 0) return '--';
+                if (v >= 1e8) return (v / 1e8).toFixed(2) + '亿';
+                if (v >= 1e4) return (v / 1e4).toFixed(1) + '万';
+                return v.toFixed(0);
+            }}
+
+            volumeChart = new Chart(volCtx, {{
+                type: 'bar',
+                data: {{
+                    labels: labels,
+                    datasets: [{{
+                        label: '成交量',
+                        data: volumes,
+                        backgroundColor: volColors,
+                        borderColor: volColors.map(c => c.replace('0.6', '0.9')),
+                        borderWidth: 1,
+                        borderRadius: 2,
+                    }}]
+                }},
+                options: {{
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {{
+                        mode: 'index',
+                        intersect: false,
+                    }},
+                    plugins: {{
+                        legend: {{ display: false }},
+                        tooltip: {{
+                            callbacks: {{
+                                label: function(context) {{
+                                    const v = context.parsed.y;
+                                    return '成交量: ' + fmtVol(v);
+                                }}
+                            }}
+                        }}
+                    }},
+                    scales: {{
+                        x: {{
+                            grid: {{ display: false }},
+                            ticks: {{
+                                font: {{ size: 11 }},
+                                maxRotation: 45,
+                                color: '#888',
+                            }}
+                        }},
+                        y: {{
+                            grid: {{ color: '#f0f0f0' }},
+                            ticks: {{
+                                font: {{ size: 11 }},
+                                color: '#888',
+                                callback: function(value) {{
+                                    return fmtVol(value);
+                                }}
+                            }}
+                        }}
+                    }}
+                }}
+            }});
+
+            document.getElementById('volumeTitle').textContent = `近1月成交量 - ${{data.name}}`;
         }}
 
         function switchChart(code) {{
