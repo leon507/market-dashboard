@@ -3,9 +3,11 @@ name: Daily Market Dashboard Refresh
 on:
   schedule:
     # Multiple cron times for redundancy (GitHub Actions free tier delays can be 1-2+ hours)
-    # Target: after A-share market close at 15:00 Beijing time (07:00 UTC)
-    # Primary: 06:00 UTC (14:00 Beijing) - accounts for ~1-2hr delay
-    # Backup:  09:00 UTC (17:00 Beijing) - catches up if primary was skipped
+    # A-share market hours: 09:30-15:00 Beijing time (01:30-07:00 UTC)
+    # Primary: 03:00 UTC (11:00 Beijing) - midday, ensures turnover even with 2hr delay
+    # Backup:  06:00 UTC (14:00 Beijing) - near close, captures final turnover
+    # Fallback: 09:00 UTC (17:00 Beijing) - after close, catches up if both missed
+    - cron: "0 3 * * 1-5"
     - cron: "0 6 * * 1-5"
     - cron: "0 9 * * 1-5"
   workflow_dispatch: # Allow manual trigger
