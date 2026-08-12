@@ -213,11 +213,12 @@ def process_indices():
         rt_change_pct = rt.get("change_percent", 0)
         rt_turnover = rt.get("turnover", 0)
 
-        # If kline amount is 0 (e.g. Tencent fallback), use quote turnover
+        # If kline amount is 0 (e.g. Tencent fallback), use quote turnover for current day only
         if current_volume == 0 and rt_turnover:
             current_volume = rt_turnover
-        if not any(chart_volumes) and rt_turnover:
-            chart_volumes = [rt_turnover if v == 0 else v for v in chart_volumes]
+            # Also patch the latest chart volume (corresponds to current/last trading day)
+            if chart_volumes and chart_volumes[-1] == 0:
+                chart_volumes[-1] = rt_turnover
 
         results.append({
             "code": code,
