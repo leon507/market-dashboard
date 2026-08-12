@@ -111,10 +111,18 @@ def get_kline_close_map(kline_data):
 
 
 def get_kline_volume_map(kline_data):
-    """Return {date: volume} from kline data."""
+    """Return {date: volume} from kline data (share count - deprecated for display)."""
     result = {}
     for item in kline_data:
         result[item["date"]] = item.get("volume", 0)
+    return result
+
+
+def get_kline_amount_map(kline_data):
+    """Return {date: amount} from kline data (turnover in yuan - 成交额)."""
+    result = {}
+    for item in kline_data:
+        result[item["date"]] = item.get("amount", 0)
     return result
 
 
@@ -184,7 +192,7 @@ def process_indices():
     for code, name in INDICES:
         kline = load_json(f"kline_{code}.json")
         close_map = get_kline_close_map(kline) if kline else {}
-        volume_map = get_kline_volume_map(kline) if kline else {}
+        amount_map = get_kline_amount_map(kline) if kline else {}
 
         current_val = close_map.get(CURRENT_DATE, 0)
         yesterday_val = close_map.get(YESTERDAY, 0)
@@ -194,16 +202,22 @@ def process_indices():
         # For trend chart: all available days
         chart_dates = sorted(close_map.keys())
         chart_values = [close_map[d] for d in chart_dates]
-        chart_volumes = [volume_map.get(d, 0) for d in chart_dates]
+        chart_volumes = [amount_map.get(d, 0) for d in chart_dates]
 
-        # Current day volume
-        current_volume = volume_map.get(CURRENT_DATE, 0)
+        # Current day turnover (成交额): prefer kline amount, fallback to quote turnover
+        current_volume = amount_map.get(CURRENT_DATE, 0)
 
         # Real-time data from quote
         rt = quote_map.get(code, {})
         rt_price = rt.get("price", 0)
         rt_change_pct = rt.get("change_percent", 0)
-        rt_volume = rt.get("volume", 0)
+        rt_turnover = rt.get("turnover", 0)
+
+        # If kline amount is 0 (e.g. Tencent fallback), use quote turnover
+        if current_volume == 0 and rt_turnover:
+            current_volume = rt_turnover
+        if not any(chart_volumes) and rt_turnover:
+            chart_volumes = [rt_turnover if v == 0 else v for v in chart_volumes]
 
         results.append({
             "code": code,
@@ -221,7 +235,7 @@ def process_indices():
             "current_volume": current_volume,
             "rt_price": rt_price,
             "rt_change_pct": rt_change_pct,
-            "rt_volume": rt_volume,
+            "rt_turnover": rt_turnover,
             "pe_ratio": rt.get("pe_ratio", 0),
             "total_market_cap": rt.get("total_market_cap", 0),
             "chg_5d": rt.get("chg_5d", 0),
@@ -309,7 +323,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 </div>
             </div>
             <div class="card-volume">
-                <span class="vol-label">成交量</span>
+                <span class="vol-label">成交额</span>
                 <span class="vol-value">{fmt_volume(idx['current_volume'])}</span>
             </div>
             <div class="card-footer">
@@ -902,7 +916,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 <div class="chart-wrapper">
                     <canvas id="trendChart"></canvas>
                 </div>
-                <div class="chart-title" id="volumeTitle" style="margin-top: 20px; font-size: 14px; color: #666;">近1月成交量</div>
+                <div class="chart-title" id="volumeTitle" style="margin-top: 20px; font-size: 14px; color: #666;">近1月成交额</div>
                 <div class="chart-wrapper" style="height: 160px;">
                     <canvas id="volumeChart"></canvas>
                 </div>
@@ -1085,7 +1099,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 return currVal >= prevVal ? 'rgba(231, 76, 60, 0.6)' : 'rgba(39, 174, 96, 0.6)';
             }});
 
-            // Format volume for display
+            // Format amount for display (成交额 in yuan)
             function fmtVol(v) {{
                 if (!v || v === 0) return '--';
                 if (v >= 1e8) return (v / 1e8).toFixed(2) + '亿';
@@ -1098,7 +1112,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 data: {{
                     labels: labels,
                     datasets: [{{
-                        label: '成交量',
+                        label: '成交额',
                         data: volumes,
                         backgroundColor: volColors,
                         borderColor: volColors.map(c => c.replace('0.6', '0.9')),
@@ -1119,7 +1133,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                             callbacks: {{
                                 label: function(context) {{
                                     const v = context.parsed.y;
-                                    return '成交量: ' + fmtVol(v);
+                                    return '成交额: ' + fmtVol(v);
                                 }}
                             }}
                         }}
@@ -1147,7 +1161,7 @@ def generate_html(indices, sectors, news, CURRENT_DATE):
                 }}
             }});
 
-            document.getElementById('volumeTitle').textContent = `近1月成交量 - ${{data.name}}`;
+            document.getElementById('volumeTitle').textContent = `近1月成交额 - ${{data.name}}`;
         }}
 
         function switchChart(code) {{
