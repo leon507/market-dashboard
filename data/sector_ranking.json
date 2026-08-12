@@ -2,138 +2,55 @@
   "sections": [
     [
       {
-        "name": "其他数字媒体",
-        "changePct": "6.29",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
         "name": "通信线缆及配套",
-        "changePct": "6.08",
+        "changePct": "6.05",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "通信网络设备及器件",
-        "changePct": "4.18",
+        "name": "其他数字媒体",
+        "changePct": "6.01",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "半导体材料",
-        "changePct": "3.58",
+        "name": "会展服务",
+        "changePct": "5.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "机床工具",
-        "changePct": "3.5",
+        "name": "房产租赁经纪",
+        "changePct": "4.11",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "光学元件",
-        "changePct": "3.42",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "昨日打二板以上表现",
-        "changePct": "8.31",
+        "name": "光伏主材",
+        "changePct": "3.9",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日连板_含一字",
-        "changePct": "6.24",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "光纤概念",
-        "changePct": "4.16",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板",
-        "changePct": "4.05",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "CPO概念",
-        "changePct": "3.91",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "光通信模块",
-        "changePct": "3.51",
+        "name": "涂料",
+        "changePct": "3.83",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "通信",
-        "changePct": "2.6",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "1118947.94",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "通信设备",
-        "changePct": "3.14",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "1115919.41",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "通信网络设备及器件",
-        "changePct": "4.18",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "794825.57",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    [],
+    []
   ]
 }
