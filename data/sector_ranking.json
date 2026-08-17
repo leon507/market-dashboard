@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "稀土",
-        "changePct": "5.82",
+        "name": "其他养殖",
+        "changePct": "10.69",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "通信线缆及配套",
-        "changePct": "5.33",
+        "name": "种子",
+        "changePct": "6.61",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "激光设备",
-        "changePct": "4.44",
+        "name": "硅料硅片",
+        "changePct": "5.22",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "电子化学品Ⅲ",
-        "changePct": "3.75",
+        "name": "集成电路封测",
+        "changePct": "5.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "电子化学品Ⅱ",
-        "changePct": "3.75",
+        "name": "集成电路制造",
+        "changePct": "4.91",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "非金属材料Ⅲ",
-        "changePct": "3.61",
+        "name": "半导体材料",
+        "changePct": "4.9",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,54 +52,88 @@
     ],
     [
       {
-        "name": "CPO概念",
-        "changePct": "3.18",
+        "name": "昨日打二板以上表现",
+        "changePct": "5.01",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "F5G概念",
-        "changePct": "3.09",
+        "name": "高带宽内存",
+        "changePct": "4.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "光通信模块",
-        "changePct": "2.93",
+        "name": "昨日连板_含一字",
+        "changePct": "4.81",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "IPv6",
-        "changePct": "2.75",
+        "name": "培育钻石",
+        "changePct": "4.77",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "纳米银",
-        "changePct": "2.7",
+        "name": "玻璃基板",
+        "changePct": "4.51",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "光纤概念",
-        "changePct": "2.6",
+        "name": "先进封装",
+        "changePct": "4.23",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    []
+    [
+      {
+        "name": "电子",
+        "changePct": "3.36",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "2616208.18",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体",
+        "changePct": "4.19",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "1694268.8",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "数字芯片设计",
+        "changePct": "4.14",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "868062.08",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
