@@ -2,8 +2,16 @@
   "sections": [
     [
       {
+        "name": "卫浴电器",
+        "changePct": "7.19",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
         "name": "焦炭Ⅲ",
-        "changePct": "6.97",
+        "changePct": "6.53",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -11,15 +19,7 @@
       },
       {
         "name": "焦炭Ⅱ",
-        "changePct": "6.97",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "卫浴电器",
-        "changePct": "5.98",
+        "changePct": "6.53",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -27,7 +27,7 @@
       },
       {
         "name": "厨卫电器",
-        "changePct": "4.22",
+        "changePct": "4.57",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -35,15 +35,15 @@
       },
       {
         "name": "厨房电器",
-        "changePct": "3.34",
+        "changePct": "3.26",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "涂料",
-        "changePct": "3.18",
+        "name": "炼油化工",
+        "changePct": "3.04",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -53,7 +53,7 @@
     [
       {
         "name": "昨日连板",
-        "changePct": "1.39",
+        "changePct": "0.9",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -61,7 +61,7 @@
       },
       {
         "name": "红利破净股",
-        "changePct": "1.14",
+        "changePct": "0.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -69,7 +69,7 @@
       },
       {
         "name": "红利股",
-        "changePct": "0.45",
+        "changePct": "0.11",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -77,7 +77,7 @@
       },
       {
         "name": "价值股",
-        "changePct": "0.02",
+        "changePct": "-0.27",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -85,7 +85,7 @@
       },
       {
         "name": "大盘价值",
-        "changePct": "-0.03",
+        "changePct": "-0.32",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -93,7 +93,7 @@
       },
       {
         "name": "金融地产风格",
-        "changePct": "-0.23",
+        "changePct": "-0.43",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
