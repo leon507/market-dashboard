@@ -2,98 +2,48 @@
   "sections": [
     [
       {
-        "name": "种子",
-        "changePct": "13.17",
+        "name": "焦炭Ⅲ",
+        "changePct": "6.97",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "食用菌",
-        "changePct": "10.66",
+        "name": "焦炭Ⅱ",
+        "changePct": "6.97",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "种植业",
-        "changePct": "10.52",
+        "name": "卫浴电器",
+        "changePct": "5.98",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "其他养殖",
-        "changePct": "10.01",
+        "name": "厨卫电器",
+        "changePct": "4.22",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "粮食种植",
-        "changePct": "8.97",
+        "name": "厨房电器",
+        "changePct": "3.34",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "农业综合Ⅲ",
-        "changePct": "6.93",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "转基因",
-        "changePct": "7.25",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "粮食概念",
-        "changePct": "6.65",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "农业种植",
-        "changePct": "4.25",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "历史新高",
-        "changePct": "3.67",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "水产概念",
-        "changePct": "3.42",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "华为欧拉",
-        "changePct": "3.31",
+        "name": "涂料",
+        "changePct": "3.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,38 +52,54 @@
     ],
     [
       {
-        "name": "农林牧渔",
-        "changePct": "4.46",
+        "name": "昨日连板",
+        "changePct": "1.39",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "323920.97",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
       {
-        "name": "种植业",
-        "changePct": "10.49",
+        "name": "红利破净股",
+        "changePct": "1.14",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "133172.47",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
       {
-        "name": "化学原料",
-        "changePct": "0.39",
+        "name": "红利股",
+        "changePct": "0.45",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "106168.17",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
+      },
+      {
+        "name": "价值股",
+        "changePct": "0.02",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "大盘价值",
+        "changePct": "-0.03",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "金融地产风格",
+        "changePct": "-0.23",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
       }
-    ]
+    ],
+    []
   ]
 }
