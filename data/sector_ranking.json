@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "卫浴电器",
-        "changePct": "7.19",
+        "name": "疫苗",
+        "changePct": "14.73",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "焦炭Ⅲ",
-        "changePct": "6.53",
+        "name": "诊断服务",
+        "changePct": "12.02",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "焦炭Ⅱ",
-        "changePct": "6.53",
+        "name": "生物制品",
+        "changePct": "10.2",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "厨卫电器",
-        "changePct": "4.57",
+        "name": "医疗研发外包",
+        "changePct": "9.33",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "厨房电器",
-        "changePct": "3.26",
+        "name": "其他生物制品",
+        "changePct": "9.29",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "炼油化工",
-        "changePct": "3.04",
+        "name": "其他医疗服务",
+        "changePct": "8.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,48 +52,48 @@
     ],
     [
       {
-        "name": "昨日连板",
-        "changePct": "0.9",
+        "name": "CAR-T细胞疗法",
+        "changePct": "10.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "红利破净股",
-        "changePct": "0.84",
+        "name": "重组蛋白",
+        "changePct": "8.25",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "红利股",
-        "changePct": "0.11",
+        "name": "CRO",
+        "changePct": "8.06",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "价值股",
-        "changePct": "-0.27",
+        "name": "基因测序",
+        "changePct": "7.88",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "大盘价值",
-        "changePct": "-0.32",
+        "name": "精准诊断",
+        "changePct": "7.35",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "金融地产风格",
-        "changePct": "-0.43",
+        "name": "单抗概念",
+        "changePct": "7.15",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
