@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "房产租赁经纪",
-        "changePct": "6.3",
+        "name": "教育运营及其他",
+        "changePct": "7.76",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "种子",
-        "changePct": "5.83",
+        "name": "铜",
+        "changePct": "5.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "清洁小家电",
-        "changePct": "4.7",
+        "name": "粘胶",
+        "changePct": "4.07",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "通信线缆及配套",
-        "changePct": "4.65",
+        "name": "疫苗",
+        "changePct": "4.05",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "血液制品",
-        "changePct": "4.62",
+        "name": "钾肥",
+        "changePct": "4.03",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "其他家电Ⅲ",
-        "changePct": "4.55",
+        "name": "钼",
+        "changePct": "3.62",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -53,39 +53,7 @@
     [
       {
         "name": "昨日打二板以上表现",
-        "changePct": "4.21",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "SPD概念",
-        "changePct": "3.78",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "粮食概念",
-        "changePct": "3.73",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "转基因",
-        "changePct": "3.57",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "维生素",
-        "changePct": "3.36",
+        "changePct": "6.31",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -93,7 +61,39 @@
       },
       {
         "name": "昨日连板_含一字",
-        "changePct": "3.32",
+        "changePct": "4.1",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日连板",
+        "changePct": "3.02",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "超导概念",
+        "changePct": "3.0",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "券商概念",
+        "changePct": "3.0",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "科创板做市商",
+        "changePct": "2.62",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +102,35 @@
     ],
     [
       {
-        "name": "机械设备",
-        "changePct": "2.0",
+        "name": "工业金属",
+        "changePct": "2.91",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "599336.55",
+        "mainNetInflow": "706603.52",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "通信线缆及配套",
-        "changePct": "4.63",
+        "name": "铜",
+        "changePct": "5.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "448526.87",
+        "mainNetInflow": "591329.41",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "专用设备",
-        "changePct": "1.83",
+        "name": "有色金属",
+        "changePct": "1.23",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "399162.48",
+        "mainNetInflow": "582078.8",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
