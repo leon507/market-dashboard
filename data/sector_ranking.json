@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "视频媒体",
-        "changePct": "20.02",
+        "name": "地面兵装Ⅲ",
+        "changePct": "5.9",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "种子",
-        "changePct": "12.87",
+        "name": "地面兵装Ⅱ",
+        "changePct": "5.9",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "种植业",
-        "changePct": "8.88",
+        "name": "化妆品制造及其他",
+        "changePct": "5.27",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "粮食种植",
-        "changePct": "7.42",
+        "name": "化妆品",
+        "changePct": "2.96",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "文字媒体",
-        "changePct": "6.89",
+        "name": "其他橡胶制品",
+        "changePct": "2.56",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "农业综合Ⅲ",
-        "changePct": "6.14",
+        "name": "玻纤制造",
+        "changePct": "2.41",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,16 +52,8 @@
     ],
     [
       {
-        "name": "转基因",
-        "changePct": "7.79",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "粮食概念",
-        "changePct": "6.87",
+        "name": "昨日打二板以上表现",
+        "changePct": "3.96",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -69,7 +61,15 @@
       },
       {
         "name": "昨日连板_含一字",
-        "changePct": "5.65",
+        "changePct": "3.51",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "历史新高",
+        "changePct": "2.92",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -77,29 +77,63 @@
       },
       {
         "name": "昨日连板",
-        "changePct": "5.57",
+        "changePct": "2.4",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "农业种植",
-        "changePct": "4.75",
+        "name": "次新股",
+        "changePct": "1.29",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "托育服务",
-        "changePct": "4.69",
+        "name": "航天航空",
+        "changePct": "1.13",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    []
+    [
+      {
+        "name": "国防军工",
+        "changePct": "1.31",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "274379.7",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "线缆部件及其他",
+        "changePct": "1.62",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "200697.14",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "电网设备",
+        "changePct": "0.49",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "148246.88",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
