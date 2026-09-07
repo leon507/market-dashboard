@@ -2,55 +2,138 @@
   "sections": [
     [
       {
-        "name": "畜禽饲料",
-        "changePct": "8.46",
+        "name": "印制电路板",
+        "changePct": "7.62",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "生猪养殖",
-        "changePct": "6.23",
+        "name": "元件",
+        "changePct": "6.72",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "教育运营及其他",
-        "changePct": "6.08",
+        "name": "种子",
+        "changePct": "6.35",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "饲料",
-        "changePct": "5.98",
+        "name": "其他种植业",
+        "changePct": "6.13",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "视频媒体",
-        "changePct": "5.46",
+        "name": "通信网络设备及器件",
+        "changePct": "5.44",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "养殖业",
-        "changePct": "5.36",
+        "name": "种植业",
+        "changePct": "5.34",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [],
-    []
+    [
+      {
+        "name": "昨日连板",
+        "changePct": "7.34",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日连板_含一字",
+        "changePct": "7.19",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "CPO概念",
+        "changePct": "6.5",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "光通信模块",
+        "changePct": "5.99",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日涨停_含一字",
+        "changePct": "4.53",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "PCB",
+        "changePct": "4.48",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
+      {
+        "name": "电子",
+        "changePct": "2.99",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "3069464.99",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "通信设备",
+        "changePct": "3.64",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "2013468.31",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "通信",
+        "changePct": "2.78",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "2003455.64",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
