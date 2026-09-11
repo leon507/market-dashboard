@@ -2,24 +2,8 @@
   "sections": [
     [
       {
-        "name": "教育运营及其他",
-        "changePct": "6.02",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "卫浴电器",
-        "changePct": "4.87",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "其他饰品",
-        "changePct": "4.72",
+        "name": "通信线缆及配套",
+        "changePct": "5.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -27,30 +11,129 @@
       },
       {
         "name": "玻纤制造",
-        "changePct": "3.77",
+        "changePct": "4.67",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "玻璃玻纤",
-        "changePct": "2.53",
+        "name": "地面兵装Ⅲ",
+        "changePct": "4.48",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "航海装备Ⅲ",
-        "changePct": "2.52",
+        "name": "地面兵装Ⅱ",
+        "changePct": "4.48",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "其他数字媒体",
+        "changePct": "3.78",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "印制电路板",
+        "changePct": "3.28",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [],
-    []
+    [
+      {
+        "name": "被动元件概念",
+        "changePct": "2.54",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "反转股",
+        "changePct": "2.03",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "MLCC",
+        "changePct": "1.72",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日涨停_含一字",
+        "changePct": "1.02",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "铜缆高速连接",
+        "changePct": "0.93",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日首板",
+        "changePct": "0.92",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
+      {
+        "name": "通信设备",
+        "changePct": "0.52",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "474140.01",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "通信",
+        "changePct": "-0.04",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "443237.84",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "元件",
+        "changePct": "3.03",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "378745.98",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
