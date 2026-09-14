@@ -2,98 +2,48 @@
   "sections": [
     [
       {
-        "name": "通信线缆及配套",
-        "changePct": "5.84",
+        "name": "医疗研发外包",
+        "changePct": "5.75",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "玻纤制造",
-        "changePct": "4.67",
+        "name": "胶黏剂及胶带",
+        "changePct": "4.44",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "地面兵装Ⅲ",
-        "changePct": "4.48",
+        "name": "医疗服务",
+        "changePct": "4.09",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "地面兵装Ⅱ",
-        "changePct": "4.48",
+        "name": "诊断服务",
+        "changePct": "4.03",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "其他数字媒体",
-        "changePct": "3.78",
+        "name": "横向通用软件",
+        "changePct": "3.96",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "印制电路板",
-        "changePct": "3.28",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "被动元件概念",
-        "changePct": "2.54",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "反转股",
-        "changePct": "2.03",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "MLCC",
-        "changePct": "1.72",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日涨停_含一字",
-        "changePct": "1.02",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "铜缆高速连接",
-        "changePct": "0.93",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日首板",
-        "changePct": "0.92",
+        "name": "商用载客车",
+        "changePct": "3.87",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,38 +52,54 @@
     ],
     [
       {
-        "name": "通信设备",
-        "changePct": "0.52",
+        "name": "昨日连板",
+        "changePct": "4.94",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "474140.01",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
       {
-        "name": "通信",
-        "changePct": "-0.04",
+        "name": "CRO",
+        "changePct": "4.56",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "443237.84",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
       {
-        "name": "元件",
-        "changePct": "3.03",
+        "name": "培育钻石",
+        "changePct": "4.48",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "378745.98",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日涨停",
+        "changePct": "3.74",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "VPN",
+        "changePct": "3.58",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日连板_含一字",
+        "changePct": "3.53",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
       }
-    ]
+    ],
+    []
   ]
 }
