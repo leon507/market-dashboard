@@ -50,56 +50,7 @@
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "昨日连板",
-        "changePct": "4.94",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "CRO",
-        "changePct": "4.56",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "培育钻石",
-        "changePct": "4.48",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日涨停",
-        "changePct": "3.74",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "VPN",
-        "changePct": "3.58",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板_含一字",
-        "changePct": "3.53",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
+    [],
     []
   ]
 }
