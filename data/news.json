@@ -1,8 +1,80 @@
 [
   {
+    "news_id": "202609173877410881",
+    "news_title": "华为新款AI芯片提前推出！相关概念股梳理",
+    "rank": "1",
+    "publish_time": 1789668251,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877403736",
+    "news_title": "张一鸣登顶！一图速览新世纪亚洲首富变化",
+    "rank": "2",
+    "publish_time": 1789668014,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877391582",
+    "news_title": "9月17日涨停复盘：49只股涨停 澳弘电子5连板",
+    "rank": "3",
+    "publish_time": 1789666598,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877351421",
+    "news_title": "外国投资者8月净买入4亿美元韩股 结束年内七连抛！",
+    "rank": "4",
+    "publish_time": 1789663951,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877347983",
+    "news_title": "宁德时代拟以14亿元在雅安新建4万吨碳酸锂年产能 锂价9月回调已逾两成",
+    "rank": "5",
+    "publish_time": 1789663475,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877330739",
+    "news_title": "当代版《给阿嬷的情书》 2025年全球移民汇款近5万亿",
+    "rank": "6",
+    "publish_time": 1789662266,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202609173877314581",
     "news_title": "9月17日港股收盘：恒指跌0.44% 恒生科技指数跌0.34%",
-    "rank": "1",
+    "rank": "7",
     "publish_time": 1789661418,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +86,7 @@
   {
     "news_id": "202609173877277637",
     "news_title": "美众议院授权特朗普对俄罗斯油气的主要买家征收高达100%的关税 外交部回应",
-    "rank": "2",
+    "rank": "8",
     "publish_time": 1789658817,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +98,7 @@
   {
     "news_id": "202609173877276024",
     "news_title": "供应严重短缺！韩国半导体零部件交货周期拉长 有设备商或要等40个月",
-    "rank": "3",
+    "rank": "9",
     "publish_time": 1789658460,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +110,7 @@
   {
     "news_id": "202609173877270419",
     "news_title": "问界将在2027年1月1日正式撤出鸿蒙智行和华为专卖店",
-    "rank": "4",
+    "rank": "10",
     "publish_time": 1789657900,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +122,7 @@
   {
     "news_id": "202609173877268228",
     "news_title": "商务部回应欧委会公共采购法草案设置“欧洲优先”条款",
-    "rank": "5",
+    "rank": "11",
     "publish_time": 1789657865,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +134,7 @@
   {
     "news_id": "202609173877268011",
     "news_title": "商务部：中美经贸团队正就降税等议题保持密切交流",
-    "rank": "6",
+    "rank": "12",
     "publish_time": 1789657827,
     "source": "东方财富",
     "news_type": 1,
@@ -74,8 +146,20 @@
   {
     "news_id": "202609173877264816",
     "news_title": "A股三大指数小幅收跌 粮食概念股逆市大涨",
-    "rank": "7",
+    "rank": "13",
     "publish_time": 1789657221,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609173877234925",
+    "news_title": "电费不许转嫁民众！美国众议院通过首份针对数据中心经济影响法案",
+    "rank": "14",
+    "publish_time": 1789654382,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
@@ -86,7 +170,7 @@
   {
     "news_id": "202609173877192321",
     "news_title": "美联储加息后下一个市场焦点：日本和英国央行会“跟牌”吗？",
-    "rank": "8",
+    "rank": "15",
     "publish_time": 1789651368,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +182,7 @@
   {
     "news_id": "202609173877162194",
     "news_title": "白宫官员狠批加息：十分糟糕 美联储已经政治化了！",
-    "rank": "9",
+    "rank": "16",
     "publish_time": 1789647809,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +194,7 @@
   {
     "news_id": "202609173877158989",
     "news_title": "习近平就发展先进制造业作出重要指示",
-    "rank": "10",
+    "rank": "17",
     "publish_time": 1789646874,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +206,7 @@
   {
     "news_id": "202609173877154925",
     "news_title": "沪指下跌0.36% 种植业、CRO走强 贵金属板块大跌",
-    "rank": "11",
+    "rank": "18",
     "publish_time": 1789644628,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +218,7 @@
   {
     "news_id": "202609173877145050",
     "news_title": "宇树科技市值重返2000亿元",
-    "rank": "12",
+    "rank": "19",
     "publish_time": 1789643792,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +230,7 @@
   {
     "news_id": "202609173877116455",
     "news_title": "马斯克住进房车里监工：xAI孟菲斯数据中心成全球首富的头等大事",
-    "rank": "13",
+    "rank": "20",
     "publish_time": 1789642925,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +242,7 @@
   {
     "news_id": "202609173877125351",
     "news_title": "字节系AI制药公司首轮融资 巨头集体转向AI4S 医药行业迎来新叙事？",
-    "rank": "14",
+    "rank": "21",
     "publish_time": 1789642109,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +254,7 @@
   {
     "news_id": "202609173877118743",
     "news_title": "华为汪涛：昇腾960芯片将提前至2027年Q1发布",
-    "rank": "15",
+    "rank": "22",
     "publish_time": 1789641254,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +266,7 @@
   {
     "news_id": "202609173877117549",
     "news_title": "AI安全担忧再被引爆？除“抱抱脸事件”外 OpenAI再披露6起模型越界行为！",
-    "rank": "16",
+    "rank": "23",
     "publish_time": 1789641240,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +278,7 @@
   {
     "news_id": "202609173877111195",
     "news_title": "创新药、CRO概念涨势扩大 近岸蛋白等多股涨停",
-    "rank": "17",
+    "rank": "24",
     "publish_time": 1789640820,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +290,7 @@
   {
     "news_id": "202609173877093122",
     "news_title": "我国成功发射卫星互联网低轨25组卫星",
-    "rank": "18",
+    "rank": "25",
     "publish_time": 1789639960,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +302,7 @@
   {
     "news_id": "202609173876994661",
     "news_title": "创业板指涨超1%",
-    "rank": "19",
+    "rank": "26",
     "publish_time": 1789637876,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +314,7 @@
   {
     "news_id": "202609173876955673",
     "news_title": "玻纤板块开盘拉升 中材科技涨停",
-    "rank": "20",
+    "rank": "27",
     "publish_time": 1789637516,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +326,7 @@
   {
     "news_id": "202609173876932479",
     "news_title": "年内赚钱最少新股出炉 N沈鼓中一签仅赚4305元",
-    "rank": "21",
+    "rank": "28",
     "publish_time": 1789637150,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +338,7 @@
   {
     "news_id": "202609173876851279",
     "news_title": "沃什“动真格”！市场定价预计美联储到明年年中还将加息三次",
-    "rank": "22",
+    "rank": "29",
     "publish_time": 1789636603,
     "source": "东方财富",
     "news_type": 1,
@@ -266,92 +350,8 @@
   {
     "news_id": "202609173876876481",
     "news_title": "网络食品销售风险管控清单发布",
-    "rank": "23",
-    "publish_time": 1789635943,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876794888",
-    "news_title": "原油断供担忧缓和？沙特加速修复输油管道 目标六周内全面恢复",
-    "rank": "24",
-    "publish_time": 1789635486,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876729173",
-    "news_title": "沃什打响加息第一枪！华尔街：捍卫了美联储独立性 不会是“一次性加息”",
-    "rank": "25",
-    "publish_time": 1789635004,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876725569",
-    "news_title": "宁德时代：9月16日耗资约9.47亿元回购股份 拟用于注销",
-    "rank": "26",
-    "publish_time": 1789634045,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609163876296814",
-    "news_title": "北京商报侃股：抄底超跌股不一定安全",
-    "rank": "27",
-    "publish_time": 1789633669,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876723346",
-    "news_title": "禁售期内清仓万物云股票 58集团姚劲波：系投资团队无心之失",
-    "rank": "28",
-    "publish_time": 1789633282,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876476919",
-    "news_title": "打造上市首选地是一场生态重塑",
-    "rank": "29",
-    "publish_time": 1789632210,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609173876500864",
-    "news_title": "香港金管局将基准利率上调25个基点至4.25%",
     "rank": "30",
-    "publish_time": 1789628624,
+    "publish_time": 1789635943,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
