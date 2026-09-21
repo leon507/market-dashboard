@@ -3,7 +3,7 @@
     [
       {
         "name": "其他医疗服务",
-        "changePct": "6.72",
+        "changePct": "7.97",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -11,129 +11,46 @@
       },
       {
         "name": "房产租赁经纪",
-        "changePct": "4.86",
+        "changePct": "7.35",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "半导体设备",
-        "changePct": "4.83",
+        "name": "会展服务",
+        "changePct": "7.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "数字芯片设计",
-        "changePct": "4.68",
+        "name": "宠物食品",
+        "changePct": "6.61",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "集成电路制造",
-        "changePct": "4.59",
+        "name": "防水材料",
+        "changePct": "6.14",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "光伏加工设备",
-        "changePct": "4.52",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "第四代半导体",
-        "changePct": "4.96",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "次新股",
-        "changePct": "4.66",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日打二板以上表现",
-        "changePct": "4.03",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板_含一字",
-        "changePct": "3.88",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "汽车芯片",
-        "changePct": "3.85",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "AI芯片",
-        "changePct": "3.74",
+        "name": "涂料",
+        "changePct": "5.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "电子",
-        "changePct": "2.81",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "1985395.92",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "半导体",
-        "changePct": "4.35",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "1822037.32",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "数字芯片设计",
-        "changePct": "4.68",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "753476.3",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    [],
+    []
   ]
 }
