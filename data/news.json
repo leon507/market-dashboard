@@ -1,8 +1,56 @@
 [
   {
+    "news_id": "202609223881472891",
+    "news_title": "纳斯达克综合指数升破6月高点 创历史新高",
+    "rank": "1",
+    "publish_time": 1790112826,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609223881389340",
+    "news_title": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
+    "rank": "2",
+    "publish_time": 1790105494,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609223881347627",
+    "news_title": "伊朗据报若美解封可7天重开霍尔木兹海峡",
+    "rank": "3",
+    "publish_time": 1790102262,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609223881344483",
+    "news_title": "佰维存储：拟投资45亿元建设晶圆级先进封测制造项目三期",
+    "rank": "4",
+    "publish_time": 1790101779,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202609223881341577",
     "news_title": "中金公司：A股股票将于9月23日复牌",
-    "rank": "1",
+    "rank": "5",
     "publish_time": 1790100806,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +62,7 @@
   {
     "news_id": "202609223881333879",
     "news_title": "企业境外反垄断合规指引修订草案公开征求意见",
-    "rank": "2",
+    "rank": "6",
     "publish_time": 1790100041,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +74,7 @@
   {
     "news_id": "202609223881297361",
     "news_title": "特斯拉新款Roadster重新开放预订 售价不明但定金高达5万美元",
-    "rank": "3",
+    "rank": "7",
     "publish_time": 1790096135,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +86,7 @@
   {
     "news_id": "202609223881286691",
     "news_title": "油市大消息！沙特阿美向亚洲炼油商放风：或很快可在延布港接油",
-    "rank": "4",
+    "rank": "8",
     "publish_time": 1790096097,
     "source": "东方财富",
     "news_type": 1,
@@ -49,8 +97,8 @@
   },
   {
     "news_id": "202609223881285737",
-    "news_title": "国际油价跳水 美股三大股指期货转涨 伊朗总统启程赴美",
-    "rank": "5",
+    "news_title": "国际油价跳水 伊朗总统启程赴美",
+    "rank": "9",
     "publish_time": 1790095939,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +110,7 @@
   {
     "news_id": "202609223881246967",
     "news_title": "9月22日港股收盘：恒指涨0.18% 恒生科技指数涨0.34%",
-    "rank": "6",
+    "rank": "10",
     "publish_time": 1790093409,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +122,7 @@
   {
     "news_id": "202609223881229370",
     "news_title": "9月22日涨停复盘：64只股涨停 华瓷股份6连板",
-    "rank": "7",
+    "rank": "11",
     "publish_time": 1790092322,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +134,7 @@
   {
     "news_id": "202609223881211981",
     "news_title": "外交部：各方应该共同推动人工智能开放、包容、普惠、向善发展",
-    "rank": "8",
+    "rank": "12",
     "publish_time": 1790090642,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +146,7 @@
   {
     "news_id": "202609223881201939",
     "news_title": "小鹏机器人已完成供应链审厂及核心零部件定点",
-    "rank": "9",
+    "rank": "13",
     "publish_time": 1790089380,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +158,7 @@
   {
     "news_id": "202609223881200933",
     "news_title": "沪指震荡整理 创业板指冲高回落 AI芯片概念股走强",
-    "rank": "10",
+    "rank": "14",
     "publish_time": 1790089201,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +170,7 @@
   {
     "news_id": "202609223881200226",
     "news_title": "消息称玛莎拉蒂与华为、江淮汽车开展长期产业合作谈判",
-    "rank": "11",
+    "rank": "15",
     "publish_time": 1790089133,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +182,7 @@
   {
     "news_id": "202609223881144253",
     "news_title": "特朗普民调支持率刷新历史新低 中期选举形势告急",
-    "rank": "12",
+    "rank": "16",
     "publish_time": 1790084704,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +194,7 @@
   {
     "news_id": "202609223881136937",
     "news_title": "马斯克终于交卷：Grok 4.7跑分很强 实测却翻车了？",
-    "rank": "13",
+    "rank": "17",
     "publish_time": 1790084151,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +206,7 @@
   {
     "news_id": "202609223881129594",
     "news_title": "今日上市新股N中塑涨幅达677.86% N世纪涨幅达521.83% 双双触发二次临停",
-    "rank": "14",
+    "rank": "18",
     "publish_time": 1790083465,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +218,7 @@
   {
     "news_id": "202609223881129736",
     "news_title": "刚刚！港股双重利好来袭！",
-    "rank": "15",
+    "rank": "19",
     "publish_time": 1790083168,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +230,7 @@
   {
     "news_id": "202609223881118854",
     "news_title": "新股N中塑午后拉升涨超530%触发临停",
-    "rank": "16",
+    "rank": "20",
     "publish_time": 1790082913,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +242,7 @@
   {
     "news_id": "202609223881118027",
     "news_title": "新股N世纪涨超405% 触发临停",
-    "rank": "17",
+    "rank": "21",
     "publish_time": 1790082830,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +254,7 @@
   {
     "news_id": "202609223881092830",
     "news_title": "工信部旗下媒体：“去宁德化”论调要不得",
-    "rank": "18",
+    "rank": "22",
     "publish_time": 1790080535,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +266,7 @@
   {
     "news_id": "202609223881093475",
     "news_title": "拿不到货！“电子工业大米”爆单 记者实探华强北",
-    "rank": "19",
+    "rank": "23",
     "publish_time": 1790080440,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +278,7 @@
   {
     "news_id": "202609223881081046",
     "news_title": "创业板指上涨0.93% 两市半日放量超1000亿 AI产业链走强",
-    "rank": "20",
+    "rank": "24",
     "publish_time": 1790076635,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +290,7 @@
   {
     "news_id": "202609223881076418",
     "news_title": "毛利率被吸至-50%！硅谷独角兽反水OpenAI 中国开源模型成救星",
-    "rank": "21",
+    "rank": "25",
     "publish_time": 1790076181,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +302,7 @@
   {
     "news_id": "202609223881063655",
     "news_title": "“华尔街一哥”：数据中心明年AI支出或达1万亿美元 但可能加剧通胀！",
-    "rank": "22",
+    "rank": "26",
     "publish_time": 1790075311,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +314,7 @@
   {
     "news_id": "202609223881037630",
     "news_title": "港股创新药概念走强 康希诺生物涨超10%",
-    "rank": "23",
+    "rank": "27",
     "publish_time": 1790073265,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +326,7 @@
   {
     "news_id": "202609223881029229",
     "news_title": "A股又现“大肉签”：一签赚12万",
-    "rank": "24",
+    "rank": "28",
     "publish_time": 1790073149,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +338,7 @@
   {
     "news_id": "202609223881031360",
     "news_title": "阿里巴巴港股股价涨5%",
-    "rank": "25",
+    "rank": "29",
     "publish_time": 1790073081,
     "source": "东方财富",
     "news_type": 1,
@@ -302,56 +350,8 @@
   {
     "news_id": "202609223881031424",
     "news_title": "阿里发布新一代AI芯片真武V900",
-    "rank": "26",
-    "publish_time": 1790073074,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609223881019313",
-    "news_title": "CRO概念概念持续走高 义翘神州20cm涨停",
-    "rank": "27",
-    "publish_time": 1790072693,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609223881019978",
-    "news_title": "港股科网股走强 腾讯控股涨超7%",
-    "rank": "28",
-    "publish_time": 1790072509,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609223880992552",
-    "news_title": "科创50指数涨幅扩大至3%",
-    "rank": "29",
-    "publish_time": 1790071456,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609223880957920",
-    "news_title": "“2026中国民营企业500强”发布",
     "rank": "30",
-    "publish_time": 1790070520,
+    "publish_time": 1790073074,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
