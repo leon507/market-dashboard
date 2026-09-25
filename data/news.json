@@ -1,8 +1,32 @@
 [
   {
+    "news_id": "202609253884320937",
+    "news_title": "马斯克放下豪言：SpaceX数据中心项目GPU数量到年底将翻一倍！",
+    "rank": "1",
+    "publish_time": 1790370402,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609253884321056",
+    "news_title": "报道称特斯拉近几个月已将其Optimus人形机器人的产量提升约10倍",
+    "rank": "2",
+    "publish_time": 1790370346,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202609253884292394",
     "news_title": "伊朗总统：伊朗不想拥有核武器 愿推进与美谈判",
-    "rank": "1",
+    "rank": "3",
     "publish_time": 1790356866,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +38,7 @@
   {
     "news_id": "202609253884291226",
     "news_title": "通航换解封 美伊被曝探讨阶段性协议",
-    "rank": "2",
+    "rank": "4",
     "publish_time": 1790356100,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +50,7 @@
   {
     "news_id": "202609253884282196",
     "news_title": "9月25日港股收盘：恒指跌1.01% 潍柴动力领跌成分股",
-    "rank": "3",
+    "rank": "5",
     "publish_time": 1790352609,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +62,7 @@
   {
     "news_id": "202609253884279158",
     "news_title": "Anthropic与Akamai签署116亿美元CPU算力采购协议",
-    "rank": "4",
+    "rank": "6",
     "publish_time": 1790350867,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +74,7 @@
   {
     "news_id": "202609253884277776",
     "news_title": "智谱创调整新低市值跌回3000亿港元 大模型赛道掀新一轮降价潮",
-    "rank": "5",
+    "rank": "7",
     "publish_time": 1790350293,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +86,7 @@
   {
     "news_id": "202609253884272329",
     "news_title": "央行一日开出4张大额罚单 广发银行、渤海银行等4家银行领罚",
-    "rank": "6",
+    "rank": "8",
     "publish_time": 1790348520,
     "source": "东方财富",
     "news_type": 1,
@@ -74,8 +98,20 @@
   {
     "news_id": "202609253884265333",
     "news_title": "苹果与高通续签专利协议：芯片可以不用 专利仍绕不开",
-    "rank": "7",
+    "rank": "9",
     "publish_time": 1790347820,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609253884270559",
+    "news_title": "车企扎堆落地线控底盘 上车门槛降至20万元级",
+    "rank": "10",
+    "publish_time": 1790347240,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
@@ -86,7 +122,7 @@
   {
     "news_id": "202609253884268478",
     "news_title": "锂电产业链赴港上市热度不减 璞泰来、新宙邦同日获证监会H股备案",
-    "rank": "8",
+    "rank": "11",
     "publish_time": 1790345693,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +134,7 @@
   {
     "news_id": "202609253884267797",
     "news_title": "利空突袭！AI巨头突遭疯狂套现！",
-    "rank": "9",
+    "rank": "12",
     "publish_time": 1790345266,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +146,7 @@
   {
     "news_id": "202609253884257433",
     "news_title": "梅卡曼德上市后首份半年报：营收增逾五成、在手订单翻倍 称当前“增长优先”",
-    "rank": "10",
+    "rank": "13",
     "publish_time": 1790340300,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +158,7 @@
   {
     "news_id": "202609253884254238",
     "news_title": "宇树科技王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
-    "rank": "11",
+    "rank": "14",
     "publish_time": 1790337874,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +170,7 @@
   {
     "news_id": "202609253884254191",
     "news_title": "港股午评：恒生指数跌1.69% 恒生科技指数跌2.14%",
-    "rank": "12",
+    "rank": "15",
     "publish_time": 1790337754,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +182,7 @@
   {
     "news_id": "202609253884253693",
     "news_title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent",
-    "rank": "13",
+    "rank": "16",
     "publish_time": 1790337060,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +194,7 @@
   {
     "news_id": "202609253884249645",
     "news_title": "“双节”后行情怎么看？反弹仍待四大变量验证",
-    "rank": "14",
+    "rank": "17",
     "publish_time": 1790334120,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +206,7 @@
   {
     "news_id": "202609253884249577",
     "news_title": "突发公告！A股万亿巨头大动作！加码AI、半导体",
-    "rank": "15",
+    "rank": "18",
     "publish_time": 1790333998,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +218,7 @@
   {
     "news_id": "202609253884227045",
     "news_title": "港股跳水！内房股走低 科网股集体走弱 阿里巴巴跌超2%",
-    "rank": "16",
+    "rank": "19",
     "publish_time": 1790328715,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +230,7 @@
   {
     "news_id": "202609253884226274",
     "news_title": "9月25日港股开盘：恒指低开0.96% 中通快递-W领跌成分股",
-    "rank": "17",
+    "rank": "20",
     "publish_time": 1790328194,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +242,7 @@
   {
     "news_id": "202609253884224724",
     "news_title": "美联储再添官员释放加息信号 会启动新一轮加息周期吗",
-    "rank": "18",
+    "rank": "21",
     "publish_time": 1790327580,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +254,7 @@
   {
     "news_id": "202609253884223816",
     "news_title": "矢量网络分析仪概念股受关注 多家公司回复相关问题",
-    "rank": "19",
+    "rank": "22",
     "publish_time": 1790326859,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +266,7 @@
   {
     "news_id": "202609253884219084",
     "news_title": "新突破！隆基绿能晶硅电池效率再破世界纪录 逼近极限",
-    "rank": "20",
+    "rank": "23",
     "publish_time": 1790323474,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +278,7 @@
   {
     "news_id": "202609253884153625",
     "news_title": "AI办公的下一场争夺为什么是“上下文”？",
-    "rank": "21",
+    "rank": "24",
     "publish_time": 1790322720,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +290,7 @@
   {
     "news_id": "202609253884090098",
     "news_title": "股票私募仓位两连升 满仓占比近七成",
-    "rank": "22",
+    "rank": "25",
     "publish_time": 1790322180,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +302,7 @@
   {
     "news_id": "202609253884023874",
     "news_title": "116亿美元买CPU算力！Anthropic大单引爆老牌科技股",
-    "rank": "23",
+    "rank": "26",
     "publish_time": 1790313884,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +314,7 @@
   {
     "news_id": "202609253884023123",
     "news_title": "全球市场：美股三大指数收盘涨跌不一 国际油价涨近3%",
-    "rank": "24",
+    "rank": "27",
     "publish_time": 1790313325,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +326,7 @@
   {
     "news_id": "202609253884017677",
     "news_title": "纽约州起诉预测市场平台Polymarket 指控其无证经营赌博业务",
-    "rank": "25",
+    "rank": "28",
     "publish_time": 1790302956,
     "source": "东方财富",
     "news_type": 1,
@@ -302,7 +338,7 @@
   {
     "news_id": "202609253883982627",
     "news_title": "央行三季度货政例会：继续实施适度宽松的货币政策！释放哪些信号？专家团队解读",
-    "rank": "26",
+    "rank": "29",
     "publish_time": 1790300217,
     "source": "东方财富",
     "news_type": 1,
@@ -314,44 +350,8 @@
   {
     "news_id": "202609243883968417",
     "news_title": "习近平同美国总统特朗普小范围交流",
-    "rank": "27",
-    "publish_time": 1790293282,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609243883902929",
-    "news_title": "习近平出席美国总统特朗普举行的欢迎仪式",
-    "rank": "28",
-    "publish_time": 1790287677,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609243883867229",
-    "news_title": "中际旭创：完成50亿元股份回购",
-    "rank": "29",
-    "publish_time": 1790281559,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609243883856595",
-    "news_title": "厦门钨业就豫鹭矿业钨生产事宜提起仲裁 洛阳钼业回应",
     "rank": "30",
-    "publish_time": 1790279685,
+    "publish_time": 1790293282,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
