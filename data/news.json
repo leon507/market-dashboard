@@ -1,8 +1,80 @@
 [
   {
+    "news_id": "202609293886589943",
+    "news_title": "最高7753亿！美股十年回购TOP20出炉",
+    "rank": "1",
+    "publish_time": 1790708749,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609293886585470",
+    "news_title": "首部AI电影来了！产业链受益股梳理",
+    "rank": "2",
+    "publish_time": 1790707758,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609293886577319",
+    "news_title": "中央财政帮你还房贷利息：最高可省近5万元 哪些人可享受？",
+    "rank": "3",
+    "publish_time": 1790706834,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609293886564713",
+    "news_title": "10月1日起我国将对居民购房实施年化1个百分点贷款贴息",
+    "rank": "4",
+    "publish_time": 1790704810,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609293886563359",
+    "news_title": "央行：将新型电网、算力网、新一代通信网等“六张网”建设纳入PSL支持领域",
+    "rank": "5",
+    "publish_time": 1790704707,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609293886558061",
+    "news_title": "央行调整完善若干货币政策工具：下调抵押补充贷款（PSL）利率0.25个百分点",
+    "rank": "6",
+    "publish_time": 1790704425,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202609293886484349",
     "news_title": "“会飞的特斯拉”发布会因天气原因跳票 官方：这活动只能在户外办",
-    "rank": "1",
+    "rank": "7",
     "publish_time": 1790698984,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +86,7 @@
   {
     "news_id": "202609293886473675",
     "news_title": "9月29日港股收盘：恒指跌0.48% 恒生科技指数跌1.08%",
-    "rank": "2",
+    "rank": "8",
     "publish_time": 1790698220,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +98,7 @@
   {
     "news_id": "202609293886471659",
     "news_title": "9月29日涨停复盘：57只股涨停 新华传媒6连板",
-    "rank": "3",
+    "rank": "9",
     "publish_time": 1790698067,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +110,7 @@
   {
     "news_id": "202609293886441581",
     "news_title": "中美俄元首将于深圳APEC期间会晤？外交部回应",
-    "rank": "4",
+    "rank": "10",
     "publish_time": 1790695428,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +122,7 @@
   {
     "news_id": "202609293886440393",
     "news_title": "三星代工业务加速转向AI与HPC：目标2029年客户数量增长约四倍",
-    "rank": "5",
+    "rank": "11",
     "publish_time": 1790695059,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +134,7 @@
   {
     "news_id": "202609293886439890",
     "news_title": "科技部：重点做好6方面工作 推动科技强国建设不断迈上新台阶",
-    "rank": "6",
+    "rank": "12",
     "publish_time": 1790695055,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +146,7 @@
   {
     "news_id": "202609293886432192",
     "news_title": "贝恩揭露AI基建狂飙背后的现实困境：超4万亿美元收入缺口！",
-    "rank": "7",
+    "rank": "13",
     "publish_time": 1790694203,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +158,7 @@
   {
     "news_id": "202609293886431187",
     "news_title": "A股三大指数收涨 成交额仅1.42万亿创14个月地量 房地产板块大涨",
-    "rank": "8",
+    "rank": "14",
     "publish_time": 1790694050,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +170,7 @@
   {
     "news_id": "202609293886417354",
     "news_title": "14人袖珍团队、百亿美元估值！硅谷AI新神话诞生：Instinct",
-    "rank": "9",
+    "rank": "15",
     "publish_time": 1790692900,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +182,7 @@
   {
     "news_id": "202609293886417845",
     "news_title": "云深处更新招股书：上半年营收翻倍仍亏损 人形机器人成本降至15万元以下",
-    "rank": "10",
+    "rank": "16",
     "publish_time": 1790692624,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +194,7 @@
   {
     "news_id": "202609293886416128",
     "news_title": "中国气象局监测11月前后将形成超强厄尔尼诺事件",
-    "rank": "11",
+    "rank": "17",
     "publish_time": 1790692404,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +206,7 @@
   {
     "news_id": "202609293886404763",
     "news_title": "特朗普证实美伊举行间接谈判 称已与伊“交换信息”",
-    "rank": "12",
+    "rank": "18",
     "publish_time": 1790691323,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +218,7 @@
   {
     "news_id": "202609293886397121",
     "news_title": "国常会最新部署稳定房地产市场 后续政策将如何发力？",
-    "rank": "13",
+    "rank": "19",
     "publish_time": 1790690640,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +230,7 @@
   {
     "news_id": "202609293886395284",
     "news_title": "我国生成式人工智能用户规模突破7亿人！最新报告发布",
-    "rank": "14",
+    "rank": "20",
     "publish_time": 1790690324,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +242,7 @@
   {
     "news_id": "202609293886353955",
     "news_title": "国庆“红包”就在今天！1天赚8天利息 通用回购逆回购最佳时点来了",
-    "rank": "15",
+    "rank": "21",
     "publish_time": 1790687494,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +254,7 @@
   {
     "news_id": "202609293886341018",
     "news_title": "大举加仓！9月28日股票型ETF合计净流入超250亿元",
-    "rank": "16",
+    "rank": "22",
     "publish_time": 1790686320,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +266,7 @@
   {
     "news_id": "202609293886335476",
     "news_title": "中东冲突唯一赢家？沙特年度石油出口收入飙升至2100亿美元",
-    "rank": "17",
+    "rank": "23",
     "publish_time": 1790686208,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +278,7 @@
   {
     "news_id": "202609293886338989",
     "news_title": "恒瑞医药：将HRS-1596有偿许可给诺和 潜在总交易额最高可达26亿美元",
-    "rank": "18",
+    "rank": "24",
     "publish_time": 1790685150,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +290,7 @@
   {
     "news_id": "202609293886325494",
     "news_title": "《关于促进广播电视和网络视听公益广告高质量发展的意见》发布",
-    "rank": "19",
+    "rank": "25",
     "publish_time": 1790681872,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +302,7 @@
   {
     "news_id": "202609293886324319",
     "news_title": "创业板指上涨0.34% 两市半日缩量超2800亿 元件、电池板块走强",
-    "rank": "20",
+    "rank": "26",
     "publish_time": 1790681400,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +314,7 @@
   {
     "news_id": "202609293886104491",
     "news_title": "存储超级周期持续！美光财报前夕 超级多头重申2000美元目标价",
-    "rank": "21",
+    "rank": "27",
     "publish_time": 1790680765,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +326,7 @@
   {
     "news_id": "202609293886297198",
     "news_title": "中期选举脚步渐近！瑞银重磅报告：以史为鉴 美联储10月不会加息！",
-    "rank": "22",
+    "rank": "28",
     "publish_time": 1790679960,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +338,7 @@
   {
     "news_id": "202609293886290322",
     "news_title": "硅光集成芯片头部厂商羲禾科技科创板IPO进入问询阶段",
-    "rank": "23",
+    "rank": "29",
     "publish_time": 1790679240,
     "source": "东方财富",
     "news_type": 1,
@@ -278,80 +350,8 @@
   {
     "news_id": "202609293886286423",
     "news_title": "固态电池概念再度拉升 武汉蓝电30cm涨停",
-    "rank": "24",
-    "publish_time": 1790678981,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886285190",
-    "news_title": "PCB概念持续走高 迅捷兴等多股涨停",
-    "rank": "25",
-    "publish_time": 1790678777,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886281615",
-    "news_title": "六巨头高管云集！AI安全之争何去何从 周二白宫午餐会备受瞩目",
-    "rank": "26",
-    "publish_time": 1790678644,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886280472",
-    "news_title": "互联网金融板块震荡走高 大智慧涨停",
-    "rank": "27",
-    "publish_time": 1790678486,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886247266",
-    "news_title": "房地产板块持续走强 万科A涨停",
-    "rank": "28",
-    "publish_time": 1790676576,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886236857",
-    "news_title": "房地产板块持续拉升 万科A冲击涨停",
-    "rank": "29",
-    "publish_time": 1790676109,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609293886234676",
-    "news_title": "美联储加息是错误？穆迪首席再发警告：已对经济造成损害！",
     "rank": "30",
-    "publish_time": 1790675941,
+    "publish_time": 1790678981,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
