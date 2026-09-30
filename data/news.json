@@ -1,8 +1,44 @@
 [
   {
-    "news_id": "202609303887810676",
-    "news_title": "消息称苹果计划10月13日大力进军智能家居市场",
+    "news_id": "202609303887863941",
+    "news_title": "9月30日东方财富财经晚报（附新闻联播）",
     "rank": "1",
+    "publish_time": 1790802039,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609303887876873",
+    "news_title": "交易员减少了对美联储10月加息的押注",
+    "rank": "2",
+    "publish_time": 1790800718,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609303887859846",
+    "news_title": "宁德时代：拟推2026年第二期员工持股计划 受让价158.42元/股",
+    "rank": "3",
+    "publish_time": 1790798935,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202609303887810676",
+    "news_title": "古尔曼：苹果公司计划于10月13日大举进军智能家居市场",
+    "rank": "4",
     "publish_time": 1790793215,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +50,7 @@
   {
     "news_id": "202609303887690644",
     "news_title": "“双创指数”三季度创单季最大跌幅！电子、通信居行业跌幅榜前二",
-    "rank": "2",
+    "rank": "5",
     "publish_time": 1790783232,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +62,7 @@
   {
     "news_id": "202609303887678668",
     "news_title": "AI增长逻辑存在关键悖论！分析师接连质疑：巨额支出究竟谁买单？",
-    "rank": "3",
+    "rank": "6",
     "publish_time": 1790782213,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +74,7 @@
   {
     "news_id": "202609303887678322",
     "news_title": "油市大消息！高盛、小摩双双研判：中东石油出口接近战前水平",
-    "rank": "4",
+    "rank": "7",
     "publish_time": 1790782166,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +86,7 @@
   {
     "news_id": "202609303887667475",
     "news_title": "沪指收涨0.31% 医药股走强 半导体板块跌幅居前",
-    "rank": "5",
+    "rank": "8",
     "publish_time": 1790780435,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +98,7 @@
   {
     "news_id": "202609303887657844",
     "news_title": "以媒称以军机紧急升空应对预警客机",
-    "rank": "6",
+    "rank": "9",
     "publish_time": 1790779736,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +110,7 @@
   {
     "news_id": "202609303887647270",
     "news_title": "突然！抄底资金疯狂涌入！A股“老登”上演超级大反转",
-    "rank": "7",
+    "rank": "10",
     "publish_time": 1790779171,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +122,7 @@
   {
     "news_id": "202609303887630287",
     "news_title": "战术性看多！华尔街第一大行重新定调美股 今年预测“每发必中”",
-    "rank": "8",
+    "rank": "11",
     "publish_time": 1790778211,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +134,7 @@
   {
     "news_id": "202609303887623328",
     "news_title": "智能眼镜“影目科技”致歉：发热与第三方应用有关 国内用户不受影响 将持续完善内容生态安全机制",
-    "rank": "9",
+    "rank": "12",
     "publish_time": 1790776260,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +146,7 @@
   {
     "news_id": "202609303887609797",
     "news_title": "金地集团上演“地天板”",
-    "rank": "10",
+    "rank": "13",
     "publish_time": 1790775287,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +158,7 @@
   {
     "news_id": "202609303887589911",
     "news_title": "药明康德AH股午后均涨超5%",
-    "rank": "11",
+    "rank": "14",
     "publish_time": 1790773872,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +170,7 @@
   {
     "news_id": "202609303887565371",
     "news_title": "AI芯片红利爆发！韩国2026年国家税收有望创历史新高",
-    "rank": "12",
+    "rank": "15",
     "publish_time": 1790769960,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +182,7 @@
   {
     "news_id": "202609303887559171",
     "news_title": "沪指上涨0.27% 医药股走强 科技股跌幅居前",
-    "rank": "13",
+    "rank": "16",
     "publish_time": 1790767858,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +194,7 @@
   {
     "news_id": "202609303887556337",
     "news_title": "深物业A上演“地天板”",
-    "rank": "14",
+    "rank": "17",
     "publish_time": 1790767583,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +206,7 @@
   {
     "news_id": "202609303887554824",
     "news_title": "多位美联储官员释放加息信号 纽约联储主席称今年晚些时候加息或是合适的",
-    "rank": "15",
+    "rank": "18",
     "publish_time": 1790767440,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +218,7 @@
   {
     "news_id": "202609303887546768",
     "news_title": "“安然旧术”重现AI热潮！电影《大空头》原型警示“表外幽灵”风险",
-    "rank": "16",
+    "rank": "19",
     "publish_time": 1790766619,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +230,7 @@
   {
     "news_id": "202609303887546488",
     "news_title": "房地产板块日内震荡回升 中天服务直线涨停 万科A转涨",
-    "rank": "17",
+    "rank": "20",
     "publish_time": 1790766490,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +242,7 @@
   {
     "news_id": "202609303887492660",
     "news_title": "美联储古尔斯比：AI炒作过度或加剧通胀 忽视供给冲击无异于“玩火”！",
-    "rank": "18",
+    "rank": "21",
     "publish_time": 1790766406,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +254,7 @@
   {
     "news_id": "202609303887540168",
     "news_title": "华尔街屏息以待：美光财报可能会有惊喜？",
-    "rank": "19",
+    "rank": "22",
     "publish_time": 1790766193,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +266,7 @@
   {
     "news_id": "202609303887537022",
     "news_title": "恒生生物科技指数涨超4%",
-    "rank": "20",
+    "rank": "23",
     "publish_time": 1790765708,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +278,7 @@
   {
     "news_id": "202609303887532956",
     "news_title": "创新药、CRO概念持续走强 南模生物等多股涨停",
-    "rank": "21",
+    "rank": "24",
     "publish_time": 1790765332,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +290,7 @@
   {
     "news_id": "202609303887510634",
     "news_title": "海外AI制药持续催化 金斯瑞生物科技月内累涨超30%",
-    "rank": "22",
+    "rank": "25",
     "publish_time": 1790764020,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +302,7 @@
   {
     "news_id": "202609303887504277",
     "news_title": "美联储“最青睐通胀指标”今晚揭晓 会否巩固10月加息预期？",
-    "rank": "23",
+    "rank": "26",
     "publish_time": 1790763382,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +314,7 @@
   {
     "news_id": "202609303887502345",
     "news_title": "发改委：2026年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达",
-    "rank": "24",
+    "rank": "27",
     "publish_time": 1790763232,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +326,7 @@
   {
     "news_id": "202609303887478441",
     "news_title": "检察机关依法对易会满涉嫌受贿案提起公诉",
-    "rank": "25",
+    "rank": "28",
     "publish_time": 1790762445,
     "source": "东方财富",
     "news_type": 1,
@@ -302,7 +338,7 @@
   {
     "news_id": "202609303887472721",
     "news_title": "睡觉时也能炒股！“美国散户大本营”祭出新AI智能体工具",
-    "rank": "26",
+    "rank": "29",
     "publish_time": 1790762185,
     "source": "东方财富",
     "news_type": 1,
@@ -314,44 +350,8 @@
   {
     "news_id": "202609303887379136",
     "news_title": "创新药概念反复活跃 康希诺触及20cm涨停",
-    "rank": "27",
-    "publish_time": 1790761169,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609303887324382",
-    "news_title": "统计局：9月官方制造业PMI为50.1% 升至扩张区间",
-    "rank": "28",
-    "publish_time": 1790760616,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609303887111940",
-    "news_title": "张坤卸任易方达优质企业三年持有基金 将由张琦单独管理",
-    "rank": "29",
-    "publish_time": 1790758268,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202609303887071146",
-    "news_title": "“超级智能时代”正式起航？特朗普签署行政令 将AI更名为SI！",
     "rank": "30",
-    "publish_time": 1790756288,
+    "publish_time": 1790761169,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
