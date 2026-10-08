@@ -2,81 +2,23 @@
   "sections": [
     [
       {
-        "name": "视频媒体",
-        "changePct": "6.06",
+        "name": "蓄电池及其他电池",
+        "changePct": "5.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "医美耗材",
-        "changePct": "5.23",
+        "name": "锂电专用设备",
+        "changePct": "4.98",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "其他生物制品",
-        "changePct": "4.72",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "疫苗",
-        "changePct": "4.64",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "生物制品",
-        "changePct": "4.53",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "种子",
-        "changePct": "4.43",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "重组蛋白",
-        "changePct": "4.33",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板_含一字",
-        "changePct": "4.25",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "CRO",
-        "changePct": "3.8",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板",
+        "name": "焦炭Ⅲ",
         "changePct": "3.75",
         "turnoverRate": "0",
         "changePct5d": "0",
@@ -84,56 +26,31 @@
         "leadStock": "--"
       },
       {
-        "name": "反转股",
-        "changePct": "3.63",
+        "name": "焦炭Ⅱ",
+        "changePct": "3.75",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日打二板以上表现",
-        "changePct": "3.33",
+        "name": "油气及炼化工程",
+        "changePct": "3.71",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "油服工程",
+        "changePct": "3.5",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "医药生物",
-        "changePct": "2.03",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "619053.98",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "医疗服务",
-        "changePct": "3.09",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "260307.16",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "医疗研发外包",
-        "changePct": "4.22",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "222810.07",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    [],
+    []
   ]
 }
