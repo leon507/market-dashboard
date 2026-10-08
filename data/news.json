@@ -1,8 +1,80 @@
 [
   {
+    "news_id": "202610083889799261",
+    "news_title": "如何看待当前的AI泡沫？达利欧警告：泡沫接近破裂点 债务融资埋下隐患",
+    "rank": "1",
+    "publish_time": 1791487500,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610083889786016",
+    "news_title": "如何看待节后A股调整？机构：海外研报系假设推演",
+    "rank": "2",
+    "publish_time": 1791486571,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610083889785098",
+    "news_title": "美军突发！“准备大规模作战” 伊朗战事重启可能性增强",
+    "rank": "3",
+    "publish_time": 1791486383,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610083889765851",
+    "news_title": "工中建行齐创新高！银行已悄悄走出五年慢牛",
+    "rank": "4",
+    "publish_time": 1791484753,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610083889763375",
+    "news_title": "国庆消费大数据来了！铁路出行火了 票房却“冷静”了",
+    "rank": "5",
+    "publish_time": 1791484440,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610083889758913",
+    "news_title": "全固态电池迎重要时间节点！相关概念股梳理",
+    "rank": "6",
+    "publish_time": 1791483988,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202610083889745364",
     "news_title": "药明康德领衔！券商10月金股出炉 这些股最受青睐",
-    "rank": "1",
+    "rank": "7",
     "publish_time": 1791482630,
     "source": "东方财富",
     "news_type": 1,
@@ -13,8 +85,8 @@
   },
   {
     "news_id": "202610083889734044",
-    "news_title": "中国人民银行发布关于人民币汇率的政策立场",
-    "rank": "2",
+    "news_title": "央行阐明人民币汇率政策立场：中国从不搞竞争性货币贬值",
+    "rank": "8",
     "publish_time": 1791481871,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +98,7 @@
   {
     "news_id": "202610083889642326",
     "news_title": "10月8日港股收盘：恒指跌1.43% 恒生科技指数跌2.89%",
-    "rank": "3",
+    "rank": "9",
     "publish_time": 1791475848,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +110,7 @@
   {
     "news_id": "202610083889621367",
     "news_title": "“20cm”跌停 源杰科技回应：经营正常",
-    "rank": "4",
+    "rank": "10",
     "publish_time": 1791474942,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +122,7 @@
   {
     "news_id": "202610083889605485",
     "news_title": "霍尔木兹危机外溢？一艘油轮在波斯湾深处遭袭击 为约一个月来首次",
-    "rank": "5",
+    "rank": "11",
     "publish_time": 1791474123,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +134,7 @@
   {
     "news_id": "202610083889595632",
     "news_title": "10月8日涨停复盘：45只股涨停 新华传媒8连板",
-    "rank": "6",
+    "rank": "12",
     "publish_time": 1791473567,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +146,7 @@
   {
     "news_id": "202610083889585089",
     "news_title": "长光华芯：大摩相关报告非正式法规 国内800G/1.6T光芯片短期内仍极度紧缺",
-    "rank": "7",
+    "rank": "13",
     "publish_time": 1791472060,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +158,7 @@
   {
     "news_id": "202610083889582118",
     "news_title": "算力大单上演“纸面狂欢”！多数合同“爽约”",
-    "rank": "8",
+    "rank": "14",
     "publish_time": 1791471864,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +170,7 @@
   {
     "news_id": "202610083889577351",
     "news_title": "A股三大指数集体收跌 电池板块逆市走强",
-    "rank": "9",
+    "rank": "15",
     "publish_time": 1791471638,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +182,7 @@
   {
     "news_id": "202610083889574327",
     "news_title": "传闻引发光芯片概念板块大幅下跌 多家A股公司回应",
-    "rank": "10",
+    "rank": "16",
     "publish_time": 1791471042,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +194,7 @@
   {
     "news_id": "202610083889570237",
     "news_title": "一文读懂：美债“日日啼血” 美股缘何还能“夜夜笙歌”？",
-    "rank": "11",
+    "rank": "17",
     "publish_time": 1791470710,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +206,7 @@
   {
     "news_id": "202610083889565069",
     "news_title": "AI制药再获加码 谷歌系初创被曝洽谈新轮融资 估值至高可达500亿美元",
-    "rank": "12",
+    "rank": "18",
     "publish_time": 1791470458,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +218,7 @@
   {
     "news_id": "202610083889474124",
     "news_title": "台积电9月销售额5118.6亿元台币 同比增长54.6%",
-    "rank": "13",
+    "rank": "19",
     "publish_time": 1791466353,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +230,7 @@
   {
     "news_id": "202610083889461365",
     "news_title": "平均运行成本下降75%！Anthropic轻量级模型上新 瞄准智能体任务",
-    "rank": "14",
+    "rank": "20",
     "publish_time": 1791465485,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +242,7 @@
   {
     "news_id": "202610083889441839",
     "news_title": "炼油厂产能告急！高盛预警：柴油价格或将维持高位至2027年",
-    "rank": "15",
+    "rank": "21",
     "publish_time": 1791464829,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +254,7 @@
   {
     "news_id": "202610083889434867",
     "news_title": "风暴中的数采中心！能否生产高质量真实数据？“如果有 就算开10倍价格也愿意买”",
-    "rank": "16",
+    "rank": "22",
     "publish_time": 1791464280,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +266,7 @@
   {
     "news_id": "202610083889431473",
     "news_title": "“尊界V800刹车踏板支架断裂”冲上热搜 江淮汽车股价跌停",
-    "rank": "17",
+    "rank": "23",
     "publish_time": 1791463740,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +278,7 @@
   {
     "news_id": "202610083889434464",
     "news_title": "美媒：美军为再次大规模打击伊朗做准备",
-    "rank": "18",
+    "rank": "24",
     "publish_time": 1791463611,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +290,7 @@
   {
     "news_id": "202610083889433749",
     "news_title": "海外政策猜想引发光通信大跌！最新解读：影响可控",
-    "rank": "19",
+    "rank": "25",
     "publish_time": 1791463380,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +302,7 @@
   {
     "news_id": "202610083889431718",
     "news_title": "突然！36倍大牛股20%跌停！整条赛道崩跌 发生了什么？",
-    "rank": "20",
+    "rank": "26",
     "publish_time": 1791462120,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +314,7 @@
   {
     "news_id": "202610083889430969",
     "news_title": "光芯片板块大幅下挫 三家上市公司回应：未获悉降价相关消息",
-    "rank": "21",
+    "rank": "27",
     "publish_time": 1791462008,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +326,7 @@
   {
     "news_id": "202610083889421117",
     "news_title": "创业板指下跌2.13% 两市半日放量超1900亿 电池板块走强",
-    "rank": "22",
+    "rank": "28",
     "publish_time": 1791459016,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +338,7 @@
   {
     "news_id": "202610083889412113",
     "news_title": "美股Q3财报季将登场：标普500盈利料增近三成 英伟达美光“唱主角”",
-    "rank": "23",
+    "rank": "29",
     "publish_time": 1791458701,
     "source": "东方财富",
     "news_type": 1,
@@ -278,80 +350,8 @@
   {
     "news_id": "202610083889408898",
     "news_title": "今年262只基金清盘，发起式直面清盘压力，纯债也在风暴眼",
-    "rank": "24",
-    "publish_time": 1791458105,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889396581",
-    "news_title": "一篇报告引发CPO概念股集体重挫",
-    "rank": "25",
-    "publish_time": 1791457258,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889389210",
-    "news_title": "美联储加息冲击显露无疑？新兴市场9月遭遇外资“大撤离”",
-    "rank": "26",
-    "publish_time": 1791457046,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889357628",
-    "news_title": "2026年国庆档电影票房11.65亿元 国产影片占比78.7%",
-    "rank": "27",
-    "publish_time": 1791455565,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889356254",
-    "news_title": "银行板块震荡走强 中国银行、工商银行双双创历史新高",
-    "rank": "28",
-    "publish_time": 1791455440,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889340283",
-    "news_title": "固态电池概念持续走高 力王股份等近十股涨停",
-    "rank": "29",
-    "publish_time": 1791454713,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610083889244731",
-    "news_title": "上期所燃油主力合约暴涨16%",
     "rank": "30",
-    "publish_time": 1791453538,
+    "publish_time": 1791458105,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
