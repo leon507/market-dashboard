@@ -1,8 +1,44 @@
 [
   {
+    "news_id": "202610093891542998",
+    "news_title": "9月A股新开户191.19万户 同比下降35%",
+    "rank": "1",
+    "publish_time": 1791584482,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610093891522214",
+    "news_title": "商务部就美国召集部分经济体发布应对所谓“结构性产能和生产过剩”问题部长级联合声明答问",
+    "rank": "2",
+    "publish_time": 1791583275,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610093891445030",
+    "news_title": "天孚通信回应海外进出口政策限制传闻：目前相关政策未对光器件产品进行约束 不涉及对公司业务产生影响",
+    "rank": "3",
+    "publish_time": 1791577909,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202610093891390767",
     "news_title": "锂精矿出口禁令临近 全球第四大锂生产国重申不会延期",
-    "rank": "1",
+    "rank": "4",
     "publish_time": 1791573478,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +50,7 @@
   {
     "news_id": "202610093891382035",
     "news_title": "中欧贸易投资磋商机制第二次例会联合声明",
-    "rank": "2",
+    "rank": "5",
     "publish_time": 1791573127,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +62,7 @@
   {
     "news_id": "202610093891361688",
     "news_title": "3000点失而复得 创业板回调结束了吗？",
-    "rank": "3",
+    "rank": "6",
     "publish_time": 1791569908,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +74,7 @@
   {
     "news_id": "202610093891361095",
     "news_title": "2029年之前产能已卖光！光芯片概念梳理",
-    "rank": "4",
+    "rank": "7",
     "publish_time": 1791569729,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +86,7 @@
   {
     "news_id": "202610093891353440",
     "news_title": "中共中央、国务院：将符合国家战略需求的企业研发项目按程序上升为国家项目",
-    "rank": "5",
+    "rank": "8",
     "publish_time": 1791569258,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +98,7 @@
   {
     "news_id": "202610093891348451",
     "news_title": "中共中央、国务院印发《关于发展新质生产力的意见》",
-    "rank": "6",
+    "rank": "9",
     "publish_time": 1791568868,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +110,7 @@
   {
     "news_id": "202610093891348276",
     "news_title": "景旺电子：第三季度净利润同比预增205%-265%",
-    "rank": "7",
+    "rank": "10",
     "publish_time": 1791568601,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +122,7 @@
   {
     "news_id": "202610093891345268",
     "news_title": "时隔12年 公募基金运作办法修订 十大亮点看变化 多举措支持逆周期布局",
-    "rank": "8",
+    "rank": "11",
     "publish_time": 1791568573,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +134,7 @@
   {
     "news_id": "202610093891343951",
     "news_title": "证监会严管“窄基漂移”和“宽基窄投”",
-    "rank": "9",
+    "rank": "12",
     "publish_time": 1791568380,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +146,7 @@
   {
     "news_id": "202610093891343569",
     "news_title": "降至5000万元 权益类基金成立门槛拟下调",
-    "rank": "10",
+    "rank": "13",
     "publish_time": 1791568347,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +158,7 @@
   {
     "news_id": "202610093891342061",
     "news_title": "证监会就《公开募集证券投资基金运作管理办法》及配套规则征求意见",
-    "rank": "11",
+    "rank": "14",
     "publish_time": 1791568177,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +170,7 @@
   {
     "news_id": "202610093891306472",
     "news_title": "SK海力士押注需求增长 拟加速光州半导体集群的建设",
-    "rank": "12",
+    "rank": "15",
     "publish_time": 1791565603,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +182,7 @@
   {
     "news_id": "202610093891292744",
     "news_title": "中国巨石：预计前三季度净利润同比增长100%-110%",
-    "rank": "13",
+    "rank": "16",
     "publish_time": 1791563946,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +194,7 @@
   {
     "news_id": "202610093891273879",
     "news_title": "英特尔战略奏效：英伟达或将采用其Foveros封装技术",
-    "rank": "14",
+    "rank": "17",
     "publish_time": 1791562650,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +206,7 @@
   {
     "news_id": "202610093891264952",
     "news_title": "10月9日港股收盘：恒指涨1.79% 恒生科技指数涨3.06%",
-    "rank": "15",
+    "rank": "18",
     "publish_time": 1791562248,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +218,7 @@
   {
     "news_id": "202610093891250429",
     "news_title": "尊界刹车踏板供应商指向凯众股份？公司回应：江淮是客户但体量很小",
-    "rank": "16",
+    "rank": "19",
     "publish_time": 1791560318,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +230,7 @@
   {
     "news_id": "202610093891239435",
     "news_title": "10月9日涨停复盘：72只股涨停 新华传媒9连板",
-    "rank": "17",
+    "rank": "20",
     "publish_time": 1791560145,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +242,7 @@
   {
     "news_id": "202610093891239325",
     "news_title": "财政部安排使用5500亿元地方政府债务结存限额",
-    "rank": "18",
+    "rank": "21",
     "publish_time": 1791560099,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +254,7 @@
   {
     "news_id": "202610093891237719",
     "news_title": "财政部：有力有效实施更加积极的财政政策 支持全方位扩大国内需求 推动科技创新和产业创新",
-    "rank": "19",
+    "rank": "22",
     "publish_time": 1791559939,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +266,7 @@
   {
     "news_id": "202610093891233764",
     "news_title": "中美官员讨论互访核设施？外交部：与事实不符",
-    "rank": "20",
+    "rank": "23",
     "publish_time": 1791559633,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +278,7 @@
   {
     "news_id": "202610093891225151",
     "news_title": "2026年国庆节假期国内出游8.26亿人次",
-    "rank": "21",
+    "rank": "24",
     "publish_time": 1791558091,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +290,7 @@
   {
     "news_id": "202610093891224941",
     "news_title": "A股三大指数探底回升 成交额超1.9万亿 传媒板块掀涨停潮",
-    "rank": "22",
+    "rank": "25",
     "publish_time": 1791558021,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +302,7 @@
   {
     "news_id": "202610093891224796",
     "news_title": "AI热潮显现割裂局势？“超级大空头”：这一指标酷似亚洲金融危机前夕！",
-    "rank": "23",
+    "rank": "26",
     "publish_time": 1791557893,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +314,7 @@
   {
     "news_id": "202610093891220186",
     "news_title": "美债高收益率吸引机构投资者买入 欧债正酝酿下一轮债市动荡？",
-    "rank": "24",
+    "rank": "27",
     "publish_time": 1791557671,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +326,7 @@
   {
     "news_id": "202610093891219842",
     "news_title": "一字锁仓与风险提示同台：固态电池概念的“纯度检验”",
-    "rank": "25",
+    "rank": "28",
     "publish_time": 1791557490,
     "source": "东方财富",
     "news_type": 1,
@@ -302,7 +338,7 @@
   {
     "news_id": "202610093891181482",
     "news_title": "OpenAI数学突破震惊币圈：密码学危机在量子时代前就将上演？",
-    "rank": "26",
+    "rank": "29",
     "publish_time": 1791555767,
     "source": "东方财富",
     "news_type": 1,
@@ -314,44 +350,8 @@
   {
     "news_id": "202610093891166644",
     "news_title": "传媒板块涨势扩大 中文在线等十余股涨停",
-    "rank": "27",
-    "publish_time": 1791555276,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610093891162818",
-    "news_title": "北证50指数涨幅扩大至2%",
-    "rank": "28",
-    "publish_time": 1791555173,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610093891160727",
-    "news_title": "宽基ETF持续放量回升 多只双创ETF冲高翻红",
-    "rank": "29",
-    "publish_time": 1791554948,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610093891151356",
-    "news_title": "三大指数全部翻红",
     "rank": "30",
-    "publish_time": 1791554832,
+    "publish_time": 1791555276,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
