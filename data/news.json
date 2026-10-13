@@ -1,8 +1,44 @@
 [
   {
+    "news_id": "202610133894292025",
+    "news_title": "海外版红果爆火！一图看懂字节的商业帝国",
+    "rank": "1",
+    "publish_time": 1791919121,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610133894277926",
+    "news_title": "香港证监会回应：针对严重失当行为采取有效行动 有助巩固市场信心",
+    "rank": "2",
+    "publish_time": 1791918676,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610133894250166",
+    "news_title": "A股“股王”再易主！光模块“卖铲人”梳理",
+    "rank": "3",
+    "publish_time": 1791915541,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202610133894242896",
     "news_title": "重庆市委原副书记、市政府原市长黄奇帆被查",
-    "rank": "1",
+    "rank": "4",
     "publish_time": 1791914405,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +50,7 @@
   {
     "news_id": "202610133894226084",
     "news_title": "科技股回调谁在卖出？受访险资重申“长钱长投” 不对短期市场波动作评价",
-    "rank": "2",
+    "rank": "5",
     "publish_time": 1791913374,
     "source": "东方财富",
     "news_type": 1,
@@ -26,8 +62,20 @@
   {
     "news_id": "202610133894215678",
     "news_title": "10月13日涨停复盘：70只股涨停 澳弘电子17天10板",
-    "rank": "3",
+    "rank": "6",
     "publish_time": 1791912468,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202610133894203693",
+    "news_title": "10万亿“沉睡”公积金正在激活 各地新政密集落地",
+    "rank": "7",
+    "publish_time": 1791910505,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
@@ -38,7 +86,7 @@
   {
     "news_id": "202610133894178442",
     "news_title": "茶百道因涉嫌IPO操纵 被香港证监会暂停股份交易",
-    "rank": "4",
+    "rank": "8",
     "publish_time": 1791909186,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +98,7 @@
   {
     "news_id": "202610133894154622",
     "news_title": "10月13日港股收盘：恒指涨0.3% 恒生科技指数跌0.79%",
-    "rank": "5",
+    "rank": "9",
     "publish_time": 1791907809,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +110,7 @@
   {
     "news_id": "202610133894153818",
     "news_title": "软通动力删除“到货英伟达8000张GPU”相关公众号推文 公司最新回应",
-    "rank": "6",
+    "rank": "10",
     "publish_time": 1791907497,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +122,7 @@
   {
     "news_id": "202610133894141237",
     "news_title": "韩资逆势加仓中国硬科技 创业板ETF、中际旭创等获净买入",
-    "rank": "7",
+    "rank": "11",
     "publish_time": 1791906714,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +134,7 @@
   {
     "news_id": "202610133894115612",
     "news_title": "黄金何时触底反弹？美银：关注三大信号 Q4均价料在4000美元",
-    "rank": "8",
+    "rank": "12",
     "publish_time": 1791903926,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +146,7 @@
   {
     "news_id": "202610133894110332",
     "news_title": "A股三大指数震荡整理 电子元件板块掀涨停潮",
-    "rank": "9",
+    "rank": "13",
     "publish_time": 1791903631,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +158,7 @@
   {
     "news_id": "202610133894108592",
     "news_title": "梁文锋拟再投一家机器人公司",
-    "rank": "10",
+    "rank": "14",
     "publish_time": 1791903480,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +170,7 @@
   {
     "news_id": "202610133894107832",
     "news_title": "暴涨近10倍！全球硫磺争夺战白热化",
-    "rank": "11",
+    "rank": "15",
     "publish_time": 1791903348,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +182,7 @@
   {
     "news_id": "202610133894102373",
     "news_title": "东方财富证券陈果：年底双创板块有望迎来可观反弹",
-    "rank": "12",
+    "rank": "16",
     "publish_time": 1791902861,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +194,7 @@
   {
     "news_id": "202610133894095468",
     "news_title": "外交部：中国经济基本面是好的 对中国经济发展有信心",
-    "rank": "13",
+    "rank": "17",
     "publish_time": 1791901929,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +206,7 @@
   {
     "news_id": "202610133894093543",
     "news_title": "日韩股市集体收跌 韩国综指收盘跌超5% SK海力士跌超10%",
-    "rank": "14",
+    "rank": "18",
     "publish_time": 1791901923,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +218,7 @@
   {
     "news_id": "202610133894007741",
     "news_title": "AI助力产品研发！美国半导体设备龙头：未来几年营收将翻倍",
-    "rank": "15",
+    "rank": "19",
     "publish_time": 1791901344,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +230,7 @@
   {
     "news_id": "202610133894070626",
     "news_title": "习近平出席全国卫生与健康大会并发表重要讲话",
-    "rank": "16",
+    "rank": "20",
     "publish_time": 1791900068,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +242,7 @@
   {
     "news_id": "202610133894051653",
     "news_title": "高盛：AI改写中国股市格局",
-    "rank": "17",
+    "rank": "21",
     "publish_time": 1791899007,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +254,7 @@
   {
     "news_id": "202610133894042289",
     "news_title": "创业板指涨幅扩大至1% 上涨个股近3800只",
-    "rank": "18",
+    "rank": "22",
     "publish_time": 1791898322,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +266,7 @@
   {
     "news_id": "202610133894033451",
     "news_title": "新剑传动回复问询函称“特斯拉机器人方案接近定型，即将量产”",
-    "rank": "19",
+    "rank": "23",
     "publish_time": 1791898193,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +278,7 @@
   {
     "news_id": "202610133894010721",
     "news_title": "CPO概念震荡反弹 华盛昌涨停",
-    "rank": "20",
+    "rank": "24",
     "publish_time": 1791897434,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +290,7 @@
   {
     "news_id": "202610133894009560",
     "news_title": "恒生指数翻红 此前盘中跌超1%",
-    "rank": "21",
+    "rank": "25",
     "publish_time": 1791897314,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +302,7 @@
   {
     "news_id": "202610133894008792",
     "news_title": "宽基ETF显著放量成交",
-    "rank": "22",
+    "rank": "26",
     "publish_time": 1791897237,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +314,7 @@
   {
     "news_id": "202610133894004347",
     "news_title": "创业板指翻红 早盘一度跌近3.5%",
-    "rank": "23",
+    "rank": "27",
     "publish_time": 1791897037,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +326,7 @@
   {
     "news_id": "202610133893996628",
     "news_title": "沪指午后翻红 PCB领涨市场",
-    "rank": "24",
+    "rank": "28",
     "publish_time": 1791896821,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +338,7 @@
   {
     "news_id": "202610133893991644",
     "news_title": "PCB概念持续走高 近十只成分股涨停",
-    "rank": "25",
+    "rank": "29",
     "publish_time": 1791896731,
     "source": "东方财富",
     "news_type": 1,
@@ -302,56 +350,8 @@
   {
     "news_id": "202610133893969154",
     "news_title": "中国汽研回应尊界V800检测报告",
-    "rank": "26",
-    "publish_time": 1791896341,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610133893968848",
-    "news_title": "多晶硅价格累计反弹超三成 头部企业锚定4.3万元/吨成本线",
-    "rank": "27",
-    "publish_time": 1791895939,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610133893957550",
-    "news_title": "微软宣布史上最大自研芯片押注 市值重回4万亿美元",
-    "rank": "28",
-    "publish_time": 1791895812,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610133893952031",
-    "news_title": "800亿才是入围线 幻方、九坤、明汯、鸣石、世纪前沿、衍复“量化六小龙”正重新刻画头部",
-    "rank": "29",
-    "publish_time": 1791895501,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202610133893967262",
-    "news_title": "懂车帝测试人回应尊界刹车检测结果：静态加载与动态加载不一样",
     "rank": "30",
-    "publish_time": 1791895117,
+    "publish_time": 1791896341,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
