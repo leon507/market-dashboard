@@ -2,138 +2,55 @@
   "sections": [
     [
       {
-        "name": "其他数字媒体",
-        "changePct": "11.94",
+        "name": "视频媒体",
+        "changePct": "6.83",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "印制电路板",
-        "changePct": "6.08",
+        "name": "文字媒体",
+        "changePct": "6.73",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "纺织化学制品",
-        "changePct": "5.43",
+        "name": "油气及炼化工程",
+        "changePct": "3.01",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "元件",
-        "changePct": "4.77",
+        "name": "油气开采Ⅲ",
+        "changePct": "2.97",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "地面兵装Ⅲ",
-        "changePct": "4.54",
+        "name": "油气开采Ⅱ",
+        "changePct": "2.97",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "地面兵装Ⅱ",
-        "changePct": "4.54",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "冰雪经济",
-        "changePct": "3.31",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "2025三季报预减",
-        "changePct": "2.89",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "氦气概念",
-        "changePct": "2.86",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "裸眼3D",
-        "changePct": "2.65",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "退税商店",
-        "changePct": "2.58",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "航天航空",
-        "changePct": "2.51",
+        "name": "大众出版",
+        "changePct": "2.96",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "印制电路板",
-        "changePct": "6.08",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "208775.45",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "集成电路制造",
-        "changePct": "-0.57",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "205216.02",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "国防军工",
-        "changePct": "2.53",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "193294.12",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    [],
+    []
   ]
 }
