@@ -2,40 +2,16 @@
   "sections": [
     [
       {
-        "name": "视频媒体",
-        "changePct": "6.83",
+        "name": "卫浴电器",
+        "changePct": "4.57",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "文字媒体",
-        "changePct": "6.73",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "油气及炼化工程",
-        "changePct": "3.01",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "油气开采Ⅲ",
-        "changePct": "2.97",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "油气开采Ⅱ",
-        "changePct": "2.97",
+        "name": "纺织鞋类制造",
+        "changePct": "3.38",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -43,7 +19,31 @@
       },
       {
         "name": "大众出版",
-        "changePct": "2.96",
+        "changePct": "1.37",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "电信运营商",
+        "changePct": "1.11",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "白酒Ⅲ",
+        "changePct": "1.03",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "白酒Ⅱ",
+        "changePct": "1.03",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
