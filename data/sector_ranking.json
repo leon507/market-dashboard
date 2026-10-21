@@ -2,55 +2,138 @@
   "sections": [
     [
       {
+        "name": "广告媒体",
+        "changePct": "6.85",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
         "name": "其他数字媒体",
-        "changePct": "13.62",
+        "changePct": "6.61",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "诊断服务",
-        "changePct": "9.53",
+        "name": "生猪养殖",
+        "changePct": "3.79",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "燃料电池",
-        "changePct": "6.08",
+        "name": "电视广播Ⅲ",
+        "changePct": "3.26",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "医美耗材",
-        "changePct": "5.87",
+        "name": "电视广播Ⅱ",
+        "changePct": "3.26",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "汽车综合服务",
-        "changePct": "4.68",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "卫浴电器",
-        "changePct": "4.63",
+        "name": "大众出版",
+        "changePct": "3.15",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [],
-    []
+    [
+      {
+        "name": "昨日首板",
+        "changePct": "3.25",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "DRG/DIP",
+        "changePct": "3.25",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日涨停_含一字",
+        "changePct": "3.17",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "题材股",
+        "changePct": "2.86",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日涨停",
+        "changePct": "2.8",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日连板",
+        "changePct": "2.63",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
+      {
+        "name": "电子",
+        "changePct": "0.29",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "583467.49",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "数字芯片设计",
+        "changePct": "0.91",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "261815.63",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "元件",
+        "changePct": "-0.63",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "196784.28",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
