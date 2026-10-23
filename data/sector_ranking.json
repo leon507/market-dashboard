@@ -50,56 +50,7 @@
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "反转股",
-        "changePct": "8.1",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "2026三季报首亏",
-        "changePct": "6.58",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "PLC概念",
-        "changePct": "6.14",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "机器人执行器",
-        "changePct": "5.92",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "3D摄像头",
-        "changePct": "5.85",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "MLOps概念",
-        "changePct": "5.45",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
+    [],
     []
   ]
 }
