@@ -2,104 +2,55 @@
   "sections": [
     [
       {
-        "name": "会展服务",
-        "changePct": "3.37",
+        "name": "文字媒体",
+        "changePct": "8.91",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "百货",
-        "changePct": "2.42",
+        "name": "模拟芯片设计",
+        "changePct": "6.07",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "粘胶",
-        "changePct": "2.35",
+        "name": "航天装备Ⅲ",
+        "changePct": "5.52",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "纺织鞋类制造",
-        "changePct": "2.31",
+        "name": "航天装备Ⅱ",
+        "changePct": "5.52",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "多业态零售",
-        "changePct": "1.82",
+        "name": "医疗研发外包",
+        "changePct": "5.4",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "股份制银行Ⅲ",
-        "changePct": "1.61",
+        "name": "其他自动化设备",
+        "changePct": "5.33",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "轮毂电机",
-        "changePct": "2.43",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日首板",
-        "changePct": "1.58",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日涨停_含一字",
-        "changePct": "1.26",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "退税商店",
-        "changePct": "0.99",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板_含一字",
-        "changePct": "0.83",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日涨停",
-        "changePct": "0.54",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
+    [],
     []
   ]
 }
