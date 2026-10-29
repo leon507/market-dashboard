@@ -2,16 +2,8 @@
   "sections": [
     [
       {
-        "name": "文字媒体",
-        "changePct": "8.91",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "模拟芯片设计",
-        "changePct": "6.07",
+        "name": "纺织鞋类制造",
+        "changePct": "6.17",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -19,7 +11,7 @@
       },
       {
         "name": "航天装备Ⅲ",
-        "changePct": "5.52",
+        "changePct": "3.54",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -27,23 +19,31 @@
       },
       {
         "name": "航天装备Ⅱ",
-        "changePct": "5.52",
+        "changePct": "3.54",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "医疗研发外包",
-        "changePct": "5.4",
+        "name": "院线",
+        "changePct": "3.37",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "其他自动化设备",
-        "changePct": "5.33",
+        "name": "核力发电",
+        "changePct": "2.91",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "城商行Ⅲ",
+        "changePct": "2.65",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
