@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "白酒Ⅲ",
-        "changePct": "5.15",
+        "name": "视频媒体",
+        "changePct": "20.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "白酒Ⅱ",
-        "changePct": "5.15",
+        "name": "教育运营及其他",
+        "changePct": "13.51",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "纺织鞋类制造",
-        "changePct": "3.87",
+        "name": "文字媒体",
+        "changePct": "11.69",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "综合电商",
-        "changePct": "3.51",
+        "name": "图片媒体",
+        "changePct": "9.99",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "医疗研发外包",
-        "changePct": "3.37",
+        "name": "数字媒体",
+        "changePct": "9.75",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "零食",
-        "changePct": "2.74",
+        "name": "影视动漫制作",
+        "changePct": "9.71",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,54 +52,88 @@
     ],
     [
       {
-        "name": "酿酒概念",
-        "changePct": "2.74",
+        "name": "AI视频",
+        "changePct": "10.58",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "CRO",
-        "changePct": "1.97",
+        "name": "短剧互动游戏",
+        "changePct": "8.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "白酒",
-        "changePct": "1.85",
+        "name": "Kimi概念",
+        "changePct": "8.28",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "超级品牌",
-        "changePct": "1.28",
+        "name": "数据确权",
+        "changePct": "7.84",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "减肥药",
-        "changePct": "1.17",
+        "name": "影视概念",
+        "changePct": "7.83",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "CAR-T细胞疗法",
-        "changePct": "1.0",
+        "name": "Web3.0",
+        "changePct": "7.83",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    []
+    [
+      {
+        "name": "传媒",
+        "changePct": "8.49",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "554890.04",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "电子",
+        "changePct": "2.72",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "531871.87",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体",
+        "changePct": "2.77",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "460765.03",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
