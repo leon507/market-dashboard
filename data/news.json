@@ -1,9 +1,33 @@
 [
   {
+    "news_id": "202611033920395123",
+    "news_title": "10月A股新开户150.06万户 前10个月已累计新开2862.65万户",
+    "rank": "1",
+    "publish_time": 1793732654,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202611033920358435",
     "news_title": "中期选举将至 一图速览选后美股表现",
-    "rank": "1",
+    "rank": "2",
     "publish_time": 1793730440,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611033920369514",
+    "news_title": "外交部回应“英伟达要求其合作伙伴必须将至少51％的服务提供给非中国企业”有关报道",
+    "rank": "3",
+    "publish_time": 1793730131,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
@@ -14,7 +38,7 @@
   {
     "news_id": "202611033920349521",
     "news_title": "2027或迎量产元年！固态电池逆势活跃",
-    "rank": "2",
+    "rank": "4",
     "publish_time": 1793729182,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +50,7 @@
   {
     "news_id": "202611033920338151",
     "news_title": "佩斯科夫：俄美乌三方会谈11月10日至11日将在阿布扎比举行",
-    "rank": "3",
+    "rank": "5",
     "publish_time": 1793727937,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +62,7 @@
   {
     "news_id": "202611033920336892",
     "news_title": "转机将现！关键时刻 中信证券重磅发声：这是中国资产最硬的底气",
-    "rank": "4",
+    "rank": "6",
     "publish_time": 1793727722,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +74,7 @@
   {
     "news_id": "202611033920330271",
     "news_title": "国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑",
-    "rank": "5",
+    "rank": "7",
     "publish_time": 1793727340,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +86,7 @@
   {
     "news_id": "202611033920292035",
     "news_title": "6股领衔！券商11月金股出炉 这些股最受青睐",
-    "rank": "6",
+    "rank": "8",
     "publish_time": 1793724435,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +98,7 @@
   {
     "news_id": "202611033920254421",
     "news_title": "11月3日涨停复盘：52只股涨停 东方海洋10天6板",
-    "rank": "7",
+    "rank": "9",
     "publish_time": 1793722611,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +110,7 @@
   {
     "news_id": "202611033920247959",
     "news_title": "11月3日港股收盘：恒指涨0.57% 恒生科技指数涨0.74%",
-    "rank": "8",
+    "rank": "10",
     "publish_time": 1793722209,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +122,7 @@
   {
     "news_id": "202611033920241759",
     "news_title": "年内涨超40%！蒙牛凭什么成为“最强消费牛股”？",
-    "rank": "9",
+    "rank": "11",
     "publish_time": 1793721815,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +134,7 @@
   {
     "news_id": "202611033920221638",
     "news_title": "南向资金净买入额达200亿港元",
-    "rank": "10",
+    "rank": "12",
     "publish_time": 1793720090,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +146,7 @@
   {
     "news_id": "202611033920210073",
     "news_title": "大摩CEO：未来十年AI资本支出或高达15万亿美元！",
-    "rank": "11",
+    "rank": "13",
     "publish_time": 1793719913,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +158,7 @@
   {
     "news_id": "202611033920210816",
     "news_title": "中方是否担心美中期选举后军事打击伊朗？外交部回应",
-    "rank": "12",
+    "rank": "14",
     "publish_time": 1793719616,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +170,7 @@
   {
     "news_id": "202611033920209959",
     "news_title": "广东：鼓励上市公司建立健全常态化分红机制 强化国有控股上市公司市值管理",
-    "rank": "13",
+    "rank": "15",
     "publish_time": 1793719344,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +182,7 @@
   {
     "news_id": "202611033920200773",
     "news_title": "Marvell与Lumentum合并难改光通信产业格局 中国光模块封装优势依然稳固",
-    "rank": "14",
+    "rank": "16",
     "publish_time": 1793719020,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +194,7 @@
   {
     "news_id": "202611033920191875",
     "news_title": "A股三大指数集体收跌 保险与稀土板块逆市走强",
-    "rank": "15",
+    "rank": "17",
     "publish_time": 1793718039,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +206,7 @@
   {
     "news_id": "202611033920189032",
     "news_title": "生肖行情再现 多只羊年概念股涨停！专家提醒切勿跟风炒作",
-    "rank": "16",
+    "rank": "18",
     "publish_time": 1793717880,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +218,7 @@
   {
     "news_id": "202611033920179327",
     "news_title": "创纪录抄底资金遭“闷杀” 美股半导体杠杆ETF已成多头“绞肉机”？",
-    "rank": "17",
+    "rank": "19",
     "publish_time": 1793717776,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +230,7 @@
   {
     "news_id": "202611033920183324",
     "news_title": "宽基ETF总成交额超1700亿 同日6只宽基ETF成交破百亿",
-    "rank": "18",
+    "rank": "20",
     "publish_time": 1793717501,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +242,7 @@
   {
     "news_id": "202611033920175754",
     "news_title": "多只宽基ETF成交持续放量",
-    "rank": "19",
+    "rank": "21",
     "publish_time": 1793717015,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +254,7 @@
   {
     "news_id": "202611033920171295",
     "news_title": "南向资金净买入额达150亿港元",
-    "rank": "20",
+    "rank": "22",
     "publish_time": 1793716719,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +266,7 @@
   {
     "news_id": "202611033920166613",
     "news_title": "上证50指数尾盘翻红",
-    "rank": "21",
+    "rank": "23",
     "publish_time": 1793716635,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +278,7 @@
   {
     "news_id": "202611033920156072",
     "news_title": "国芯训练国模！DeepSeek下一代大模型计划用昇腾芯片训练",
-    "rank": "22",
+    "rank": "24",
     "publish_time": 1793716048,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +290,7 @@
   {
     "news_id": "202611033920148283",
     "news_title": "924行情后首次！同日4只宽基ETF成交破百亿",
-    "rank": "23",
+    "rank": "25",
     "publish_time": 1793715429,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +302,7 @@
   {
     "news_id": "202611033920126126",
     "news_title": "近五年首次上调外汇存准率！央行罕见出手 专家解读",
-    "rank": "24",
+    "rank": "26",
     "publish_time": 1793715210,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +314,7 @@
   {
     "news_id": "202611033920089461",
     "news_title": "金银市场重现2008年流动性踩踏？分析师：“10月重创”背后是抄底良机！",
-    "rank": "25",
+    "rank": "27",
     "publish_time": 1793715000,
     "source": "东方财富",
     "news_type": 1,
@@ -302,7 +326,7 @@
   {
     "news_id": "202611033919991210",
     "news_title": "摩根大通副董事长：AI板块估值仍高 预计将出现回调",
-    "rank": "26",
+    "rank": "28",
     "publish_time": 1793709939,
     "source": "东方财富",
     "news_type": 1,
@@ -314,7 +338,7 @@
   {
     "news_id": "202611033919988816",
     "news_title": "央行开展证券、基金、保险公司互换便利操作 中标费率为10bp",
-    "rank": "27",
+    "rank": "29",
     "publish_time": 1793709247,
     "source": "东方财富",
     "news_type": 1,
@@ -326,32 +350,8 @@
   {
     "news_id": "202611033919988520",
     "news_title": "“一天亏了一个月的收益” 债市波动逐渐触达理财客户 机构：市场已企稳 未现大面积赎回",
-    "rank": "28",
-    "publish_time": 1793708678,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611033919975676",
-    "news_title": "再被海外投行调低盈利预期 光模块龙头股价应声大跌",
-    "rank": "29",
-    "publish_time": 1793705505,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611033919976950",
-    "news_title": "沪指下跌0.71% 电池板块走强 科技股跌幅居前",
     "rank": "30",
-    "publish_time": 1793705401,
+    "publish_time": 1793708678,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
