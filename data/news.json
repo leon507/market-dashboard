@@ -1,8 +1,32 @@
 [
   {
+    "news_id": "202611043922275151",
+    "news_title": "道琼斯指数期货持续走高 涨幅超过2%",
+    "rank": "1",
+    "publish_time": 1793830051,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611043922256630",
+    "news_title": "IPO要暂停了？一线求证：并非“一刀切”",
+    "rank": "2",
+    "publish_time": 1793828956,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202611043922205516",
     "news_title": "美国10月ADP就业人数增加8.6万人 高于市场预期",
-    "rank": "1",
+    "rank": "3",
     "publish_time": 1793826935,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +38,7 @@
   {
     "news_id": "202611043922176865",
     "news_title": "近20家A股公司掀“回购潮” 最高拟回购10亿元",
-    "rank": "2",
+    "rank": "4",
     "publish_time": 1793824877,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +50,7 @@
   {
     "news_id": "202611043922153923",
     "news_title": "利好来了！多家券商官宣！近600亿资金已到位",
-    "rank": "3",
+    "rank": "5",
     "publish_time": 1793824266,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +62,7 @@
   {
     "news_id": "202611043922075069",
     "news_title": "王兴兴最新发声！机器人概念集体走强",
-    "rank": "4",
+    "rank": "6",
     "publish_time": 1793817368,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +74,7 @@
   {
     "news_id": "202611043922074040",
     "news_title": "国家发改委等5部门印发《实施全面节约战略行动方案》",
-    "rank": "5",
+    "rank": "7",
     "publish_time": 1793817206,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +86,7 @@
   {
     "news_id": "202611043922056879",
     "news_title": "10月DRAM价格再创新高！机构：四季度涨价态势延续",
-    "rank": "6",
+    "rank": "8",
     "publish_time": 1793816099,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +98,7 @@
   {
     "news_id": "202611043922031318",
     "news_title": "今日为何大涨？多家公募共识：前期调整已较为充分",
-    "rank": "7",
+    "rank": "9",
     "publish_time": 1793813652,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +110,7 @@
   {
     "news_id": "202611043922002198",
     "news_title": "央行：11月5日将开展3000亿元买断式逆回购操作",
-    "rank": "8",
+    "rank": "10",
     "publish_time": 1793811605,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +122,7 @@
   {
     "news_id": "202611043921956458",
     "news_title": "11月4日港股收盘：恒指涨1.67% 恒生科技指数涨1.77%",
-    "rank": "9",
+    "rank": "11",
     "publish_time": 1793808616,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +134,7 @@
   {
     "news_id": "202611043921936912",
     "news_title": "11月4日涨停复盘：121只股涨停 金安国纪6天3板",
-    "rank": "10",
+    "rank": "12",
     "publish_time": 1793807383,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +146,7 @@
   {
     "news_id": "202611043921917883",
     "news_title": "中期选举会否让中美关系出现新可能性？外交部：愿同美方共同落实好两国元首重要共识",
-    "rank": "11",
+    "rank": "13",
     "publish_time": 1793806130,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +158,7 @@
   {
     "news_id": "202611043921917081",
     "news_title": "宇树王兴兴：明年大概率是机器人行业的临界点",
-    "rank": "12",
+    "rank": "14",
     "publish_time": 1793806055,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +170,7 @@
   {
     "news_id": "202611043921915565",
     "news_title": "中美俄正致力于安排三国元首APEC会晤？外交部：就此与相关方保持着沟通",
-    "rank": "13",
+    "rank": "15",
     "publish_time": 1793805940,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +182,7 @@
   {
     "news_id": "202611043921910476",
     "news_title": "比亚迪辟谣“天神之眼智驾方案更换及停产”：不实信息 坚持全栈自研",
-    "rank": "14",
+    "rank": "16",
     "publish_time": 1793804882,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +194,7 @@
   {
     "news_id": "202611043921903739",
     "news_title": "创业板指大涨逾6% 科创50指数飙升近10% 成交额突破2万亿",
-    "rank": "15",
+    "rank": "17",
     "publish_time": 1793804455,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +206,7 @@
   {
     "news_id": "202611043921896321",
     "news_title": "“蓝色浪潮”席卷美国！一文梳理：民主党横扫国会意味着什么？",
-    "rank": "16",
+    "rank": "18",
     "publish_time": 1793803821,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +218,7 @@
   {
     "news_id": "202611043921706798",
     "news_title": "1.9%！最新保险预定利率研究值环比下降4BP 中期难现“炒停售”",
-    "rank": "17",
+    "rank": "19",
     "publish_time": 1793803661,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +230,7 @@
   {
     "news_id": "202611043921889051",
     "news_title": "科创半导体ETF华夏一度触及20cm涨停",
-    "rank": "18",
+    "rank": "20",
     "publish_time": 1793803477,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +242,7 @@
   {
     "news_id": "202611043921877949",
     "news_title": "科创50指数涨幅达10% 创业板指涨近7% 高带宽内存、半导体、贵金属暴涨",
-    "rank": "19",
+    "rank": "21",
     "publish_time": 1793802908,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +254,7 @@
   {
     "news_id": "202611043921851062",
     "news_title": "中韩半导体ETF华泰柏瑞（513310）成交金额刷新历史天量",
-    "rank": "20",
+    "rank": "22",
     "publish_time": 1793802010,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +266,7 @@
   {
     "news_id": "202611043921836157",
     "news_title": "长鑫科技午后涨超10%",
-    "rank": "21",
+    "rank": "23",
     "publish_time": 1793801702,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +278,7 @@
   {
     "news_id": "202611043921823950",
     "news_title": "沪深300ETF华泰柏瑞成交额100亿",
-    "rank": "22",
+    "rank": "24",
     "publish_time": 1793801693,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +290,7 @@
   {
     "news_id": "202611043921769625",
     "news_title": "创新药板块走高 药明康德涨停",
-    "rank": "23",
+    "rank": "25",
     "publish_time": 1793801223,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +302,7 @@
   {
     "news_id": "202611043921727776",
     "news_title": "科创50指数涨逾8% 创业板指涨逾5% 科技股暴力反弹",
-    "rank": "24",
+    "rank": "26",
     "publish_time": 1793800822,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +314,7 @@
   {
     "news_id": "202611043921719442",
     "news_title": "现货黄金日内涨幅扩大至2%",
-    "rank": "25",
+    "rank": "27",
     "publish_time": 1793800662,
     "source": "东方财富",
     "news_type": 1,
@@ -302,7 +326,7 @@
   {
     "news_id": "202611043921682497",
     "news_title": "美股三大股指期货跌幅全线收窄",
-    "rank": "26",
+    "rank": "28",
     "publish_time": 1793800185,
     "source": "东方财富",
     "news_type": 1,
@@ -314,7 +338,7 @@
   {
     "news_id": "202611043921617857",
     "news_title": "创业板指涨幅扩大至4% 科创50指数涨逾5% 贵金属、高带宽内存、半导体领涨",
-    "rank": "27",
+    "rank": "29",
     "publish_time": 1793800181,
     "source": "东方财富",
     "news_type": 1,
@@ -326,32 +350,8 @@
   {
     "news_id": "202611043921668566",
     "news_title": "CPO概念午后回暖 蘅东光等多股涨超10%",
-    "rank": "28",
-    "publish_time": 1793800167,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611043921672173",
-    "news_title": "科创50指数涨幅扩大至5%",
-    "rank": "29",
-    "publish_time": 1793800115,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611043921645610",
-    "news_title": "芯片板块强势反弹，芯片ETF东财盘中涨超6%",
     "rank": "30",
-    "publish_time": 1793799948,
+    "publish_time": 1793800167,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,

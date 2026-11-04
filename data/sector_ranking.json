@@ -100,40 +100,6 @@
         "leadStock": "--"
       }
     ],
-    [
-      {
-        "name": "电子",
-        "changePct": "7.61",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "3126308.92",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "半导体",
-        "changePct": "10.64",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "1958907.08",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "数字芯片设计",
-        "changePct": "10.29",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "824719.56",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      }
-    ]
+    []
   ]
 }
