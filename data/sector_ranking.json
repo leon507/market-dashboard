@@ -2,98 +2,48 @@
   "sections": [
     [
       {
-        "name": "教育运营及其他",
-        "changePct": "9.84",
+        "name": "半导体设备",
+        "changePct": "15.22",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "涂料",
-        "changePct": "5.07",
+        "name": "半导体材料",
+        "changePct": "11.89",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "氨纶",
-        "changePct": "4.17",
+        "name": "半导体",
+        "changePct": "10.64",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "视频媒体",
-        "changePct": "3.89",
+        "name": "集成电路制造",
+        "changePct": "10.63",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "蓄电池及其他电池",
-        "changePct": "3.76",
+        "name": "黄金",
+        "changePct": "10.59",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "医美服务",
-        "changePct": "3.29",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "鸡肉概念",
-        "changePct": "2.87",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "水产概念",
-        "changePct": "2.53",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "茅指数",
-        "changePct": "2.13",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "乳业",
-        "changePct": "1.93",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日连板_含一字",
-        "changePct": "1.87",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "GDR",
-        "changePct": "1.82",
+        "name": "贵金属",
+        "changePct": "10.45",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +52,85 @@
     ],
     [
       {
-        "name": "电力设备",
-        "changePct": "0.31",
+        "name": "高带宽内存",
+        "changePct": "11.53",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "大基金持股",
+        "changePct": "10.53",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "中芯概念",
+        "changePct": "10.11",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "百元股",
+        "changePct": "9.85",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "先进封装",
+        "changePct": "9.58",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "存储芯片",
+        "changePct": "9.51",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
+      {
+        "name": "电子",
+        "changePct": "7.61",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "343197.47",
+        "mainNetInflow": "3126308.92",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "电池",
-        "changePct": "1.63",
+        "name": "半导体",
+        "changePct": "10.64",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "253191.3",
+        "mainNetInflow": "1958907.08",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "锂电池",
-        "changePct": "0.68",
+        "name": "数字芯片设计",
+        "changePct": "10.29",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "104736.92",
+        "mainNetInflow": "824719.56",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
