@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "半导体设备",
-        "changePct": "15.22",
+        "name": "光伏辅材",
+        "changePct": "9.94",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "半导体材料",
-        "changePct": "11.89",
+        "name": "光伏加工设备",
+        "changePct": "9.58",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "半导体",
-        "changePct": "10.64",
+        "name": "视频媒体",
+        "changePct": "9.27",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "集成电路制造",
-        "changePct": "10.63",
+        "name": "光伏电池组件",
+        "changePct": "8.83",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "黄金",
-        "changePct": "10.59",
+        "name": "光伏设备",
+        "changePct": "8.45",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "贵金属",
-        "changePct": "10.45",
+        "name": "涂料",
+        "changePct": "8.01",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,54 +52,88 @@
     ],
     [
       {
-        "name": "高带宽内存",
-        "changePct": "11.53",
+        "name": "Kimi概念",
+        "changePct": "6.55",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "大基金持股",
-        "changePct": "10.53",
+        "name": "HJT电池",
+        "changePct": "6.17",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "中芯概念",
-        "changePct": "10.11",
+        "name": "TOPCon电池",
+        "changePct": "6.06",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "百元股",
-        "changePct": "9.85",
+        "name": "BC电池",
+        "changePct": "5.11",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "先进封装",
-        "changePct": "9.58",
+        "name": "AI视频",
+        "changePct": "5.02",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "存储芯片",
-        "changePct": "9.51",
+        "name": "历史新高",
+        "changePct": "5.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       }
     ],
-    []
+    [
+      {
+        "name": "电力设备",
+        "changePct": "3.79",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "631002.09",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体",
+        "changePct": "2.78",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "610375.09",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体设备",
+        "changePct": "4.33",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "543238.99",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      }
+    ]
   ]
 }
