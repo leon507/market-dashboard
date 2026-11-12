@@ -1,8 +1,92 @@
 [
   {
-    "news_id": "202611123929731178",
-    "news_title": "上交所向日出东方下发监管工作函",
+    "news_id": "202611123929926773",
+    "news_title": "英伟达宣布CEO黄仁勋辞职 CFO科莱特·克雷斯出任临时CEO",
     "rank": "1",
+    "publish_time": 1794520224,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929926421",
+    "news_title": "英伟达盘前跌幅扩大至10%",
+    "rank": "2",
+    "publish_time": 1794520171,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929921519",
+    "news_title": "现货黄金跌破3900美元/盎司 跌幅超过2%",
+    "rank": "3",
+    "publish_time": 1794519965,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929902273",
+    "news_title": "美国上周首次申领失业救济人数为20万人 略高于市场预期",
+    "rank": "4",
+    "publish_time": 1794519035,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929897074",
+    "news_title": "特朗普称美国不需要与伊朗达成协议",
+    "rank": "5",
+    "publish_time": 1794517942,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929783682",
+    "news_title": "李强主持国务院专题学习：强化社保基金安全监管和保值增值",
+    "rank": "6",
+    "publish_time": 1794512617,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929779939",
+    "news_title": "盘点因“桃色风波”下台的全球十大知名高管",
+    "rank": "7",
+    "publish_time": 1794511884,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611123929731178",
+    "news_title": "上交所向日出东方、大东方下发监管工作函",
+    "rank": "8",
     "publish_time": 1794507922,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +98,7 @@
   {
     "news_id": "202611123929727254",
     "news_title": "上交所向大东方下发监管工作函",
-    "rank": "2",
+    "rank": "9",
     "publish_time": 1794507215,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +110,7 @@
   {
     "news_id": "202611123929721073",
     "news_title": "“黄仁勋风波”催化行情！国产AI芯片份额猛增",
-    "rank": "3",
+    "rank": "10",
     "publish_time": 1794506572,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +122,7 @@
   {
     "news_id": "202611123929707150",
     "news_title": "中芯国际：第三季度净利润同比增长87.6%",
-    "rank": "4",
+    "rank": "11",
     "publish_time": 1794505003,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +134,7 @@
   {
     "news_id": "202611123929629961",
     "news_title": "11月12日涨停复盘：37只股涨停 日出东方5连板",
-    "rank": "5",
+    "rank": "12",
     "publish_time": 1794499960,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +146,7 @@
   {
     "news_id": "202611123929454826",
     "news_title": "外交部：坚决反对美方泛化国家安全概念 无理打压中国机构",
-    "rank": "6",
+    "rank": "13",
     "publish_time": 1794497357,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +158,7 @@
   {
     "news_id": "202611123929442489",
     "news_title": "商务部：中美正就降税、贸易、投资等问题保持密切沟通",
-    "rank": "7",
+    "rank": "14",
     "publish_time": 1794496163,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +170,7 @@
   {
     "news_id": "202611123929440736",
     "news_title": "商务部回应欧盟有关国家禁用中国企业设备",
-    "rank": "8",
+    "rank": "15",
     "publish_time": 1794496007,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +182,7 @@
   {
     "news_id": "202611123929442291",
     "news_title": "Anthropic CEO惊人预言：AI或在十年内攻克癌症、心脏病和精神疾病！",
-    "rank": "9",
+    "rank": "16",
     "publish_time": 1794495980,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +194,7 @@
   {
     "news_id": "202611123929440546",
     "news_title": "张一鸣再发声谈字节AI：追平OpenAI与Anthropic“最早2029年或2030年”",
-    "rank": "10",
+    "rank": "17",
     "publish_time": 1794495694,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +206,7 @@
   {
     "news_id": "202611123929437071",
     "news_title": "国家发改委：11月12日24时起国内汽、柴油价格每吨分别下调645元、625元",
-    "rank": "11",
+    "rank": "18",
     "publish_time": 1794495693,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +218,7 @@
   {
     "news_id": "202611123929437342",
     "news_title": "A股三大指数收跌 成交额超1.9万亿 地面兵装板块逆市走强",
-    "rank": "12",
+    "rank": "19",
     "publish_time": 1794495629,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +230,7 @@
   {
     "news_id": "202611123929436197",
     "news_title": "中韩半导体ETF华泰柏瑞成交额超250亿",
-    "rank": "13",
+    "rank": "20",
     "publish_time": 1794495532,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +242,7 @@
   {
     "news_id": "202611123929432345",
     "news_title": "阿里巴巴港股跌幅扩大至7%",
-    "rank": "14",
+    "rank": "21",
     "publish_time": 1794494921,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +254,7 @@
   {
     "news_id": "202611123929422331",
     "news_title": "午后！亚太市场大跳水！发生了什么？",
-    "rank": "15",
+    "rank": "22",
     "publish_time": 1794494119,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +266,7 @@
   {
     "news_id": "202611123929382846",
     "news_title": "涨价“劝退”消费者！三季度iPad国内销量大跌45.2%",
-    "rank": "16",
+    "rank": "23",
     "publish_time": 1794490523,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +278,7 @@
   {
     "news_id": "202611123929366060",
     "news_title": "需求承压叠加成本高企 轮胎行业格局生变：小企业亏损 头部企业加速抢占全球份额",
-    "rank": "17",
+    "rank": "24",
     "publish_time": 1794489325,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +290,7 @@
   {
     "news_id": "202611123929356870",
     "news_title": "福建本地股午后拉升 福建水泥涨停",
-    "rank": "18",
+    "rank": "25",
     "publish_time": 1794488415,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +302,7 @@
   {
     "news_id": "202611123929347043",
     "news_title": "证监会副主席刘浩凌：中国政府高度重视资本市场平稳健康发展 中国资产的安全、韧性和创新价值将持续凸显",
-    "rank": "19",
+    "rank": "26",
     "publish_time": 1794485380,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +314,7 @@
   {
     "news_id": "202611123929348727",
     "news_title": "腾讯管理层再谈AI：一半人要提效做好现有核心业务 另一半探索AI Native “裁员50%”不实",
-    "rank": "20",
+    "rank": "27",
     "publish_time": 1794485002,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +326,7 @@
   {
     "news_id": "202611123929343313",
     "news_title": "知情人士：腾讯“裁员50%”说法完全不属实",
-    "rank": "21",
+    "rank": "28",
     "publish_time": 1794484608,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +338,7 @@
   {
     "news_id": "202611123929335769",
     "news_title": "科创50指数上涨2.35% 水产概念、科技股走强 两市半日放量超2900亿",
-    "rank": "22",
+    "rank": "29",
     "publish_time": 1794483052,
     "source": "东方财富",
     "news_type": 1,
@@ -266,92 +350,8 @@
   {
     "news_id": "202611123929329534",
     "news_title": "绕过英伟达采购其他周边组件！SpaceX据悉正在自研AI机架",
-    "rank": "23",
-    "publish_time": 1794481821,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929315461",
-    "news_title": "Anthropic与SpaceX算力协议据悉难以长久 马斯克秒回：乐意收回所有算力",
-    "rank": "24",
-    "publish_time": 1794479560,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929313442",
-    "news_title": "AI应用走强 蓝色光标触及20cm涨停",
-    "rank": "25",
-    "publish_time": 1794479200,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929311531",
-    "news_title": "海内外利好共振，科创50ETF东财暴力拉升4.25%",
-    "rank": "26",
-    "publish_time": 1794478994,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929309333",
-    "news_title": "PCB板块持续走高 景旺电子、博敏电子涨停",
-    "rank": "27",
-    "publish_time": 1794478755,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929304187",
-    "news_title": "寒武纪重回千元股",
-    "rank": "28",
-    "publish_time": 1794478342,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929302475",
-    "news_title": "燧原科技涨超15%创上市新高 最近7个交易日累计上涨76%",
-    "rank": "29",
-    "publish_time": 1794478310,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123929301587",
-    "news_title": "先进封装板块走强 通富微电涨停",
     "rank": "30",
-    "publish_time": 1794478104,
+    "publish_time": 1794481821,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
