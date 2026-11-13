@@ -1,8 +1,56 @@
 [
   {
+    "news_id": "202611133930933912",
+    "news_title": "美国10月PPI同比增长6.5% 低于市场预期",
+    "rank": "1",
+    "publish_time": 1794605415,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611133930805813",
+    "news_title": "天普股份：股票交易严重异常波动 11月16日起停牌核查",
+    "rank": "2",
+    "publish_time": 1794596712,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611133930798145",
+    "news_title": "AI影视降本提速！一图梳理相关概念股",
+    "rank": "3",
+    "publish_time": 1794594858,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
+    "news_id": "202611133930782534",
+    "news_title": "源杰科技：签订17.44亿元大功率激光器芯片销售订单",
+    "rank": "4",
+    "publish_time": 1794593400,
+    "source": "东方财富",
+    "news_type": 1,
+    "cont_type": 0,
+    "property": 0,
+    "has_video": 0,
+    "images": []
+  },
+  {
     "news_id": "202611133930779555",
     "news_title": "上交所：本周对全球芯片LOF等溢价较高的基金进行重点监控",
-    "rank": "1",
+    "rank": "5",
     "publish_time": 1794593215,
     "source": "东方财富",
     "news_type": 1,
@@ -14,7 +62,7 @@
   {
     "news_id": "202611133930753845",
     "news_title": "11月13日涨停复盘：38只股涨停 天普股份4连板",
-    "rank": "2",
+    "rank": "6",
     "publish_time": 1794590684,
     "source": "东方财富",
     "news_type": 1,
@@ -26,7 +74,7 @@
   {
     "news_id": "202611133930737577",
     "news_title": "央行：11月16日将开展2000亿元买断式逆回购操作",
-    "rank": "3",
+    "rank": "7",
     "publish_time": 1794589232,
     "source": "东方财富",
     "news_type": 1,
@@ -38,7 +86,7 @@
   {
     "news_id": "202611133930737749",
     "news_title": "央行：前十个月社会融资规模增量累计为28.61万亿元 人民币贷款增加11.42万亿元",
-    "rank": "4",
+    "rank": "8",
     "publish_time": 1794589216,
     "source": "东方财富",
     "news_type": 1,
@@ -50,7 +98,7 @@
   {
     "news_id": "202611133930731640",
     "news_title": "公募一哥郑希调仓？减仓错过反弹 这问题要如何看？",
-    "rank": "5",
+    "rank": "9",
     "publish_time": 1794588669,
     "source": "东方财富",
     "news_type": 1,
@@ -62,7 +110,7 @@
   {
     "news_id": "202611133930694423",
     "news_title": "11月13日港股收盘：恒指跌1.55% 恒生科技指数跌3.02%",
-    "rank": "6",
+    "rank": "10",
     "publish_time": 1794586209,
     "source": "东方财富",
     "news_type": 1,
@@ -74,7 +122,7 @@
   {
     "news_id": "202611133930674147",
     "news_title": "美方正推动新法案阻止中国公司远程使用美国境外算力 外交部回应",
-    "rank": "7",
+    "rank": "11",
     "publish_time": 1794583459,
     "source": "东方财富",
     "news_type": 1,
@@ -86,7 +134,7 @@
   {
     "news_id": "202611133930659978",
     "news_title": "国家发改委、国家能源局印发《“十五五”新型储能实施方案》",
-    "rank": "8",
+    "rank": "12",
     "publish_time": 1794582105,
     "source": "东方财富",
     "news_type": 1,
@@ -98,7 +146,7 @@
   {
     "news_id": "202611133930659580",
     "news_title": "A股三大指数收跌 影视板块逆市大涨 银行板块走强",
-    "rank": "9",
+    "rank": "13",
     "publish_time": 1794582003,
     "source": "东方财富",
     "news_type": 1,
@@ -110,7 +158,7 @@
   {
     "news_id": "202611133930659274",
     "news_title": "尾盘2只沪深300ETF显著放量",
-    "rank": "10",
+    "rank": "14",
     "publish_time": 1794581927,
     "source": "东方财富",
     "news_type": 1,
@@ -122,7 +170,7 @@
   {
     "news_id": "202611133930649821",
     "news_title": "AI产业趋势远未终结！中泰证券王芳：市场正在交易AI下半场",
-    "rank": "11",
+    "rank": "15",
     "publish_time": 1794580901,
     "source": "东方财富",
     "news_type": 1,
@@ -134,7 +182,7 @@
   {
     "news_id": "202611133930642519",
     "news_title": "央视网评｜离岸信托个税申报超1600亿：不是“劫富”，是收旧账",
-    "rank": "12",
+    "rank": "16",
     "publish_time": 1794579880,
     "source": "东方财富",
     "news_type": 1,
@@ -146,7 +194,7 @@
   {
     "news_id": "202611133930634648",
     "news_title": "市盈率跌至10倍！又一分析师喊话抄底英伟达：估值“低得离谱”",
-    "rank": "13",
+    "rank": "17",
     "publish_time": 1794579022,
     "source": "东方财富",
     "news_type": 1,
@@ -158,7 +206,7 @@
   {
     "news_id": "202611133930630075",
     "news_title": "金融监管总局法规司司长：讨论经济金融适配性 也应关注金融稳定",
-    "rank": "14",
+    "rank": "18",
     "publish_time": 1794578330,
     "source": "东方财富",
     "news_type": 1,
@@ -170,7 +218,7 @@
   {
     "news_id": "202611133930620232",
     "news_title": "习近平对国有企业党的建设工作作出重要指示",
-    "rank": "15",
+    "rank": "19",
     "publish_time": 1794577050,
     "source": "东方财富",
     "news_type": 1,
@@ -182,7 +230,7 @@
   {
     "news_id": "202611133930614484",
     "news_title": "“英伟达就是黄仁勋！” 员工内网投票请命 超97%的人希望CEO回归",
-    "rank": "16",
+    "rank": "20",
     "publish_time": 1794576049,
     "source": "东方财富",
     "news_type": 1,
@@ -194,7 +242,7 @@
   {
     "news_id": "202611133930595611",
     "news_title": "苹果一年内第七次调整以旧换新价格 新增回收三星折叠屏手机",
-    "rank": "17",
+    "rank": "21",
     "publish_time": 1794573818,
     "source": "东方财富",
     "news_type": 1,
@@ -206,7 +254,7 @@
   {
     "news_id": "202611133930585934",
     "news_title": "沪指上涨0.22% 影视院线、养殖股领涨 科技股跌幅居前",
-    "rank": "18",
+    "rank": "22",
     "publish_time": 1794569450,
     "source": "东方财富",
     "news_type": 1,
@@ -218,7 +266,7 @@
   {
     "news_id": "202611133930539090",
     "news_title": "美联储“三连加”要来了？“三把手”放鹰：通胀仍过高 须进一步行动",
-    "rank": "19",
+    "rank": "23",
     "publish_time": 1794563532,
     "source": "东方财富",
     "news_type": 1,
@@ -230,7 +278,7 @@
   {
     "news_id": "202611133930538587",
     "news_title": "美联储重磅改革落地：2027年少一次议息会议 10月不投票决定利率！",
-    "rank": "20",
+    "rank": "24",
     "publish_time": 1794563312,
     "source": "东方财富",
     "news_type": 1,
@@ -242,7 +290,7 @@
   {
     "news_id": "202611133930530760",
     "news_title": "光刻机板块短线拉升 永新光学涨停",
-    "rank": "21",
+    "rank": "25",
     "publish_time": 1794562622,
     "source": "东方财富",
     "news_type": 1,
@@ -254,7 +302,7 @@
   {
     "news_id": "202611133930317526",
     "news_title": "美联储恐连加三次息？华尔街担心：股市正低估一场海啸！",
-    "rank": "22",
+    "rank": "26",
     "publish_time": 1794559380,
     "source": "东方财富",
     "news_type": 1,
@@ -266,7 +314,7 @@
   {
     "news_id": "202611133930315435",
     "news_title": "AI需求持续爆发！美国半导体设备龙头：营收、盈利、业绩指引全面超预期",
-    "rank": "23",
+    "rank": "27",
     "publish_time": 1794558960,
     "source": "东方财富",
     "news_type": 1,
@@ -278,7 +326,7 @@
   {
     "news_id": "202611133930310747",
     "news_title": "韩国综指涨幅扩大至3%",
-    "rank": "24",
+    "rank": "28",
     "publish_time": 1794557623,
     "source": "东方财富",
     "news_type": 1,
@@ -290,7 +338,7 @@
   {
     "news_id": "202611133930250850",
     "news_title": "路透：黄仁勋还有第三段婚外情",
-    "rank": "25",
+    "rank": "29",
     "publish_time": 1794556508,
     "source": "东方财富",
     "news_type": 1,
@@ -302,56 +350,8 @@
   {
     "news_id": "202611133930100716",
     "news_title": "业绩超预期 美股AI芯片龙头盘后大涨超19%",
-    "rank": "26",
-    "publish_time": 1794556020,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611123930004635",
-    "news_title": "华为新型存储系统启动试商用",
-    "rank": "27",
-    "publish_time": 1794555234,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611133930099737",
-    "news_title": "美联储公布2027年议息会议日程 10月会议不作利率决议、专门讨论货币政策战略",
-    "rank": "28",
-    "publish_time": 1794554830,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611133930097761",
-    "news_title": "珠海航展临近！航空军工板块催化密集 多股获融资客抢筹(名单)",
-    "rank": "29",
-    "publish_time": 1794554579,
-    "source": "东方财富",
-    "news_type": 1,
-    "cont_type": 0,
-    "property": 0,
-    "has_video": 0,
-    "images": []
-  },
-  {
-    "news_id": "202611133930047814",
-    "news_title": "A股半导体产业链热度抬升 国产算力链配置价值凸显",
     "rank": "30",
-    "publish_time": 1794554517,
+    "publish_time": 1794556020,
     "source": "东方财富",
     "news_type": 1,
     "cont_type": 0,
