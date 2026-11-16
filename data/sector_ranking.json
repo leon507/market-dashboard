@@ -2,48 +2,48 @@
   "sections": [
     [
       {
+        "name": "教育运营及其他",
+        "changePct": "6.83",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "氨纶",
+        "changePct": "5.15",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "汽车经销商",
+        "changePct": "4.45",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "厨房小家电",
+        "changePct": "4.36",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
         "name": "院线",
-        "changePct": "12.5",
+        "changePct": "3.38",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "影视院线",
-        "changePct": "4.39",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "生猪养殖",
-        "changePct": "3.46",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "畜禽饲料",
-        "changePct": "2.96",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "其他数字媒体",
-        "changePct": "2.13",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "影视动漫制作",
-        "changePct": "2.08",
+        "name": "冰洗",
+        "changePct": "3.36",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -52,40 +52,16 @@
     ],
     [
       {
-        "name": "猪肉概念",
-        "changePct": "1.48",
+        "name": "昨日连板",
+        "changePct": "5.41",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "影视概念",
-        "changePct": "1.1",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "证金持股",
-        "changePct": "1.02",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "鸡肉概念",
-        "changePct": "0.93",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "超级品牌",
-        "changePct": "0.37",
+        "name": "昨日连板_含一字",
+        "changePct": "2.18",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -93,7 +69,31 @@
       },
       {
         "name": "红利破净股",
-        "changePct": "0.25",
+        "changePct": "1.77",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "证金持股",
+        "changePct": "1.37",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "价值股",
+        "changePct": "1.32",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "免税概念",
+        "changePct": "1.24",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +102,35 @@
     ],
     [
       {
-        "name": "影视院线",
-        "changePct": "4.39",
+        "name": "电视广播Ⅲ",
+        "changePct": "2.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "138650.99",
+        "mainNetInflow": "67944.84",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "银行",
-        "changePct": "1.43",
+        "name": "电视广播Ⅱ",
+        "changePct": "2.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "122567.27",
+        "mainNetInflow": "67944.84",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "银行Ⅱ",
-        "changePct": "1.43",
+        "name": "铁路公路",
+        "changePct": "0.93",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "122567.27",
+        "mainNetInflow": "60563.6",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
