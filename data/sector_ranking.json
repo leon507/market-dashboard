@@ -2,24 +2,16 @@
   "sections": [
     [
       {
-        "name": "教育运营及其他",
-        "changePct": "6.83",
+        "name": "集成电路制造",
+        "changePct": "5.82",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "氨纶",
-        "changePct": "5.15",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "汽车经销商",
-        "changePct": "4.45",
+        "name": "橡胶助剂",
+        "changePct": "3.32",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -27,73 +19,31 @@
       },
       {
         "name": "厨房小家电",
-        "changePct": "4.36",
+        "changePct": "3.2",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "院线",
-        "changePct": "3.38",
+        "name": "半导体材料",
+        "changePct": "2.67",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "冰洗",
-        "changePct": "3.36",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "昨日连板",
-        "changePct": "5.41",
+        "name": "钼",
+        "changePct": "2.38",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日连板_含一字",
-        "changePct": "2.18",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "红利破净股",
-        "changePct": "1.77",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "证金持股",
-        "changePct": "1.37",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "价值股",
-        "changePct": "1.32",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "免税概念",
-        "changePct": "1.24",
+        "name": "品牌消费电子",
+        "changePct": "2.35",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +52,85 @@
     ],
     [
       {
-        "name": "电视广播Ⅲ",
+        "name": "反转股",
+        "changePct": "4.09",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "光刻胶",
+        "changePct": "3.12",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "光刻机",
+        "changePct": "3.08",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "第四代半导体",
+        "changePct": "3.01",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日首板",
+        "changePct": "2.49",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "中芯概念",
+        "changePct": "1.9",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
+      {
+        "name": "半导体",
+        "changePct": "0.3",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "296326.27",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体设备",
         "changePct": "2.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "67944.84",
+        "mainNetInflow": "190507.74",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "电视广播Ⅱ",
-        "changePct": "2.19",
+        "name": "半导体材料",
+        "changePct": "2.67",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "67944.84",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
-      },
-      {
-        "name": "铁路公路",
-        "changePct": "0.93",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "60563.6",
+        "mainNetInflow": "188250.66",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
