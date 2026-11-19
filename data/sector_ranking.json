@@ -2,98 +2,48 @@
   "sections": [
     [
       {
-        "name": "通信工程及服务",
-        "changePct": "4.52",
+        "name": "集成电路制造",
+        "changePct": "5.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "通信服务",
-        "changePct": "3.5",
+        "name": "集成电路封测",
+        "changePct": "2.65",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "印制电路板",
-        "changePct": "3.13",
+        "name": "氨纶",
+        "changePct": "2.05",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "冰洗",
-        "changePct": "2.81",
+        "name": "稀土",
+        "changePct": "1.69",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "通信应用增值服务",
-        "changePct": "2.69",
+        "name": "航空运输",
+        "changePct": "1.32",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "橡胶助剂",
-        "changePct": "2.64",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      }
-    ],
-    [
-      {
-        "name": "算力租赁",
-        "changePct": "3.62",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "东数西算",
-        "changePct": "2.99",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "F5G概念",
-        "changePct": "2.77",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "昨日首板",
-        "changePct": "2.08",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "科技风格",
-        "changePct": "2.0",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "算力概念",
-        "changePct": "1.96",
+        "name": "半导体设备",
+        "changePct": "1.07",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +52,85 @@
     ],
     [
       {
-        "name": "电子",
-        "changePct": "-0.07",
+        "name": "昨日连板_含一字",
+        "changePct": "4.17",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "998360.5",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
       {
-        "name": "元件",
-        "changePct": "2.46",
+        "name": "昨日连板",
+        "changePct": "1.87",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
-        "leadStock": "--",
-        "mainNetInflow": "463796.38",
-        "mainNetInflow5d": "0.0",
-        "upDownRatio": "--"
+        "leadStock": "--"
       },
+      {
+        "name": "第四代半导体",
+        "changePct": "1.18",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "大基金持股",
+        "changePct": "0.66",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "科创板做市商",
+        "changePct": "0.64",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "茅指数",
+        "changePct": "0.62",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      }
+    ],
+    [
       {
         "name": "半导体",
-        "changePct": "0.11",
+        "changePct": "-0.63",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "455254.66",
+        "mainNetInflow": "305130.24",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "集成电路制造",
+        "changePct": "5.0",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "242322.41",
+        "mainNetInflow5d": "0.0",
+        "upDownRatio": "--"
+      },
+      {
+        "name": "半导体设备",
+        "changePct": "1.07",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--",
+        "mainNetInflow": "185450.68",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
