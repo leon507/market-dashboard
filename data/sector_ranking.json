@@ -2,48 +2,48 @@
   "sections": [
     [
       {
-        "name": "集成电路制造",
-        "changePct": "5.0",
+        "name": "其他数字媒体",
+        "changePct": "15.0",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "集成电路封测",
-        "changePct": "2.65",
+        "name": "视频媒体",
+        "changePct": "3.19",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "氨纶",
-        "changePct": "2.05",
+        "name": "国有大型银行Ⅲ",
+        "changePct": "2.39",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "稀土",
-        "changePct": "1.69",
+        "name": "核力发电",
+        "changePct": "1.49",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "航空运输",
-        "changePct": "1.32",
+        "name": "电信运营商",
+        "changePct": "1.46",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "半导体设备",
-        "changePct": "1.07",
+        "name": "广告媒体",
+        "changePct": "1.27",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -51,49 +51,49 @@
       }
     ],
     [
+      {
+        "name": "历史新高",
+        "changePct": "0.87",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "证金持股",
+        "changePct": "0.61",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
       {
         "name": "昨日连板_含一字",
-        "changePct": "4.17",
+        "changePct": "0.22",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日连板",
-        "changePct": "1.87",
+        "name": "上证50_",
+        "changePct": "0.07",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "第四代半导体",
-        "changePct": "1.18",
+        "name": "大盘价值",
+        "changePct": "-0.08",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "大基金持股",
-        "changePct": "0.66",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "科创板做市商",
-        "changePct": "0.64",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "茅指数",
-        "changePct": "0.62",
+        "name": "近期新高",
+        "changePct": "-0.16",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -102,35 +102,35 @@
     ],
     [
       {
-        "name": "半导体",
-        "changePct": "-0.63",
+        "name": "印制电路板",
+        "changePct": "-0.1",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "305130.24",
+        "mainNetInflow": "203938.79",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "集成电路制造",
-        "changePct": "5.0",
+        "name": "元件",
+        "changePct": "-1.21",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "242322.41",
+        "mainNetInflow": "187157.15",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "半导体设备",
-        "changePct": "1.07",
+        "name": "制冷空调设备",
+        "changePct": "-5.04",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "185450.68",
+        "mainNetInflow": "70843.51",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
