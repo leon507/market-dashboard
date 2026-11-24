@@ -2,8 +2,8 @@
   "sections": [
     [
       {
-        "name": "视频媒体",
-        "changePct": "15.21",
+        "name": "钴",
+        "changePct": "11.5",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -11,39 +11,39 @@
       },
       {
         "name": "其他数字媒体",
-        "changePct": "14.16",
+        "changePct": "7.12",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "机器人",
-        "changePct": "9.54",
+        "name": "文化用品",
+        "changePct": "6.17",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "文字媒体",
-        "changePct": "8.65",
+        "name": "涂料",
+        "changePct": "5.98",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "院线",
-        "changePct": "8.3",
+        "name": "汽车综合服务",
+        "changePct": "4.16",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "影视院线",
-        "changePct": "7.63",
+        "name": "镍",
+        "changePct": "3.86",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -53,31 +53,23 @@
     [
       {
         "name": "昨日连板",
-        "changePct": "10.0",
+        "changePct": "4.5",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日打二板以上表现",
-        "changePct": "9.99",
+        "name": "题材股",
+        "changePct": "4.26",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "机器人执行器",
-        "changePct": "7.88",
-        "turnoverRate": "0",
-        "changePct5d": "0",
-        "changePct20d": "0",
-        "leadStock": "--"
-      },
-      {
-        "name": "物理AI",
-        "changePct": "7.83",
+        "name": "昨日涨停_含一字",
+        "changePct": "4.16",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -85,15 +77,23 @@
       },
       {
         "name": "昨日涨停",
-        "changePct": "7.79",
+        "changePct": "4.16",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--"
       },
       {
-        "name": "昨日高换手",
-        "changePct": "7.45",
+        "name": "昨日连板_含一字",
+        "changePct": "4.13",
+        "turnoverRate": "0",
+        "changePct5d": "0",
+        "changePct20d": "0",
+        "leadStock": "--"
+      },
+      {
+        "name": "昨日首板",
+        "changePct": "4.08",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
@@ -103,34 +103,34 @@
     [
       {
         "name": "电子",
-        "changePct": "3.83",
+        "changePct": "0.87",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "692081.54",
+        "mainNetInflow": "647330.41",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "通信设备",
-        "changePct": "4.19",
+        "name": "印制电路板",
+        "changePct": "-0.42",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "691523.79",
+        "mainNetInflow": "339232.44",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       },
       {
-        "name": "通信",
-        "changePct": "3.63",
+        "name": "元件",
+        "changePct": "-0.23",
         "turnoverRate": "0",
         "changePct5d": "0",
         "changePct20d": "0",
         "leadStock": "--",
-        "mainNetInflow": "684902.68",
+        "mainNetInflow": "304735.67",
         "mainNetInflow5d": "0.0",
         "upDownRatio": "--"
       }
